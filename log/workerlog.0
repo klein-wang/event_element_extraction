@@ -1,0 +1,1720 @@
+[2021-05-19 13:59:22,536] [    INFO] - Downloading vocab.txt from https://paddlenlp.bj.bcebos.com/models/transformers/ernie/vocab.txt
+  0%|          | 0/90 [00:00<?, ?it/s]100%|██████████| 90/90 [00:00<00:00, 3967.58it/s]
+[2021-05-19 13:59:22,713] [    INFO] - Downloading https://paddlenlp.bj.bcebos.com/models/transformers/ernie/ernie_v1_chn_base.pdparams and saved to /home/aistudio/.paddlenlp/models/ernie-1.0
+[2021-05-19 13:59:22,714] [    INFO] - Downloading ernie_v1_chn_base.pdparams from https://paddlenlp.bj.bcebos.com/models/transformers/ernie/ernie_v1_chn_base.pdparams
+  0%|          | 0/392507 [00:00<?, ?it/s]  0%|          | 1283/392507 [00:00<00:30, 12747.92it/s]  1%|          | 4723/392507 [00:00<00:24, 15713.35it/s]  2%|▏         | 8601/392507 [00:00<00:20, 19125.97it/s]  3%|▎         | 12490/392507 [00:00<00:16, 22566.17it/s]  4%|▍         | 16415/392507 [00:00<00:14, 25863.59it/s]  5%|▌         | 20323/392507 [00:00<00:12, 28770.41it/s]  6%|▌         | 24203/392507 [00:00<00:11, 31188.93it/s]  7%|▋         | 28067/392507 [00:00<00:11, 33056.60it/s]  8%|▊         | 31997/392507 [00:00<00:10, 34710.85it/s]  9%|▉         | 35884/392507 [00:01<00:09, 35860.87it/s] 10%|█         | 40997/392507 [00:01<00:08, 39388.33it/s] 12%|█▏        | 45154/392507 [00:01<00:08, 40017.89it/s] 13%|█▎        | 51930/392507 [00:01<00:07, 45620.89it/s] 14%|█▍        | 56871/392507 [00:01<00:12, 26553.34it/s] 15%|█▌        | 60733/392507 [00:01<00:11, 29062.42it/s] 17%|█▋        | 65939/392507 [00:01<00:09, 33484.69it/s] 18%|█▊        | 71677/392507 [00:01<00:08, 38265.16it/s] 20%|█▉        | 76995/392507 [00:02<00:07, 41729.98it/s] 21%|██        | 82419/392507 [00:02<00:06, 44831.63it/s] 22%|██▏       | 87802/392507 [00:02<00:06, 47197.92it/s] 24%|██▍       | 93432/392507 [00:02<00:06, 49603.00it/s] 25%|██▌       | 98718/392507 [00:02<00:05, 49749.54it/s] 26%|██▋       | 103921/392507 [00:02<00:06, 45991.08it/s] 28%|██▊       | 108736/392507 [00:02<00:06, 43311.75it/s] 29%|██▉       | 113251/392507 [00:02<00:06, 42167.30it/s] 30%|██▉       | 117603/392507 [00:02<00:06, 41307.50it/s] 31%|███       | 121833/392507 [00:03<00:06, 41235.96it/s] 32%|███▏      | 126965/392507 [00:03<00:06, 43818.88it/s] 34%|███▍      | 132797/392507 [00:03<00:05, 47349.38it/s] 35%|███▌      | 139059/392507 [00:03<00:04, 51084.68it/s] 37%|███▋      | 144537/392507 [00:03<00:04, 52139.26it/s] 38%|███▊      | 150860/392507 [00:03<00:04, 55034.56it/s] 40%|███▉      | 156653/392507 [00:03<00:04, 55872.16it/s] 41%|████▏     | 162341/392507 [00:03<00:04, 55803.09it/s] 43%|████▎     | 167992/392507 [00:03<00:04, 55526.82it/s] 44%|████▍     | 173594/392507 [00:03<00:03, 55295.28it/s] 46%|████▌     | 179159/392507 [00:04<00:03, 54605.66it/s] 47%|████▋     | 184986/392507 [00:04<00:03, 55654.75it/s] 49%|████▊     | 190575/392507 [00:04<00:03, 54878.07it/s] 50%|█████     | 196385/392507 [00:04<00:03, 55805.78it/s] 52%|█████▏    | 202412/392507 [00:04<00:03, 57072.92it/s] 53%|█████▎    | 208139/392507 [00:04<00:03, 55849.77it/s] 54%|█████▍    | 213744/392507 [00:04<00:03, 55686.42it/s] 56%|█████▌    | 219539/392507 [00:04<00:03, 56345.19it/s] 57%|█████▋    | 225185/392507 [00:04<00:02, 56377.91it/s] 59%|█████▉    | 230831/392507 [00:04<00:02, 56024.87it/s] 60%|██████    | 236440/392507 [00:05<00:02, 54704.55it/s] 62%|██████▏   | 242613/392507 [00:05<00:02, 56636.43it/s] 63%|██████▎   | 248365/392507 [00:05<00:02, 56896.44it/s] 65%|██████▌   | 255214/392507 [00:05<00:02, 59939.49it/s] 67%|██████▋   | 261264/392507 [00:05<00:02, 58223.40it/s] 68%|██████▊   | 267592/392507 [00:05<00:02, 59653.05it/s] 70%|██████▉   | 273651/392507 [00:05<00:01, 59904.19it/s] 71%|███████▏  | 280182/392507 [00:05<00:01, 61427.81it/s] 73%|███████▎  | 286422/392507 [00:05<00:01, 61715.16it/s] 75%|███████▍  | 292616/392507 [00:06<00:01, 60344.81it/s] 76%|███████▌  | 298673/392507 [00:06<00:01, 59992.19it/s] 78%|███████▊  | 305325/392507 [00:06<00:01, 61811.41it/s] 79%|███████▉  | 311532/392507 [00:06<00:01, 60936.78it/s] 81%|████████  | 318573/392507 [00:06<00:01, 63497.47it/s] 83%|████████▎ | 324965/392507 [00:06<00:01, 63345.05it/s] 84%|████████▍ | 331330/392507 [00:06<00:00, 62266.47it/s] 86%|████████▌ | 337995/392507 [00:06<00:00, 63519.48it/s] 88%|████████▊ | 344803/392507 [00:06<00:00, 64818.21it/s] 90%|████████▉ | 351308/392507 [00:06<00:00, 62387.85it/s] 91%|█████████ | 357583/392507 [00:07<00:00, 59458.64it/s] 93%|█████████▎| 363583/392507 [00:07<00:00, 58470.83it/s] 94%|█████████▍| 369472/392507 [00:07<00:00, 56848.22it/s] 96%|█████████▌| 375196/392507 [00:07<00:00, 55939.08it/s] 97%|█████████▋| 380821/392507 [00:07<00:00, 55391.25it/s] 99%|█████████▊| 387139/392507 [00:07<00:00, 57487.62it/s]100%|██████████| 392507/392507 [00:07<00:00, 51081.56it/s]
+W0519 13:59:30.552155  1264 device_context.cc:404] Please NOTE: device: 0, GPU Compute Capability: 7.0, Driver API Version: 10.1, Runtime API Version: 10.1
+W0519 13:59:30.556605  1264 device_context.cc:422] device: 0, cuDNN Version: 7.6.
+============start train==========
+train epoch: 0 - step: 10 (total: 1814) - loss: 0.107434
+train epoch: 0 - step: 20 (total: 1814) - loss: 0.093561
+train epoch: 0 - step: 30 (total: 1814) - loss: 0.135904
+train epoch: 0 - step: 40 (total: 1814) - loss: 0.123993
+train epoch: 0 - step: 50 (total: 1814) - loss: 0.083149
+dev step: 50 - loss: 0.11348, precision: 0.00000, recall: 0.00000, f1: 0.00000 current best 0.00000
+train epoch: 0 - step: 60 (total: 1814) - loss: 0.100894
+train epoch: 0 - step: 70 (total: 1814) - loss: 0.154711
+train epoch: 0 - step: 80 (total: 1814) - loss: 0.127894
+train epoch: 0 - step: 90 (total: 1814) - loss: 0.105830
+train epoch: 0 - step: 100 (total: 1814) - loss: 0.107363
+dev step: 100 - loss: 0.10750, precision: 0.00000, recall: 0.00000, f1: 0.00000 current best 0.00000
+train epoch: 0 - step: 110 (total: 1814) - loss: 0.127900
+train epoch: 0 - step: 120 (total: 1814) - loss: 0.098497
+train epoch: 0 - step: 130 (total: 1814) - loss: 0.092755
+train epoch: 0 - step: 140 (total: 1814) - loss: 0.136827
+train epoch: 0 - step: 150 (total: 1814) - loss: 0.139985
+dev step: 150 - loss: 0.09521, precision: 0.00000, recall: 0.00000, f1: 0.00000 current best 0.00000
+train epoch: 0 - step: 160 (total: 1814) - loss: 0.088003
+train epoch: 0 - step: 170 (total: 1814) - loss: 0.060646
+train epoch: 0 - step: 180 (total: 1814) - loss: 0.085823
+train epoch: 0 - step: 190 (total: 1814) - loss: 0.042783
+train epoch: 0 - step: 200 (total: 1814) - loss: 0.026431
+dev step: 200 - loss: 0.04280, precision: 0.46098, recall: 0.34555, f1: 0.39501 current best 0.00000
+==============================================save best model best performerence 0.395007
+train epoch: 0 - step: 210 (total: 1814) - loss: 0.057170
+train epoch: 0 - step: 220 (total: 1814) - loss: 0.029635
+train epoch: 0 - step: 230 (total: 1814) - loss: 0.030058
+train epoch: 0 - step: 240 (total: 1814) - loss: 0.031193
+train epoch: 0 - step: 250 (total: 1814) - loss: 0.032460
+dev step: 250 - loss: 0.02462, precision: 0.62782, recall: 0.63027, f1: 0.62904 current best 0.39501
+==============================================save best model best performerence 0.629039
+train epoch: 0 - step: 260 (total: 1814) - loss: 0.008270
+train epoch: 0 - step: 270 (total: 1814) - loss: 0.010138
+train epoch: 0 - step: 280 (total: 1814) - loss: 0.011825
+train epoch: 0 - step: 290 (total: 1814) - loss: 0.031730
+train epoch: 0 - step: 300 (total: 1814) - loss: 0.021637
+dev step: 300 - loss: 0.01812, precision: 0.69966, recall: 0.79407, f1: 0.74388 current best 0.62904
+==============================================save best model best performerence 0.743880
+train epoch: 0 - step: 310 (total: 1814) - loss: 0.010256
+train epoch: 0 - step: 320 (total: 1814) - loss: 0.047801
+train epoch: 0 - step: 330 (total: 1814) - loss: 0.008919
+train epoch: 0 - step: 340 (total: 1814) - loss: 0.022506
+train epoch: 0 - step: 350 (total: 1814) - loss: 0.007094
+dev step: 350 - loss: 0.01628, precision: 0.63749, recall: 0.68175, f1: 0.65888 current best 0.74388
+train epoch: 0 - step: 360 (total: 1814) - loss: 0.024562
+train epoch: 0 - step: 370 (total: 1814) - loss: 0.005617
+train epoch: 0 - step: 380 (total: 1814) - loss: 0.029312
+train epoch: 0 - step: 390 (total: 1814) - loss: 0.009308
+train epoch: 0 - step: 400 (total: 1814) - loss: 0.019128
+dev step: 400 - loss: 0.01380, precision: 0.76524, recall: 0.85179, f1: 0.80620 current best 0.74388
+==============================================save best model best performerence 0.806202
+train epoch: 0 - step: 410 (total: 1814) - loss: 0.011033
+train epoch: 0 - step: 420 (total: 1814) - loss: 0.017642
+train epoch: 0 - step: 430 (total: 1814) - loss: 0.007294
+train epoch: 0 - step: 440 (total: 1814) - loss: 0.004134
+train epoch: 0 - step: 450 (total: 1814) - loss: 0.028721
+dev step: 450 - loss: 0.01175, precision: 0.78483, recall: 0.83931, f1: 0.81116 current best 0.80620
+==============================================save best model best performerence 0.811157
+train epoch: 0 - step: 460 (total: 1814) - loss: 0.005137
+train epoch: 0 - step: 470 (total: 1814) - loss: 0.029502
+train epoch: 0 - step: 480 (total: 1814) - loss: 0.012897
+train epoch: 0 - step: 490 (total: 1814) - loss: 0.001283
+train epoch: 0 - step: 500 (total: 1814) - loss: 0.010177
+dev step: 500 - loss: 0.01127, precision: 0.78376, recall: 0.78315, f1: 0.78346 current best 0.81116
+train epoch: 0 - step: 510 (total: 1814) - loss: 0.016647
+train epoch: 0 - step: 520 (total: 1814) - loss: 0.035244
+train epoch: 0 - step: 530 (total: 1814) - loss: 0.004994
+train epoch: 0 - step: 540 (total: 1814) - loss: 0.012550
+train epoch: 0 - step: 550 (total: 1814) - loss: 0.014400
+dev step: 550 - loss: 0.01118, precision: 0.76442, recall: 0.85803, f1: 0.80853 current best 0.81116
+train epoch: 0 - step: 560 (total: 1814) - loss: 0.003155
+train epoch: 0 - step: 570 (total: 1814) - loss: 0.006631
+train epoch: 0 - step: 580 (total: 1814) - loss: 0.007821
+train epoch: 0 - step: 590 (total: 1814) - loss: 0.029745
+train epoch: 0 - step: 600 (total: 1814) - loss: 0.005309
+dev step: 600 - loss: 0.01065, precision: 0.77296, recall: 0.83385, f1: 0.80225 current best 0.81116
+train epoch: 0 - step: 610 (total: 1814) - loss: 0.003768
+train epoch: 0 - step: 620 (total: 1814) - loss: 0.003391
+train epoch: 0 - step: 630 (total: 1814) - loss: 0.015505
+train epoch: 0 - step: 640 (total: 1814) - loss: 0.006490
+train epoch: 0 - step: 650 (total: 1814) - loss: 0.012059
+dev step: 650 - loss: 0.01052, precision: 0.80184, recall: 0.81747, f1: 0.80958 current best 0.81116
+train epoch: 0 - step: 660 (total: 1814) - loss: 0.009327
+train epoch: 0 - step: 670 (total: 1814) - loss: 0.008208
+train epoch: 0 - step: 680 (total: 1814) - loss: 0.003619
+train epoch: 0 - step: 690 (total: 1814) - loss: 0.020718
+train epoch: 0 - step: 700 (total: 1814) - loss: 0.011569
+dev step: 700 - loss: 0.00957, precision: 0.78626, recall: 0.87520, f1: 0.82835 current best 0.81116
+==============================================save best model best performerence 0.828350
+train epoch: 0 - step: 710 (total: 1814) - loss: 0.013437
+train epoch: 0 - step: 720 (total: 1814) - loss: 0.010729
+train epoch: 0 - step: 730 (total: 1814) - loss: 0.003926
+train epoch: 0 - step: 740 (total: 1814) - loss: 0.022678
+train epoch: 0 - step: 750 (total: 1814) - loss: 0.006176
+dev step: 750 - loss: 0.01017, precision: 0.80606, recall: 0.82995, f1: 0.81783 current best 0.82835
+train epoch: 0 - step: 760 (total: 1814) - loss: 0.015271
+train epoch: 0 - step: 770 (total: 1814) - loss: 0.003528
+train epoch: 0 - step: 780 (total: 1814) - loss: 0.011357
+train epoch: 0 - step: 790 (total: 1814) - loss: 0.006986
+train epoch: 0 - step: 800 (total: 1814) - loss: 0.010340
+dev step: 800 - loss: 0.01168, precision: 0.79005, recall: 0.84243, f1: 0.81540 current best 0.82835
+train epoch: 0 - step: 810 (total: 1814) - loss: 0.031710
+train epoch: 0 - step: 820 (total: 1814) - loss: 0.011160
+train epoch: 0 - step: 830 (total: 1814) - loss: 0.008271
+train epoch: 0 - step: 840 (total: 1814) - loss: 0.012170
+train epoch: 0 - step: 850 (total: 1814) - loss: 0.004882
+dev step: 850 - loss: 0.00881, precision: 0.79507, recall: 0.88066, f1: 0.83568 current best 0.82835
+==============================================save best model best performerence 0.835677
+train epoch: 0 - step: 860 (total: 1814) - loss: 0.010397
+train epoch: 0 - step: 870 (total: 1814) - loss: 0.007002
+train epoch: 0 - step: 880 (total: 1814) - loss: 0.024509
+train epoch: 0 - step: 890 (total: 1814) - loss: 0.008500
+train epoch: 0 - step: 900 (total: 1814) - loss: 0.015533
+dev step: 900 - loss: 0.00867, precision: 0.82625, recall: 0.84945, f1: 0.83769 current best 0.83568
+==============================================save best model best performerence 0.837692
+train epoch: 1 - step: 910 (total: 1814) - loss: 0.012530
+train epoch: 1 - step: 920 (total: 1814) - loss: 0.010876
+train epoch: 1 - step: 930 (total: 1814) - loss: 0.022690
+train epoch: 1 - step: 940 (total: 1814) - loss: 0.018799
+train epoch: 1 - step: 950 (total: 1814) - loss: 0.006898
+dev step: 950 - loss: 0.00920, precision: 0.80802, recall: 0.89626, f1: 0.84985 current best 0.83769
+==============================================save best model best performerence 0.849852
+train epoch: 1 - step: 960 (total: 1814) - loss: 0.002434
+train epoch: 1 - step: 970 (total: 1814) - loss: 0.008710
+train epoch: 1 - step: 980 (total: 1814) - loss: 0.002281
+train epoch: 1 - step: 990 (total: 1814) - loss: 0.005256
+train epoch: 1 - step: 1000 (total: 1814) - loss: 0.010590
+dev step: 1000 - loss: 0.01036, precision: 0.79181, recall: 0.90484, f1: 0.84456 current best 0.84985
+train epoch: 1 - step: 1010 (total: 1814) - loss: 0.004355
+train epoch: 1 - step: 1020 (total: 1814) - loss: 0.023089
+train epoch: 1 - step: 1030 (total: 1814) - loss: 0.001868
+train epoch: 1 - step: 1040 (total: 1814) - loss: 0.021550
+train epoch: 1 - step: 1050 (total: 1814) - loss: 0.020851
+dev step: 1050 - loss: 0.00844, precision: 0.82786, recall: 0.82527, f1: 0.82656 current best 0.84985
+train epoch: 1 - step: 1060 (total: 1814) - loss: 0.031308
+train epoch: 1 - step: 1070 (total: 1814) - loss: 0.010688
+train epoch: 1 - step: 1080 (total: 1814) - loss: 0.012393
+train epoch: 1 - step: 1090 (total: 1814) - loss: 0.007637
+train epoch: 1 - step: 1100 (total: 1814) - loss: 0.027439
+dev step: 1100 - loss: 0.00931, precision: 0.80530, recall: 0.90016, f1: 0.85009 current best 0.84985
+==============================================save best model best performerence 0.850092
+train epoch: 1 - step: 1110 (total: 1814) - loss: 0.007101
+train epoch: 1 - step: 1120 (total: 1814) - loss: 0.008287
+train epoch: 1 - step: 1130 (total: 1814) - loss: 0.007154
+train epoch: 1 - step: 1140 (total: 1814) - loss: 0.003028
+train epoch: 1 - step: 1150 (total: 1814) - loss: 0.007348
+dev step: 1150 - loss: 0.00834, precision: 0.82148, recall: 0.86505, f1: 0.84271 current best 0.85009
+train epoch: 1 - step: 1160 (total: 1814) - loss: 0.000713
+train epoch: 1 - step: 1170 (total: 1814) - loss: 0.005654
+train epoch: 1 - step: 1180 (total: 1814) - loss: 0.021302
+train epoch: 1 - step: 1190 (total: 1814) - loss: 0.010416
+train epoch: 1 - step: 1200 (total: 1814) - loss: 0.007911
+dev step: 1200 - loss: 0.00943, precision: 0.81805, recall: 0.87676, f1: 0.84639 current best 0.85009
+train epoch: 1 - step: 1210 (total: 1814) - loss: 0.001420
+train epoch: 1 - step: 1220 (total: 1814) - loss: 0.002416
+train epoch: 1 - step: 1230 (total: 1814) - loss: 0.005037
+train epoch: 1 - step: 1240 (total: 1814) - loss: 0.004961
+train epoch: 1 - step: 1250 (total: 1814) - loss: 0.016153
+dev step: 1250 - loss: 0.00795, precision: 0.82721, recall: 0.89626, f1: 0.86035 current best 0.85009
+==============================================save best model best performerence 0.860352
+train epoch: 1 - step: 1260 (total: 1814) - loss: 0.001320
+train epoch: 1 - step: 1270 (total: 1814) - loss: 0.010548
+train epoch: 1 - step: 1280 (total: 1814) - loss: 0.010417
+train epoch: 1 - step: 1290 (total: 1814) - loss: 0.003040
+train epoch: 1 - step: 1300 (total: 1814) - loss: 0.024354
+dev step: 1300 - loss: 0.00805, precision: 0.81210, recall: 0.89002, f1: 0.84927 current best 0.86035
+train epoch: 1 - step: 1310 (total: 1814) - loss: 0.010500
+train epoch: 1 - step: 1320 (total: 1814) - loss: 0.012359
+train epoch: 1 - step: 1330 (total: 1814) - loss: 0.007219
+train epoch: 1 - step: 1340 (total: 1814) - loss: 0.001919
+train epoch: 1 - step: 1350 (total: 1814) - loss: 0.001334
+dev step: 1350 - loss: 0.00844, precision: 0.78519, recall: 0.90952, f1: 0.84279 current best 0.86035
+train epoch: 1 - step: 1360 (total: 1814) - loss: 0.001422
+train epoch: 1 - step: 1370 (total: 1814) - loss: 0.008109
+train epoch: 1 - step: 1380 (total: 1814) - loss: 0.014151
+train epoch: 1 - step: 1390 (total: 1814) - loss: 0.003078
+train epoch: 1 - step: 1400 (total: 1814) - loss: 0.029788
+dev step: 1400 - loss: 0.00895, precision: 0.80925, recall: 0.87363, f1: 0.84021 current best 0.86035
+train epoch: 1 - step: 1410 (total: 1814) - loss: 0.001535
+train epoch: 1 - step: 1420 (total: 1814) - loss: 0.010857
+train epoch: 1 - step: 1430 (total: 1814) - loss: 0.001352
+train epoch: 1 - step: 1440 (total: 1814) - loss: 0.002887
+train epoch: 1 - step: 1450 (total: 1814) - loss: 0.003242
+dev step: 1450 - loss: 0.00914, precision: 0.79926, recall: 0.84789, f1: 0.82286 current best 0.86035
+train epoch: 1 - step: 1460 (total: 1814) - loss: 0.004253
+train epoch: 1 - step: 1470 (total: 1814) - loss: 0.005538
+train epoch: 1 - step: 1480 (total: 1814) - loss: 0.012263
+train epoch: 1 - step: 1490 (total: 1814) - loss: 0.013281
+train epoch: 1 - step: 1500 (total: 1814) - loss: 0.007358
+dev step: 1500 - loss: 0.00801, precision: 0.82889, recall: 0.87285, f1: 0.85030 current best 0.86035
+train epoch: 1 - step: 1510 (total: 1814) - loss: 0.007629
+train epoch: 1 - step: 1520 (total: 1814) - loss: 0.010664
+train epoch: 1 - step: 1530 (total: 1814) - loss: 0.025643
+train epoch: 1 - step: 1540 (total: 1814) - loss: 0.035836
+train epoch: 1 - step: 1550 (total: 1814) - loss: 0.010128
+dev step: 1550 - loss: 0.00901, precision: 0.79229, recall: 0.91342, f1: 0.84855 current best 0.86035
+train epoch: 1 - step: 1560 (total: 1814) - loss: 0.002030
+train epoch: 1 - step: 1570 (total: 1814) - loss: 0.020650
+train epoch: 1 - step: 1580 (total: 1814) - loss: 0.003127
+train epoch: 1 - step: 1590 (total: 1814) - loss: 0.016625
+train epoch: 1 - step: 1600 (total: 1814) - loss: 0.005878
+dev step: 1600 - loss: 0.00848, precision: 0.81984, recall: 0.87676, f1: 0.84734 current best 0.86035
+train epoch: 1 - step: 1610 (total: 1814) - loss: 0.005245
+train epoch: 1 - step: 1620 (total: 1814) - loss: 0.001809
+train epoch: 1 - step: 1630 (total: 1814) - loss: 0.004422
+train epoch: 1 - step: 1640 (total: 1814) - loss: 0.004601
+train epoch: 1 - step: 1650 (total: 1814) - loss: 0.023019
+dev step: 1650 - loss: 0.00783, precision: 0.82685, recall: 0.87910, f1: 0.85217 current best 0.86035
+train epoch: 1 - step: 1660 (total: 1814) - loss: 0.003547
+train epoch: 1 - step: 1670 (total: 1814) - loss: 0.004260
+train epoch: 1 - step: 1680 (total: 1814) - loss: 0.018531
+train epoch: 1 - step: 1690 (total: 1814) - loss: 0.002490
+train epoch: 1 - step: 1700 (total: 1814) - loss: 0.005592
+dev step: 1700 - loss: 0.00851, precision: 0.81157, recall: 0.85335, f1: 0.83194 current best 0.86035
+train epoch: 1 - step: 1710 (total: 1814) - loss: 0.005819
+train epoch: 1 - step: 1720 (total: 1814) - loss: 0.006229
+train epoch: 1 - step: 1730 (total: 1814) - loss: 0.012989
+train epoch: 1 - step: 1740 (total: 1814) - loss: 0.010974
+train epoch: 1 - step: 1750 (total: 1814) - loss: 0.008323
+dev step: 1750 - loss: 0.00834, precision: 0.81362, recall: 0.88534, f1: 0.84796 current best 0.86035
+train epoch: 1 - step: 1760 (total: 1814) - loss: 0.009733
+train epoch: 1 - step: 1770 (total: 1814) - loss: 0.001311
+train epoch: 1 - step: 1780 (total: 1814) - loss: 0.002896
+train epoch: 1 - step: 1790 (total: 1814) - loss: 0.012969
+train epoch: 1 - step: 1800 (total: 1814) - loss: 0.018741
+dev step: 1800 - loss: 0.00754, precision: 0.83942, recall: 0.89704, f1: 0.86727 current best 0.86035
+==============================================save best model best performerence 0.867270
+train epoch: 1 - step: 1810 (total: 1814) - loss: 0.006414
+[2021-05-19 15:00:07,973] [    INFO] - Found /home/aistudio/.paddlenlp/models/ernie-1.0/vocab.txt
+[2021-05-19 15:00:07,986] [    INFO] - Already cached /home/aistudio/.paddlenlp/models/ernie-1.0/ernie_v1_chn_base.pdparams
+W0519 15:00:07.987823 11604 device_context.cc:404] Please NOTE: device: 0, GPU Compute Capability: 7.0, Driver API Version: 10.1, Runtime API Version: 10.1
+W0519 15:00:07.992069 11604 device_context.cc:422] device: 0, cuDNN Version: 7.6.
+============start train==========
+train epoch: 0 - step: 10 (total: 590) - loss: 1.228876
+train epoch: 0 - step: 20 (total: 590) - loss: 1.167180
+train epoch: 0 - step: 30 (total: 590) - loss: 1.131540
+train epoch: 0 - step: 40 (total: 590) - loss: 1.308392
+train epoch: 0 - step: 50 (total: 590) - loss: 1.107404
+dev step: 50 - loss: 1.14665, precision: 0.00000, recall: 0.00000, f1: 0.00000 current best 0.00000
+train epoch: 0 - step: 60 (total: 590) - loss: 1.321846
+train epoch: 0 - step: 70 (total: 590) - loss: 0.890856
+train epoch: 0 - step: 80 (total: 590) - loss: 1.014641
+train epoch: 0 - step: 90 (total: 590) - loss: 0.878219
+train epoch: 0 - step: 100 (total: 590) - loss: 0.926348
+dev step: 100 - loss: 0.98928, precision: 0.00000, recall: 0.00000, f1: 0.00000 current best 0.00000
+train epoch: 0 - step: 110 (total: 590) - loss: 1.011312
+train epoch: 0 - step: 120 (total: 590) - loss: 0.793265
+train epoch: 0 - step: 130 (total: 590) - loss: 0.758674
+train epoch: 0 - step: 140 (total: 590) - loss: 0.644724
+train epoch: 0 - step: 150 (total: 590) - loss: 0.898436
+dev step: 150 - loss: 0.71790, precision: 0.13306, recall: 0.02792, f1: 0.04615 current best 0.00000
+==============================================save best model best performerence 0.046152
+train epoch: 0 - step: 160 (total: 590) - loss: 0.712809
+train epoch: 0 - step: 170 (total: 590) - loss: 0.767889
+train epoch: 0 - step: 180 (total: 590) - loss: 0.637734
+train epoch: 0 - step: 190 (total: 590) - loss: 0.496149
+train epoch: 0 - step: 200 (total: 590) - loss: 0.552339
+dev step: 200 - loss: 0.52752, precision: 0.21411, recall: 0.14678, f1: 0.17417 current best 0.04615
+==============================================save best model best performerence 0.174165
+train epoch: 0 - step: 210 (total: 590) - loss: 0.530863
+train epoch: 0 - step: 220 (total: 590) - loss: 0.521617
+train epoch: 0 - step: 230 (total: 590) - loss: 0.476160
+train epoch: 0 - step: 240 (total: 590) - loss: 0.463617
+train epoch: 0 - step: 250 (total: 590) - loss: 0.527584
+dev step: 250 - loss: 0.42639, precision: 0.19299, recall: 0.16089, f1: 0.17548 current best 0.17417
+==============================================save best model best performerence 0.175483
+train epoch: 0 - step: 260 (total: 590) - loss: 0.393563
+train epoch: 0 - step: 270 (total: 590) - loss: 0.544028
+train epoch: 0 - step: 280 (total: 590) - loss: 0.336435
+train epoch: 0 - step: 290 (total: 590) - loss: 0.379358
+train epoch: 0 - step: 300 (total: 590) - loss: 0.374754
+dev step: 300 - loss: 0.35051, precision: 0.26806, recall: 0.25687, f1: 0.26235 current best 0.17548
+==============================================save best model best performerence 0.262346
+train epoch: 0 - step: 310 (total: 590) - loss: 0.361157
+train epoch: 0 - step: 320 (total: 590) - loss: 0.427834
+train epoch: 0 - step: 330 (total: 590) - loss: 0.333119
+train epoch: 0 - step: 340 (total: 590) - loss: 0.403084
+train epoch: 0 - step: 350 (total: 590) - loss: 0.288300
+dev step: 350 - loss: 0.31384, precision: 0.34167, recall: 0.45791, f1: 0.39134 current best 0.26235
+==============================================save best model best performerence 0.391342
+train epoch: 0 - step: 360 (total: 590) - loss: 0.430552
+train epoch: 0 - step: 370 (total: 590) - loss: 0.378164
+train epoch: 0 - step: 380 (total: 590) - loss: 0.218604
+train epoch: 0 - step: 390 (total: 590) - loss: 0.348871
+train epoch: 0 - step: 400 (total: 590) - loss: 0.322054
+dev step: 400 - loss: 0.28576, precision: 0.36620, recall: 0.44841, f1: 0.40316 current best 0.39134
+==============================================save best model best performerence 0.403157
+train epoch: 0 - step: 410 (total: 590) - loss: 0.325520
+train epoch: 0 - step: 420 (total: 590) - loss: 0.332883
+train epoch: 0 - step: 430 (total: 590) - loss: 0.337420
+train epoch: 0 - step: 440 (total: 590) - loss: 0.356015
+train epoch: 0 - step: 450 (total: 590) - loss: 0.217923
+dev step: 450 - loss: 0.26595, precision: 0.41945, recall: 0.47244, f1: 0.44437 current best 0.40316
+==============================================save best model best performerence 0.444369
+train epoch: 0 - step: 460 (total: 590) - loss: 0.339888
+train epoch: 0 - step: 470 (total: 590) - loss: 0.249265
+train epoch: 0 - step: 480 (total: 590) - loss: 0.240314
+train epoch: 0 - step: 490 (total: 590) - loss: 0.266843
+train epoch: 0 - step: 500 (total: 590) - loss: 0.257017
+dev step: 500 - loss: 0.25245, precision: 0.46115, recall: 0.58339, f1: 0.51512 current best 0.44437
+==============================================save best model best performerence 0.515121
+train epoch: 0 - step: 510 (total: 590) - loss: 0.235773
+train epoch: 0 - step: 520 (total: 590) - loss: 0.251301
+train epoch: 0 - step: 530 (total: 590) - loss: 0.243419
+train epoch: 0 - step: 540 (total: 590) - loss: 0.284949
+train epoch: 0 - step: 550 (total: 590) - loss: 0.295424
+dev step: 550 - loss: 0.24853, precision: 0.47751, recall: 0.54842, f1: 0.51052 current best 0.51512
+train epoch: 0 - step: 560 (total: 590) - loss: 0.268405
+train epoch: 0 - step: 570 (total: 590) - loss: 0.291754
+train epoch: 0 - step: 580 (total: 590) - loss: 0.225738
+[2021-05-19 15:05:56,227] [    INFO] - Already cached /home/aistudio/.paddlenlp/models/ernie-1.0/ernie_v1_chn_base.pdparams
+W0519 15:05:56.228232 12662 device_context.cc:404] Please NOTE: device: 0, GPU Compute Capability: 7.0, Driver API Version: 10.1, Runtime API Version: 10.1
+W0519 15:05:56.232853 12662 device_context.cc:422] device: 0, cuDNN Version: 7.6.
+Traceback (most recent call last):
+  File "classifier.py", line 338, in <module>
+    do_train()
+  File "classifier.py", line 190, in do_train
+    model = ErnieForSequenceClassification.from_pretrained("ernie-1.0", num_classes=len(label_map))
+  File "/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddlenlp/transformers/model_utils.py", line 241, in from_pretrained
+    model = cls(*derived_args, **derived_kwargs)
+  File "/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddlenlp/transformers/utils.py", line 83, in __impl__
+    init_func(self, *args, **kwargs)
+  File "/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddlenlp/transformers/ernie/modeling.py", line 259, in __init__
+    self.apply(self.init_weights)
+  File "/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/fluid/dygraph/layers.py", line 233, in apply
+    layer.apply(fn)
+  File "/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/fluid/dygraph/layers.py", line 233, in apply
+    layer.apply(fn)
+  File "/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/fluid/dygraph/layers.py", line 233, in apply
+    layer.apply(fn)
+  File "/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/fluid/dygraph/layers.py", line 235, in apply
+    fn(self)
+  File "/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddlenlp/transformers/ernie/modeling.py", line 179, in init_weights
+    shape=layer.weight.shape))
+  File "<decorator-gen-122>", line 2, in set_value
+  File "/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/fluid/wrapped_decorator.py", line 25, in __impl__
+    return wrapped_func(*args, **kwargs)
+  File "/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/fluid/framework.py", line 225, in __impl__
+    return func(*args, **kwargs)
+  File "/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/fluid/dygraph/varbase_patch_methods.py", line 153, in set_value
+    self_tensor_np = self.numpy()
+KeyboardInterrupt
+[2021-05-19 15:06:44,062] [    INFO] - Found /home/aistudio/.paddlenlp/models/ernie-1.0/vocab.txt
+[2021-05-19 15:06:44,075] [    INFO] - Already cached /home/aistudio/.paddlenlp/models/ernie-1.0/ernie_v1_chn_base.pdparams
+W0519 15:06:44.077005 12903 device_context.cc:404] Please NOTE: device: 0, GPU Compute Capability: 7.0, Driver API Version: 10.1, Runtime API Version: 10.1
+W0519 15:06:44.081166 12903 device_context.cc:422] device: 0, cuDNN Version: 7.6.
+============start train==========
+train epoch: 0 - step: 10 (total: 2950) - loss: 1.228872
+train epoch: 0 - step: 20 (total: 2950) - loss: 1.163743
+train epoch: 0 - step: 30 (total: 2950) - loss: 1.130652
+train epoch: 0 - step: 40 (total: 2950) - loss: 1.303708
+train epoch: 0 - step: 50 (total: 2950) - loss: 1.110013
+dev step: 50 - loss: 1.14755, precision: 0.00000, recall: 0.00000, f1: 0.00000 current best 0.00000
+train epoch: 0 - step: 60 (total: 2950) - loss: 1.335686
+train epoch: 0 - step: 70 (total: 2950) - loss: 0.887088
+train epoch: 0 - step: 80 (total: 2950) - loss: 1.024183
+train epoch: 0 - step: 90 (total: 2950) - loss: 0.871220
+train epoch: 0 - step: 100 (total: 2950) - loss: 0.927680
+dev step: 100 - loss: 0.98305, precision: 0.00000, recall: 0.00000, f1: 0.00000 current best 0.00000
+Traceback (most recent call last):
+  File "sequence_labeling.py", line 293, in <module>
+    do_train()
+  File "sequence_labeling.py", line 207, in do_train
+    loss.backward()
+  File "<decorator-gen-123>", line 2, in backward
+  File "/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/fluid/wrapped_decorator.py", line 25, in __impl__
+    return wrapped_func(*args, **kwargs)
+  File "/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/fluid/framework.py", line 225, in __impl__
+    return func(*args, **kwargs)
+  File "/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/fluid/dygraph/varbase_patch_methods.py", line 236, in backward
+    framework._dygraph_tracer())
+KeyboardInterrupt
+[2021-05-19 15:07:51,519] [    INFO] - Found /home/aistudio/.paddlenlp/models/ernie-1.0/vocab.txt
+[2021-05-19 15:07:51,532] [    INFO] - Already cached /home/aistudio/.paddlenlp/models/ernie-1.0/ernie_v1_chn_base.pdparams
+W0519 15:07:51.533774 13143 device_context.cc:404] Please NOTE: device: 0, GPU Compute Capability: 7.0, Driver API Version: 10.1, Runtime API Version: 10.1
+W0519 15:07:51.537958 13143 device_context.cc:422] device: 0, cuDNN Version: 7.6.
+============start train==========
+train epoch: 0 - step: 10 (total: 1770) - loss: 1.228878
+train epoch: 0 - step: 20 (total: 1770) - loss: 1.163754
+train epoch: 0 - step: 30 (total: 1770) - loss: 1.130393
+train epoch: 0 - step: 40 (total: 1770) - loss: 1.304039
+train epoch: 0 - step: 50 (total: 1770) - loss: 1.110819
+dev step: 50 - loss: 1.14744, precision: 0.00000, recall: 0.00000, f1: 0.00000 current best 0.00000
+train epoch: 0 - step: 60 (total: 1770) - loss: 1.337216
+train epoch: 0 - step: 70 (total: 1770) - loss: 0.887572
+train epoch: 0 - step: 80 (total: 1770) - loss: 1.028570
+train epoch: 0 - step: 90 (total: 1770) - loss: 0.873665
+train epoch: 0 - step: 100 (total: 1770) - loss: 0.930188
+dev step: 100 - loss: 0.98632, precision: 0.00000, recall: 0.00000, f1: 0.00000 current best 0.00000
+train epoch: 0 - step: 110 (total: 1770) - loss: 1.022945
+train epoch: 0 - step: 120 (total: 1770) - loss: 0.779267
+train epoch: 0 - step: 130 (total: 1770) - loss: 0.782241
+train epoch: 0 - step: 140 (total: 1770) - loss: 0.661838
+train epoch: 0 - step: 150 (total: 1770) - loss: 0.899556
+dev step: 150 - loss: 0.72833, precision: 0.09348, recall: 0.01712, f1: 0.02895 current best 0.00000
+==============================================save best model best performerence 0.028947
+train epoch: 0 - step: 160 (total: 1770) - loss: 0.699933
+train epoch: 0 - step: 170 (total: 1770) - loss: 0.776123
+train epoch: 0 - step: 180 (total: 1770) - loss: 0.625914
+train epoch: 0 - step: 190 (total: 1770) - loss: 0.494198
+train epoch: 0 - step: 200 (total: 1770) - loss: 0.564633
+dev step: 200 - loss: 0.53211, precision: 0.18922, recall: 0.11872, f1: 0.14590 current best 0.02895
+==============================================save best model best performerence 0.145901
+train epoch: 0 - step: 210 (total: 1770) - loss: 0.542074
+train epoch: 0 - step: 220 (total: 1770) - loss: 0.534636
+train epoch: 0 - step: 230 (total: 1770) - loss: 0.460009
+train epoch: 0 - step: 240 (total: 1770) - loss: 0.476004
+train epoch: 0 - step: 250 (total: 1770) - loss: 0.525205
+dev step: 250 - loss: 0.42287, precision: 0.25428, recall: 0.22435, f1: 0.23838 current best 0.14590
+==============================================save best model best performerence 0.238379
+train epoch: 0 - step: 260 (total: 1770) - loss: 0.385239
+train epoch: 0 - step: 270 (total: 1770) - loss: 0.544957
+train epoch: 0 - step: 280 (total: 1770) - loss: 0.324297
+train epoch: 0 - step: 290 (total: 1770) - loss: 0.387879
+train epoch: 0 - step: 300 (total: 1770) - loss: 0.387571
+dev step: 300 - loss: 0.34719, precision: 0.27222, recall: 0.27155, f1: 0.27188 current best 0.23838
+==============================================save best model best performerence 0.271882
+train epoch: 0 - step: 310 (total: 1770) - loss: 0.339839
+train epoch: 0 - step: 320 (total: 1770) - loss: 0.415477
+train epoch: 0 - step: 330 (total: 1770) - loss: 0.318124
+train epoch: 0 - step: 340 (total: 1770) - loss: 0.378334
+train epoch: 0 - step: 350 (total: 1770) - loss: 0.271764
+dev step: 350 - loss: 0.31002, precision: 0.35131, recall: 0.45647, f1: 0.39705 current best 0.27188
+==============================================save best model best performerence 0.397046
+train epoch: 0 - step: 360 (total: 1770) - loss: 0.436818
+train epoch: 0 - step: 370 (total: 1770) - loss: 0.402113
+train epoch: 0 - step: 380 (total: 1770) - loss: 0.220734
+train epoch: 0 - step: 390 (total: 1770) - loss: 0.332146
+train epoch: 0 - step: 400 (total: 1770) - loss: 0.300670
+dev step: 400 - loss: 0.28368, precision: 0.38225, recall: 0.45359, f1: 0.41487 current best 0.39705
+==============================================save best model best performerence 0.414873
+train epoch: 0 - step: 410 (total: 1770) - loss: 0.308653
+train epoch: 0 - step: 420 (total: 1770) - loss: 0.329475
+train epoch: 0 - step: 430 (total: 1770) - loss: 0.324961
+train epoch: 0 - step: 440 (total: 1770) - loss: 0.342104
+train epoch: 0 - step: 450 (total: 1770) - loss: 0.223695
+dev step: 450 - loss: 0.26680, precision: 0.42108, recall: 0.49446, f1: 0.45483 current best 0.41487
+==============================================save best model best performerence 0.454828
+train epoch: 0 - step: 460 (total: 1770) - loss: 0.334607
+train epoch: 0 - step: 470 (total: 1770) - loss: 0.247364
+train epoch: 0 - step: 480 (total: 1770) - loss: 0.254995
+train epoch: 0 - step: 490 (total: 1770) - loss: 0.264512
+train epoch: 0 - step: 500 (total: 1770) - loss: 0.254237
+dev step: 500 - loss: 0.24828, precision: 0.46983, recall: 0.58598, f1: 0.52152 current best 0.45483
+==============================================save best model best performerence 0.521516
+train epoch: 0 - step: 510 (total: 1770) - loss: 0.237616
+train epoch: 0 - step: 520 (total: 1770) - loss: 0.235410
+train epoch: 0 - step: 530 (total: 1770) - loss: 0.240657
+train epoch: 0 - step: 540 (total: 1770) - loss: 0.279295
+train epoch: 0 - step: 550 (total: 1770) - loss: 0.291813
+dev step: 550 - loss: 0.24661, precision: 0.48582, recall: 0.54497, f1: 0.51370 current best 0.52152
+train epoch: 0 - step: 560 (total: 1770) - loss: 0.281687
+train epoch: 0 - step: 570 (total: 1770) - loss: 0.292860
+train epoch: 0 - step: 580 (total: 1770) - loss: 0.216205
+train epoch: 1 - step: 590 (total: 1770) - loss: 0.278190
+train epoch: 1 - step: 600 (total: 1770) - loss: 0.239188
+dev step: 600 - loss: 0.22537, precision: 0.50315, recall: 0.61995, f1: 0.55548 current best 0.52152
+==============================================save best model best performerence 0.555477
+train epoch: 1 - step: 610 (total: 1770) - loss: 0.286043
+train epoch: 1 - step: 620 (total: 1770) - loss: 0.293595
+train epoch: 1 - step: 630 (total: 1770) - loss: 0.277335
+train epoch: 1 - step: 640 (total: 1770) - loss: 0.169397
+train epoch: 1 - step: 650 (total: 1770) - loss: 0.230597
+dev step: 650 - loss: 0.22487, precision: 0.49668, recall: 0.66772, f1: 0.56964 current best 0.55548
+==============================================save best model best performerence 0.569640
+train epoch: 1 - step: 660 (total: 1770) - loss: 0.256151
+train epoch: 1 - step: 670 (total: 1770) - loss: 0.212531
+train epoch: 1 - step: 680 (total: 1770) - loss: 0.261195
+train epoch: 1 - step: 690 (total: 1770) - loss: 0.262963
+train epoch: 1 - step: 700 (total: 1770) - loss: 0.221038
+dev step: 700 - loss: 0.22629, precision: 0.50058, recall: 0.62513, f1: 0.55596 current best 0.56964
+train epoch: 1 - step: 710 (total: 1770) - loss: 0.186720
+train epoch: 1 - step: 720 (total: 1770) - loss: 0.216193
+train epoch: 1 - step: 730 (total: 1770) - loss: 0.255543
+train epoch: 1 - step: 740 (total: 1770) - loss: 0.270510
+train epoch: 1 - step: 750 (total: 1770) - loss: 0.212651
+dev step: 750 - loss: 0.24111, precision: 0.49980, recall: 0.71910, f1: 0.58972 current best 0.56964
+==============================================save best model best performerence 0.589721
+train epoch: 1 - step: 760 (total: 1770) - loss: 0.287597
+train epoch: 1 - step: 770 (total: 1770) - loss: 0.262107
+train epoch: 1 - step: 780 (total: 1770) - loss: 0.221216
+train epoch: 1 - step: 790 (total: 1770) - loss: 0.298340
+train epoch: 1 - step: 800 (total: 1770) - loss: 0.246040
+dev step: 800 - loss: 0.22027, precision: 0.49862, recall: 0.67722, f1: 0.57436 current best 0.58972
+train epoch: 1 - step: 810 (total: 1770) - loss: 0.203873
+train epoch: 1 - step: 820 (total: 1770) - loss: 0.188908
+train epoch: 1 - step: 830 (total: 1770) - loss: 0.214957
+train epoch: 1 - step: 840 (total: 1770) - loss: 0.178112
+train epoch: 1 - step: 850 (total: 1770) - loss: 0.145028
+dev step: 850 - loss: 0.22002, precision: 0.52523, recall: 0.64714, f1: 0.57985 current best 0.58972
+train epoch: 1 - step: 860 (total: 1770) - loss: 0.236911
+train epoch: 1 - step: 870 (total: 1770) - loss: 0.180529
+train epoch: 1 - step: 880 (total: 1770) - loss: 0.192733
+train epoch: 1 - step: 890 (total: 1770) - loss: 0.213567
+train epoch: 1 - step: 900 (total: 1770) - loss: 0.227428
+dev step: 900 - loss: 0.20883, precision: 0.52601, recall: 0.63592, f1: 0.57577 current best 0.58972
+train epoch: 1 - step: 910 (total: 1770) - loss: 0.172179
+train epoch: 1 - step: 920 (total: 1770) - loss: 0.169540
+train epoch: 1 - step: 930 (total: 1770) - loss: 0.329357
+train epoch: 1 - step: 940 (total: 1770) - loss: 0.219791
+train epoch: 1 - step: 950 (total: 1770) - loss: 0.338132
+dev step: 950 - loss: 0.21142, precision: 0.49915, recall: 0.63016, f1: 0.55705 current best 0.58972
+train epoch: 1 - step: 960 (total: 1770) - loss: 0.192782
+train epoch: 1 - step: 970 (total: 1770) - loss: 0.176878
+train epoch: 1 - step: 980 (total: 1770) - loss: 0.253859
+train epoch: 1 - step: 990 (total: 1770) - loss: 0.261608
+train epoch: 1 - step: 1000 (total: 1770) - loss: 0.227391
+dev step: 1000 - loss: 0.22564, precision: 0.48402, recall: 0.62340, f1: 0.54494 current best 0.58972
+train epoch: 1 - step: 1010 (total: 1770) - loss: 0.242545
+train epoch: 1 - step: 1020 (total: 1770) - loss: 0.194332
+train epoch: 1 - step: 1030 (total: 1770) - loss: 0.216636
+train epoch: 1 - step: 1040 (total: 1770) - loss: 0.181598
+train epoch: 1 - step: 1050 (total: 1770) - loss: 0.212207
+dev step: 1050 - loss: 0.20924, precision: 0.51552, recall: 0.67895, f1: 0.58605 current best 0.58972
+train epoch: 1 - step: 1060 (total: 1770) - loss: 0.230622
+train epoch: 1 - step: 1070 (total: 1770) - loss: 0.251632
+train epoch: 1 - step: 1080 (total: 1770) - loss: 0.153842
+train epoch: 1 - step: 1090 (total: 1770) - loss: 0.207792
+train epoch: 1 - step: 1100 (total: 1770) - loss: 0.143055
+dev step: 1100 - loss: 0.20476, precision: 0.52664, recall: 0.63290, f1: 0.57490 current best 0.58972
+train epoch: 1 - step: 1110 (total: 1770) - loss: 0.253087
+train epoch: 1 - step: 1120 (total: 1770) - loss: 0.210960
+train epoch: 1 - step: 1130 (total: 1770) - loss: 0.265814
+train epoch: 1 - step: 1140 (total: 1770) - loss: 0.162615
+train epoch: 1 - step: 1150 (total: 1770) - loss: 0.221451
+dev step: 1150 - loss: 0.20107, precision: 0.52957, recall: 0.68168, f1: 0.59607 current best 0.58972
+==============================================save best model best performerence 0.596074
+train epoch: 1 - step: 1160 (total: 1770) - loss: 0.204926
+train epoch: 1 - step: 1170 (total: 1770) - loss: 0.162610
+train epoch: 2 - step: 1180 (total: 1770) - loss: 0.157935
+train epoch: 2 - step: 1190 (total: 1770) - loss: 0.175483
+train epoch: 2 - step: 1200 (total: 1770) - loss: 0.160656
+dev step: 1200 - loss: 0.19839, precision: 0.52862, recall: 0.68715, f1: 0.59755 current best 0.59607
+==============================================save best model best performerence 0.597547
+train epoch: 2 - step: 1210 (total: 1770) - loss: 0.264600
+train epoch: 2 - step: 1220 (total: 1770) - loss: 0.206628
+train epoch: 2 - step: 1230 (total: 1770) - loss: 0.135151
+train epoch: 2 - step: 1240 (total: 1770) - loss: 0.157044
+train epoch: 2 - step: 1250 (total: 1770) - loss: 0.149836
+dev step: 1250 - loss: 0.19944, precision: 0.52689, recall: 0.71046, f1: 0.60506 current best 0.59755
+==============================================save best model best performerence 0.605062
+train epoch: 2 - step: 1260 (total: 1770) - loss: 0.189186
+train epoch: 2 - step: 1270 (total: 1770) - loss: 0.171883
+train epoch: 2 - step: 1280 (total: 1770) - loss: 0.142864
+train epoch: 2 - step: 1290 (total: 1770) - loss: 0.183501
+train epoch: 2 - step: 1300 (total: 1770) - loss: 0.143721
+dev step: 1300 - loss: 0.20280, precision: 0.54855, recall: 0.70571, f1: 0.61728 current best 0.60506
+==============================================save best model best performerence 0.617282
+train epoch: 2 - step: 1310 (total: 1770) - loss: 0.174682
+train epoch: 2 - step: 1320 (total: 1770) - loss: 0.181739
+train epoch: 2 - step: 1330 (total: 1770) - loss: 0.120873
+train epoch: 2 - step: 1340 (total: 1770) - loss: 0.120395
+train epoch: 2 - step: 1350 (total: 1770) - loss: 0.171421
+dev step: 1350 - loss: 0.19629, precision: 0.52968, recall: 0.69089, f1: 0.59964 current best 0.61728
+train epoch: 2 - step: 1360 (total: 1770) - loss: 0.191237
+train epoch: 2 - step: 1370 (total: 1770) - loss: 0.189723
+train epoch: 2 - step: 1380 (total: 1770) - loss: 0.223737
+train epoch: 2 - step: 1390 (total: 1770) - loss: 0.162810
+train epoch: 2 - step: 1400 (total: 1770) - loss: 0.262038
+dev step: 1400 - loss: 0.19317, precision: 0.53941, recall: 0.67664, f1: 0.60028 current best 0.61728
+train epoch: 2 - step: 1410 (total: 1770) - loss: 0.176767
+train epoch: 2 - step: 1420 (total: 1770) - loss: 0.179923
+train epoch: 2 - step: 1430 (total: 1770) - loss: 0.104817
+train epoch: 2 - step: 1440 (total: 1770) - loss: 0.148301
+train epoch: 2 - step: 1450 (total: 1770) - loss: 0.142646
+dev step: 1450 - loss: 0.20427, precision: 0.54321, recall: 0.64498, f1: 0.58974 current best 0.61728
+train epoch: 2 - step: 1460 (total: 1770) - loss: 0.110699
+train epoch: 2 - step: 1470 (total: 1770) - loss: 0.176182
+train epoch: 2 - step: 1480 (total: 1770) - loss: 0.241049
+train epoch: 2 - step: 1490 (total: 1770) - loss: 0.176390
+train epoch: 2 - step: 1500 (total: 1770) - loss: 0.199564
+dev step: 1500 - loss: 0.19948, precision: 0.53550, recall: 0.69132, f1: 0.60352 current best 0.61728
+train epoch: 2 - step: 1510 (total: 1770) - loss: 0.228940
+train epoch: 2 - step: 1520 (total: 1770) - loss: 0.137081
+train epoch: 2 - step: 1530 (total: 1770) - loss: 0.110976
+train epoch: 2 - step: 1540 (total: 1770) - loss: 0.226166
+train epoch: 2 - step: 1550 (total: 1770) - loss: 0.189775
+dev step: 1550 - loss: 0.19500, precision: 0.56160, recall: 0.64945, f1: 0.60234 current best 0.61728
+train epoch: 2 - step: 1560 (total: 1770) - loss: 0.212020
+train epoch: 2 - step: 1570 (total: 1770) - loss: 0.239527
+train epoch: 2 - step: 1580 (total: 1770) - loss: 0.170951
+train epoch: 2 - step: 1590 (total: 1770) - loss: 0.223326
+train epoch: 2 - step: 1600 (total: 1770) - loss: 0.211443
+dev step: 1600 - loss: 0.21258, precision: 0.50539, recall: 0.66125, f1: 0.57291 current best 0.61728
+train epoch: 2 - step: 1610 (total: 1770) - loss: 0.282696
+train epoch: 2 - step: 1620 (total: 1770) - loss: 0.217091
+train epoch: 2 - step: 1630 (total: 1770) - loss: 0.157274
+train epoch: 2 - step: 1640 (total: 1770) - loss: 0.194645
+train epoch: 2 - step: 1650 (total: 1770) - loss: 0.254749
+dev step: 1650 - loss: 0.20525, precision: 0.52178, recall: 0.68254, f1: 0.59143 current best 0.61728
+train epoch: 2 - step: 1660 (total: 1770) - loss: 0.123343
+train epoch: 2 - step: 1670 (total: 1770) - loss: 0.187786
+train epoch: 2 - step: 1680 (total: 1770) - loss: 0.187966
+train epoch: 2 - step: 1690 (total: 1770) - loss: 0.120452
+train epoch: 2 - step: 1700 (total: 1770) - loss: 0.225122
+dev step: 1700 - loss: 0.20560, precision: 0.53108, recall: 0.67247, f1: 0.59347 current best 0.61728
+train epoch: 2 - step: 1710 (total: 1770) - loss: 0.164743
+train epoch: 2 - step: 1720 (total: 1770) - loss: 0.198674
+train epoch: 2 - step: 1730 (total: 1770) - loss: 0.239714
+train epoch: 2 - step: 1740 (total: 1770) - loss: 0.143398
+train epoch: 2 - step: 1750 (total: 1770) - loss: 0.145492
+dev step: 1750 - loss: 0.19281, precision: 0.56210, recall: 0.67794, f1: 0.61461 current best 0.61728
+train epoch: 2 - step: 1760 (total: 1770) - loss: 0.215103
+[2021-05-19 16:15:03,060] [    INFO] - Already cached /home/aistudio/.paddlenlp/models/ernie-1.0/ernie_v1_chn_base.pdparams
+W0519 16:15:03.061208 24675 device_context.cc:404] Please NOTE: device: 0, GPU Compute Capability: 7.0, Driver API Version: 10.1, Runtime API Version: 10.1
+W0519 16:15:03.066028 24675 device_context.cc:422] device: 0, cuDNN Version: 7.6.
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/fluid/dygraph/layers.py:1297: UserWarning: Skip loading for classifier.weight. classifier.weight is not found in the provided dict.
+  warnings.warn(("Skip loading for {}. ".format(key) + str(err)))
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/fluid/dygraph/layers.py:1297: UserWarning: Skip loading for classifier.bias. classifier.bias is not found in the provided dict.
+  warnings.warn(("Skip loading for {}. ".format(key) + str(err)))
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/fluid/dygraph/parallel.py:515: UserWarning: The program will return to single-card operation. Please check 1, whether you use spawn or fleetrun to start the program. 2, Whether it is a multi-card program. 3, Is the current environment multi-card.
+  warnings.warn("The program will return to single-card operation. "
+[2021-05-19 16:15:09,241] [    INFO] - Found /home/aistudio/.paddlenlp/models/ernie-1.0/vocab.txt
+============start train==========
+train epoch: 0 - step: 1 (total: 81) - loss: 1.816590 acc 0.00000
+train epoch: 0 - step: 2 (total: 81) - loss: 1.258928 acc 0.16667
+train epoch: 0 - step: 3 (total: 81) - loss: 1.420989 acc 0.21875
+train epoch: 0 - step: 4 (total: 81) - loss: 1.131907 acc 0.27500
+train epoch: 0 - step: 5 (total: 81) - loss: 1.223591 acc 0.29167
+dev step: 5 - loss: 1.056681 accuracy: 0.57353, current best 0.00000
+==============================================save best model best performerence 0.573529
+train epoch: 0 - step: 6 (total: 81) - loss: 0.890972 acc 0.62500
+train epoch: 0 - step: 7 (total: 81) - loss: 1.019305 acc 0.53125
+train epoch: 0 - step: 8 (total: 81) - loss: 0.945311 acc 0.54167
+train epoch: 0 - step: 9 (total: 81) - loss: 0.998999 acc 0.54688
+train epoch: 0 - step: 10 (total: 81) - loss: 1.452600 acc 0.52500
+dev step: 10 - loss: 0.973508 accuracy: 0.58824, current best 0.57353
+==============================================save best model best performerence 0.588235
+train epoch: 0 - step: 11 (total: 81) - loss: 1.007150 acc 0.50000
+train epoch: 0 - step: 12 (total: 81) - loss: 0.989051 acc 0.56250
+train epoch: 0 - step: 13 (total: 81) - loss: 1.315018 acc 0.54167
+train epoch: 0 - step: 14 (total: 81) - loss: 1.000619 acc 0.53125
+train epoch: 0 - step: 15 (total: 81) - loss: 1.148144 acc 0.51250
+dev step: 15 - loss: 0.959877 accuracy: 0.55882, current best 0.58824
+train epoch: 0 - step: 16 (total: 81) - loss: 0.998563 acc 0.50000
+train epoch: 0 - step: 17 (total: 81) - loss: 0.961301 acc 0.56250
+train epoch: 0 - step: 18 (total: 81) - loss: 1.068305 acc 0.58333
+train epoch: 0 - step: 19 (total: 81) - loss: 0.926321 acc 0.54688
+train epoch: 0 - step: 20 (total: 81) - loss: 1.036583 acc 0.56250
+dev step: 20 - loss: 0.979327 accuracy: 0.57353, current best 0.58824
+train epoch: 0 - step: 21 (total: 81) - loss: 0.891157 acc 0.56250
+train epoch: 0 - step: 22 (total: 81) - loss: 1.092842 acc 0.53125
+train epoch: 0 - step: 23 (total: 81) - loss: 0.736954 acc 0.60417
+train epoch: 0 - step: 24 (total: 81) - loss: 0.813456 acc 0.64062
+train epoch: 0 - step: 25 (total: 81) - loss: 1.007002 acc 0.62500
+dev step: 25 - loss: 0.893425 accuracy: 0.58824, current best 0.58824
+train epoch: 0 - step: 26 (total: 81) - loss: 1.138068 acc 0.58333
+train epoch: 1 - step: 27 (total: 81) - loss: 0.721545 acc 0.64286
+train epoch: 1 - step: 28 (total: 81) - loss: 1.114848 acc 0.61364
+train epoch: 1 - step: 29 (total: 81) - loss: 0.892234 acc 0.63333
+train epoch: 1 - step: 30 (total: 81) - loss: 0.891433 acc 0.64474
+dev step: 30 - loss: 0.792704 accuracy: 0.66176, current best 0.58824
+==============================================save best model best performerence 0.661765
+train epoch: 1 - step: 31 (total: 81) - loss: 0.549063 acc 0.93750
+train epoch: 1 - step: 32 (total: 81) - loss: 0.905303 acc 0.81250
+train epoch: 1 - step: 33 (total: 81) - loss: 0.626403 acc 0.81250
+train epoch: 1 - step: 34 (total: 81) - loss: 0.579404 acc 0.79688
+train epoch: 1 - step: 35 (total: 81) - loss: 0.855891 acc 0.75000
+dev step: 35 - loss: 0.738454 accuracy: 0.72059, current best 0.66176
+==============================================save best model best performerence 0.720588
+train epoch: 1 - step: 36 (total: 81) - loss: 0.376216 acc 0.87500
+train epoch: 1 - step: 37 (total: 81) - loss: 0.595811 acc 0.87500
+train epoch: 1 - step: 38 (total: 81) - loss: 0.756078 acc 0.81250
+train epoch: 1 - step: 39 (total: 81) - loss: 0.916081 acc 0.75000
+train epoch: 1 - step: 40 (total: 81) - loss: 0.456540 acc 0.77500
+dev step: 40 - loss: 0.680132 accuracy: 0.75000, current best 0.72059
+==============================================save best model best performerence 0.750000
+train epoch: 1 - step: 41 (total: 81) - loss: 1.235301 acc 0.50000
+train epoch: 1 - step: 42 (total: 81) - loss: 1.086266 acc 0.56250
+train epoch: 1 - step: 43 (total: 81) - loss: 0.724217 acc 0.58333
+train epoch: 1 - step: 44 (total: 81) - loss: 1.161000 acc 0.57812
+train epoch: 1 - step: 45 (total: 81) - loss: 0.421563 acc 0.62500
+dev step: 45 - loss: 0.669163 accuracy: 0.73529, current best 0.75000
+train epoch: 1 - step: 46 (total: 81) - loss: 0.677661 acc 0.81250
+train epoch: 1 - step: 47 (total: 81) - loss: 0.595939 acc 0.78125
+train epoch: 1 - step: 48 (total: 81) - loss: 0.469237 acc 0.79167
+train epoch: 1 - step: 49 (total: 81) - loss: 0.731875 acc 0.78125
+train epoch: 1 - step: 50 (total: 81) - loss: 0.641861 acc 0.77500
+dev step: 50 - loss: 0.694665 accuracy: 0.79412, current best 0.75000
+==============================================save best model best performerence 0.794118
+train epoch: 1 - step: 51 (total: 81) - loss: 0.585050 acc 0.75000
+train epoch: 1 - step: 52 (total: 81) - loss: 0.443793 acc 0.84375
+train epoch: 1 - step: 53 (total: 81) - loss: 0.738705 acc 0.81818
+train epoch: 2 - step: 54 (total: 81) - loss: 0.484481 acc 0.85000
+train epoch: 2 - step: 55 (total: 81) - loss: 0.719146 acc 0.81579
+dev step: 55 - loss: 0.756201 accuracy: 0.76471, current best 0.79412
+train epoch: 2 - step: 56 (total: 81) - loss: 0.252847 acc 1.00000
+train epoch: 2 - step: 57 (total: 81) - loss: 0.498762 acc 0.87500
+train epoch: 2 - step: 58 (total: 81) - loss: 0.586363 acc 0.87500
+train epoch: 2 - step: 59 (total: 81) - loss: 0.445142 acc 0.87500
+train epoch: 2 - step: 60 (total: 81) - loss: 0.311804 acc 0.87500
+dev step: 60 - loss: 0.764660 accuracy: 0.75000, current best 0.79412
+train epoch: 2 - step: 61 (total: 81) - loss: 0.299410 acc 0.93750
+train epoch: 2 - step: 62 (total: 81) - loss: 0.278334 acc 0.93750
+train epoch: 2 - step: 63 (total: 81) - loss: 0.349059 acc 0.93750
+train epoch: 2 - step: 64 (total: 81) - loss: 0.696215 acc 0.90625
+train epoch: 2 - step: 65 (total: 81) - loss: 0.482887 acc 0.88750
+dev step: 65 - loss: 0.718577 accuracy: 0.80882, current best 0.79412
+==============================================save best model best performerence 0.808824
+train epoch: 2 - step: 66 (total: 81) - loss: 0.237742 acc 0.93750
+train epoch: 2 - step: 67 (total: 81) - loss: 0.182392 acc 0.93750
+train epoch: 2 - step: 68 (total: 81) - loss: 0.460021 acc 0.91667
+train epoch: 2 - step: 69 (total: 81) - loss: 0.749252 acc 0.85938
+train epoch: 2 - step: 70 (total: 81) - loss: 0.262003 acc 0.87500
+dev step: 70 - loss: 0.722099 accuracy: 0.73529, current best 0.80882
+train epoch: 2 - step: 71 (total: 81) - loss: 0.230697 acc 0.93750
+train epoch: 2 - step: 72 (total: 81) - loss: 0.297256 acc 0.93750
+train epoch: 2 - step: 73 (total: 81) - loss: 0.289946 acc 0.91667
+train epoch: 2 - step: 74 (total: 81) - loss: 0.508771 acc 0.90625
+train epoch: 2 - step: 75 (total: 81) - loss: 0.744923 acc 0.86250
+dev step: 75 - loss: 0.509105 accuracy: 0.80882, current best 0.80882
+train epoch: 2 - step: 76 (total: 81) - loss: 0.208887 acc 1.00000
+train epoch: 2 - step: 77 (total: 81) - loss: 0.124549 acc 1.00000
+train epoch: 2 - step: 78 (total: 81) - loss: 0.462746 acc 0.89583
+train epoch: 2 - step: 79 (total: 81) - loss: 0.356618 acc 0.90625
+train epoch: 2 - step: 80 (total: 81) - loss: 0.107008 acc 0.92105
+dev step: 80 - loss: 0.542815 accuracy: 0.80882, current best 0.80882
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/fluid/layers/utils.py:26: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  def convert_to_list(value, n, name, dtype=np.int):
+[2021-06-23 18:18:12,022] [    INFO] - Downloading vocab.txt from https://paddlenlp.bj.bcebos.com/models/transformers/ernie/vocab.txt
+  0%|          | 0/90 [00:00<?, ?it/s]100%|██████████| 90/90 [00:00<00:00, 5804.46it/s]
+[2021-06-23 18:18:12,147] [    INFO] - Downloading https://paddlenlp.bj.bcebos.com/models/transformers/ernie/ernie_v1_chn_base.pdparams and saved to /home/aistudio/.paddlenlp/models/ernie-1.0
+[2021-06-23 18:18:12,147] [    INFO] - Downloading ernie_v1_chn_base.pdparams from https://paddlenlp.bj.bcebos.com/models/transformers/ernie/ernie_v1_chn_base.pdparams
+  0%|          | 0/392507 [00:00<?, ?it/s]  0%|          | 1236/392507 [00:00<00:31, 12356.36it/s]  1%|          | 3856/392507 [00:00<00:26, 14683.78it/s]  2%|▏         | 6771/392507 [00:00<00:22, 17251.58it/s]  2%|▏         | 9754/392507 [00:00<00:19, 19749.57it/s]  3%|▎         | 12691/392507 [00:00<00:17, 21901.57it/s]  4%|▍         | 15683/392507 [00:00<00:15, 23813.14it/s]  5%|▍         | 19619/392507 [00:00<00:14, 26242.62it/s]  6%|▌         | 23895/392507 [00:00<00:12, 29682.05it/s]  7%|▋         | 27685/392507 [00:00<00:11, 31746.02it/s]  8%|▊         | 32025/392507 [00:01<00:10, 34526.53it/s]  9%|▉         | 35898/392507 [00:01<00:09, 35686.81it/s] 10%|█         | 39939/392507 [00:01<00:09, 36961.98it/s] 11%|█▏        | 44259/392507 [00:01<00:09, 38042.12it/s] 13%|█▎        | 49134/392507 [00:01<00:08, 40724.15it/s] 14%|█▍        | 54019/392507 [00:01<00:07, 42851.86it/s] 15%|█▌        | 59043/392507 [00:01<00:07, 44828.11it/s] 16%|█▌        | 63631/392507 [00:01<00:07, 45044.64it/s] 17%|█▋        | 68209/392507 [00:01<00:07, 45198.30it/s] 19%|█▉        | 74000/392507 [00:01<00:06, 48383.99it/s] 20%|██        | 79948/392507 [00:02<00:06, 51250.61it/s] 22%|██▏       | 85598/392507 [00:02<00:05, 52719.45it/s] 23%|██▎       | 90962/392507 [00:02<00:05, 52135.47it/s] 25%|██▍       | 96241/392507 [00:02<00:05, 49558.94it/s] 26%|██▌       | 101270/392507 [00:02<00:06, 48495.74it/s] 27%|██▋       | 106176/392507 [00:02<00:06, 47516.09it/s] 28%|██▊       | 110971/392507 [00:02<00:05, 47536.69it/s] 30%|██▉       | 115845/392507 [00:02<00:05, 47890.00it/s] 31%|███       | 120656/392507 [00:02<00:05, 47638.71it/s] 32%|███▏      | 126051/392507 [00:02<00:05, 48127.19it/s] 33%|███▎      | 131384/392507 [00:03<00:05, 49577.88it/s] 35%|███▍      | 136362/392507 [00:03<00:05, 48434.45it/s] 36%|███▌      | 141225/392507 [00:03<00:05, 45161.72it/s] 37%|███▋      | 145800/392507 [00:03<00:05, 45055.15it/s] 38%|███▊      | 150347/392507 [00:03<00:05, 44089.88it/s] 39%|███▉      | 154963/392507 [00:03<00:05, 44687.24it/s] 41%|████      | 159457/392507 [00:03<00:05, 44380.92it/s] 42%|████▏     | 164069/392507 [00:03<00:05, 44886.70it/s] 43%|████▎     | 168691/392507 [00:03<00:04, 45276.78it/s] 44%|████▍     | 173770/392507 [00:04<00:04, 46800.42it/s] 46%|████▌     | 178723/392507 [00:04<00:04, 47552.19it/s] 47%|████▋     | 183619/392507 [00:04<00:04, 47584.38it/s] 48%|████▊     | 188390/392507 [00:04<00:04, 45289.79it/s] 49%|████▉     | 192951/392507 [00:04<00:04, 44734.38it/s] 50%|█████     | 197449/392507 [00:04<00:04, 44207.34it/s] 51%|█████▏    | 201888/392507 [00:04<00:04, 43904.22it/s] 53%|█████▎    | 207100/392507 [00:04<00:04, 46081.81it/s] 54%|█████▍    | 212090/392507 [00:04<00:03, 47164.42it/s] 55%|█████▌    | 216867/392507 [00:04<00:03, 47207.82it/s] 57%|█████▋    | 221795/392507 [00:05<00:03, 47809.53it/s] 58%|█████▊    | 226774/392507 [00:05<00:03, 48383.61it/s] 59%|█████▉    | 231627/392507 [00:05<00:03, 45379.15it/s] 60%|██████    | 236528/392507 [00:05<00:03, 46410.24it/s] 61%|██████▏   | 241216/392507 [00:05<00:03, 46549.76it/s] 63%|██████▎   | 246240/392507 [00:05<00:03, 47598.25it/s] 64%|██████▍   | 251054/392507 [00:05<00:02, 47758.52it/s] 65%|██████▌   | 256157/392507 [00:05<00:02, 48693.21it/s] 67%|██████▋   | 261649/392507 [00:05<00:02, 50406.92it/s] 68%|██████▊   | 266717/392507 [00:05<00:02, 48663.62it/s] 69%|██████▉   | 271710/392507 [00:06<00:02, 49035.23it/s] 70%|███████   | 276637/392507 [00:06<00:02, 48607.03it/s] 72%|███████▏  | 281801/392507 [00:06<00:02, 49478.75it/s] 73%|███████▎  | 287267/392507 [00:06<00:02, 50887.82it/s] 75%|███████▍  | 292931/392507 [00:06<00:01, 52485.95it/s] 76%|███████▌  | 298885/392507 [00:06<00:01, 54418.42it/s] 78%|███████▊  | 304365/392507 [00:06<00:01, 53738.16it/s] 79%|███████▉  | 310205/392507 [00:06<00:01, 55056.03it/s] 80%|████████  | 315739/392507 [00:06<00:01, 51993.31it/s] 82%|████████▏ | 320993/392507 [00:07<00:01, 49780.82it/s] 83%|████████▎ | 326030/392507 [00:07<00:01, 48537.06it/s] 84%|████████▍ | 330932/392507 [00:07<00:01, 47873.07it/s] 86%|████████▌ | 335779/392507 [00:07<00:01, 48033.96it/s] 87%|████████▋ | 340624/392507 [00:07<00:01, 48157.66it/s] 88%|████████▊ | 345570/392507 [00:07<00:00, 48540.60it/s] 90%|████████▉ | 351501/392507 [00:07<00:00, 51336.52it/s] 91%|█████████ | 357123/392507 [00:07<00:00, 52707.25it/s] 92%|█████████▏| 362440/392507 [00:07<00:00, 50996.08it/s] 94%|█████████▎| 367683/392507 [00:07<00:00, 51358.13it/s] 95%|█████████▍| 372851/392507 [00:08<00:00, 50184.76it/s] 96%|█████████▋| 377898/392507 [00:08<00:00, 49452.02it/s] 98%|█████████▊| 382866/392507 [00:08<00:00, 48789.18it/s] 99%|█████████▉| 387984/392507 [00:08<00:00, 49482.48it/s]100%|██████████| 392507/392507 [00:08<00:00, 46354.60it/s]
+W0623 18:18:20.702592   353 device_context.cc:362] Please NOTE: device: 0, GPU Compute Capability: 7.0, Driver API Version: 10.1, Runtime API Version: 10.1
+W0623 18:18:20.708474   353 device_context.cc:372] device: 0, cuDNN Version: 7.6.
+============start train==========
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/fluid/layers/utils.py:26: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  def convert_to_list(value, n, name, dtype=np.int):
+[2021-06-24 09:38:06,199] [    INFO] - Found /home/aistudio/.paddlenlp/models/ernie-1.0/vocab.txt
+[2021-06-24 09:38:06,214] [    INFO] - Already cached /home/aistudio/.paddlenlp/models/ernie-1.0/ernie_v1_chn_base.pdparams
+W0624 09:38:06.215610   491 device_context.cc:362] Please NOTE: device: 0, GPU Compute Capability: 7.0, Driver API Version: 11.0, Runtime API Version: 10.1
+W0624 09:38:06.219713   491 device_context.cc:372] device: 0, cuDNN Version: 7.6.
+============start train==========
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/fluid/layers/utils.py:26: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  def convert_to_list(value, n, name, dtype=np.int):
+[2021-06-24 13:53:42,966] [    INFO] - Downloading vocab.txt from https://paddlenlp.bj.bcebos.com/models/transformers/ernie/vocab.txt
+  0%|          | 0/90 [00:00<?, ?it/s]100%|██████████| 90/90 [00:00<00:00, 3762.49it/s]
+[2021-06-24 13:53:43,158] [    INFO] - Downloading https://paddlenlp.bj.bcebos.com/models/transformers/ernie/ernie_v1_chn_base.pdparams and saved to /home/aistudio/.paddlenlp/models/ernie-1.0
+[2021-06-24 13:53:43,159] [    INFO] - Downloading ernie_v1_chn_base.pdparams from https://paddlenlp.bj.bcebos.com/models/transformers/ernie/ernie_v1_chn_base.pdparams
+  0%|          | 0/392507 [00:00<?, ?it/s]  0%|          | 99/392507 [00:00<07:01, 931.29it/s]  0%|          | 259/392507 [00:00<06:09, 1061.72it/s]  0%|          | 563/392507 [00:00<04:58, 1314.73it/s]  0%|          | 1523/392507 [00:00<03:40, 1773.93it/s]  1%|          | 2595/392507 [00:00<02:44, 2365.26it/s]  1%|          | 3635/392507 [00:00<02:06, 3078.82it/s]  1%|          | 4723/392507 [00:00<01:38, 3917.50it/s]  1%|▏         | 5827/392507 [00:00<01:19, 4854.65it/s]  2%|▏         | 6899/392507 [00:00<01:06, 5796.27it/s]  2%|▏         | 8708/392507 [00:01<00:52, 7280.39it/s]  3%|▎         | 10947/392507 [00:01<00:41, 9124.35it/s]  3%|▎         | 13157/392507 [00:01<00:34, 11073.75it/s]  4%|▍         | 15359/392507 [00:01<00:28, 13014.45it/s]  5%|▍         | 17875/392507 [00:01<00:24, 15211.88it/s]  5%|▌         | 20867/392507 [00:01<00:20, 17833.88it/s]  6%|▌         | 23888/392507 [00:01<00:18, 20332.74it/s]  7%|▋         | 26893/392507 [00:01<00:16, 22516.50it/s]  8%|▊         | 29843/392507 [00:01<00:15, 24160.86it/s]  8%|▊         | 32853/392507 [00:01<00:14, 25679.82it/s]  9%|▉         | 36922/392507 [00:02<00:12, 28874.89it/s] 10%|█         | 40795/392507 [00:02<00:11, 31259.54it/s] 11%|█▏        | 44783/392507 [00:02<00:10, 33426.92it/s] 13%|█▎        | 49077/392507 [00:02<00:09, 35806.41it/s] 14%|█▎        | 53280/392507 [00:02<00:09, 37469.87it/s] 15%|█▍        | 57781/392507 [00:02<00:08, 39445.21it/s] 16%|█▌        | 62227/392507 [00:02<00:08, 40809.29it/s] 17%|█▋        | 66687/392507 [00:02<00:07, 41876.30it/s] 18%|█▊        | 71249/392507 [00:02<00:07, 42932.24it/s] 19%|█▉        | 75727/392507 [00:02<00:07, 43469.40it/s] 20%|██        | 80275/392507 [00:03<00:07, 44049.74it/s] 22%|██▏       | 84764/392507 [00:03<00:06, 44298.26it/s] 23%|██▎       | 89390/392507 [00:03<00:06, 44865.24it/s] 24%|██▍       | 93991/392507 [00:03<00:06, 45201.60it/s] 25%|██▌       | 98538/392507 [00:03<00:06, 45281.67it/s] 26%|██▋       | 103077/392507 [00:03<00:06, 45254.22it/s] 27%|██▋       | 107610/392507 [00:03<00:06, 45163.85it/s] 29%|██▊       | 112132/392507 [00:03<00:06, 45106.71it/s] 30%|██▉       | 116647/392507 [00:03<00:06, 44929.71it/s] 31%|███       | 121143/392507 [00:03<00:06, 44678.64it/s] 32%|███▏      | 125667/392507 [00:04<00:05, 44845.47it/s] 33%|███▎      | 130355/392507 [00:04<00:05, 45435.73it/s] 34%|███▍      | 134993/392507 [00:04<00:05, 45714.93it/s] 36%|███▌      | 139701/392507 [00:04<00:05, 46114.04it/s] 37%|███▋      | 144423/392507 [00:04<00:05, 46439.45it/s] 38%|███▊      | 149087/392507 [00:04<00:05, 46498.15it/s] 39%|███▉      | 153739/392507 [00:04<00:05, 46489.89it/s] 40%|████      | 158390/392507 [00:04<00:05, 46441.81it/s] 42%|████▏     | 163139/392507 [00:04<00:04, 46724.05it/s] 43%|████▎     | 167813/392507 [00:04<00:04, 46509.34it/s] 44%|████▍     | 172516/392507 [00:05<00:04, 46663.21it/s] 45%|████▌     | 177259/392507 [00:05<00:04, 46889.19it/s] 46%|████▋     | 181949/392507 [00:05<00:04, 46150.09it/s] 48%|████▊     | 186568/392507 [00:05<00:04, 45960.51it/s] 49%|████▊     | 191167/392507 [00:05<00:04, 45858.13it/s] 50%|████▉     | 195795/392507 [00:05<00:04, 45975.76it/s] 51%|█████     | 200394/392507 [00:05<00:04, 45901.72it/s] 52%|█████▏    | 204986/392507 [00:05<00:04, 45653.89it/s] 53%|█████▎    | 209612/392507 [00:05<00:03, 45833.84it/s] 55%|█████▍    | 214197/392507 [00:05<00:03, 45474.50it/s] 56%|█████▌    | 218746/392507 [00:06<00:03, 45338.13it/s] 57%|█████▋    | 223281/392507 [00:06<00:03, 44481.44it/s] 58%|█████▊    | 227806/392507 [00:06<00:03, 44705.06it/s] 59%|█████▉    | 232419/392507 [00:06<00:03, 45094.61it/s] 60%|██████    | 237126/392507 [00:06<00:03, 45668.56it/s] 62%|██████▏   | 241890/392507 [00:06<00:03, 46239.45it/s] 63%|██████▎   | 246563/392507 [00:06<00:03, 46377.41it/s] 64%|██████▍   | 251204/392507 [00:06<00:03, 46052.11it/s] 65%|██████▌   | 257031/392507 [00:06<00:02, 49143.10it/s] 67%|██████▋   | 263303/392507 [00:06<00:02, 52555.41it/s] 68%|██████▊   | 268667/392507 [00:07<00:02, 50045.89it/s] 70%|██████▉   | 273773/392507 [00:07<00:02, 48156.55it/s] 71%|███████   | 278675/392507 [00:07<00:02, 44518.45it/s] 72%|███████▏  | 283366/392507 [00:07<00:02, 45195.38it/s] 73%|███████▎  | 287986/392507 [00:07<00:02, 45491.29it/s] 75%|███████▍  | 292594/392507 [00:07<00:02, 45463.31it/s] 76%|███████▌  | 297182/392507 [00:07<00:02, 45559.14it/s] 77%|███████▋  | 301767/392507 [00:07<00:01, 45425.23it/s] 78%|███████▊  | 306375/392507 [00:07<00:01, 45618.42it/s] 79%|███████▉  | 310982/392507 [00:08<00:01, 45752.58it/s] 80%|████████  | 315568/392507 [00:08<00:01, 45590.32it/s] 82%|████████▏ | 320155/392507 [00:08<00:01, 45669.68it/s] 83%|████████▎ | 324728/392507 [00:08<00:01, 45632.89it/s] 84%|████████▍ | 329295/392507 [00:08<00:01, 45318.32it/s] 85%|████████▌ | 334054/392507 [00:08<00:01, 45968.54it/s] 86%|████████▋ | 338707/392507 [00:08<00:01, 46121.47it/s] 88%|████████▊ | 343719/392507 [00:08<00:01, 47251.61it/s] 89%|████████▉ | 348454/392507 [00:08<00:00, 47048.70it/s] 90%|████████▉ | 353166/392507 [00:08<00:00, 45204.21it/s] 91%|█████████ | 357792/392507 [00:09<00:00, 45515.09it/s] 92%|█████████▏| 362408/392507 [00:09<00:00, 45706.06it/s] 94%|█████████▎| 367019/392507 [00:09<00:00, 45822.38it/s] 95%|█████████▍| 371631/392507 [00:09<00:00, 45910.19it/s] 96%|█████████▌| 376292/392507 [00:09<00:00, 46116.07it/s] 97%|█████████▋| 380908/392507 [00:09<00:00, 45964.88it/s] 98%|█████████▊| 385508/392507 [00:09<00:00, 45642.03it/s]100%|█████████▉| 390678/392507 [00:09<00:00, 47304.56it/s]100%|██████████| 392507/392507 [00:09<00:00, 40194.25it/s]
+W0624 13:53:53.060542  1545 device_context.cc:362] Please NOTE: device: 0, GPU Compute Capability: 7.0, Driver API Version: 10.1, Runtime API Version: 10.1
+W0624 13:53:53.065555  1545 device_context.cc:372] device: 0, cuDNN Version: 7.6.
+============start train==========
+train epoch: 0 - step: 10 (total: 627) - loss: 0.523878
+train epoch: 0 - step: 20 (total: 627) - loss: 0.447229
+train epoch: 0 - step: 30 (total: 627) - loss: 0.643498
+train epoch: 0 - step: 40 (total: 627) - loss: 0.568798
+train epoch: 0 - step: 50 (total: 627) - loss: 0.416629
+dev step: 50 - loss: 0.42319, precision: 0.00580, recall: 0.00199, f1: 0.00296 current best 0.00000
+==============================================save best model best performerence 0.002964
+train epoch: 0 - step: 60 (total: 627) - loss: 0.383996
+train epoch: 0 - step: 70 (total: 627) - loss: 0.248460
+train epoch: 0 - step: 80 (total: 627) - loss: 0.302030
+train epoch: 0 - step: 90 (total: 627) - loss: 0.194544
+train epoch: 0 - step: 100 (total: 627) - loss: 0.193450
+dev step: 100 - loss: 0.18393, precision: 0.41987, recall: 0.54903, f1: 0.47584 current best 0.00296
+==============================================save best model best performerence 0.475841
+train epoch: 0 - step: 110 (total: 627) - loss: 0.175519
+train epoch: 0 - step: 120 (total: 627) - loss: 0.152284
+train epoch: 0 - step: 130 (total: 627) - loss: 0.240919
+train epoch: 0 - step: 140 (total: 627) - loss: 0.150214
+train epoch: 0 - step: 150 (total: 627) - loss: 0.158501
+dev step: 150 - loss: 0.13933, precision: 0.48876, recall: 0.63863, f1: 0.55373 current best 0.47584
+==============================================save best model best performerence 0.553733
+train epoch: 0 - step: 160 (total: 627) - loss: 0.139473
+train epoch: 0 - step: 170 (total: 627) - loss: 0.138853
+train epoch: 0 - step: 180 (total: 627) - loss: 0.137206
+train epoch: 0 - step: 190 (total: 627) - loss: 0.135559
+train epoch: 0 - step: 200 (total: 627) - loss: 0.136418
+dev step: 200 - loss: 0.13027, precision: 0.50299, recall: 0.67048, f1: 0.57478 current best 0.55373
+==============================================save best model best performerence 0.574781
+train epoch: 1 - step: 210 (total: 627) - loss: 0.114409
+train epoch: 1 - step: 220 (total: 627) - loss: 0.091763
+train epoch: 1 - step: 230 (total: 627) - loss: 0.109900
+train epoch: 1 - step: 240 (total: 627) - loss: 0.127364
+train epoch: 1 - step: 250 (total: 627) - loss: 0.174333
+dev step: 250 - loss: 0.11052, precision: 0.56959, recall: 0.70682, f1: 0.63083 current best 0.57478
+==============================================save best model best performerence 0.630831
+train epoch: 1 - step: 260 (total: 627) - loss: 0.089234
+train epoch: 1 - step: 270 (total: 627) - loss: 0.093774
+train epoch: 1 - step: 280 (total: 627) - loss: 0.103863
+train epoch: 1 - step: 290 (total: 627) - loss: 0.058100
+train epoch: 1 - step: 300 (total: 627) - loss: 0.103884
+dev step: 300 - loss: 0.11660, precision: 0.56078, recall: 0.76008, f1: 0.64539 current best 0.63083
+==============================================save best model best performerence 0.645393
+train epoch: 1 - step: 310 (total: 627) - loss: 0.077296
+train epoch: 1 - step: 320 (total: 627) - loss: 0.070054
+train epoch: 1 - step: 330 (total: 627) - loss: 0.109606
+train epoch: 1 - step: 340 (total: 627) - loss: 0.080814
+train epoch: 1 - step: 350 (total: 627) - loss: 0.121045
+dev step: 350 - loss: 0.10294, precision: 0.58650, recall: 0.72225, f1: 0.64733 current best 0.64539
+==============================================save best model best performerence 0.647334
+train epoch: 1 - step: 360 (total: 627) - loss: 0.108380
+train epoch: 1 - step: 370 (total: 627) - loss: 0.097627
+train epoch: 1 - step: 380 (total: 627) - loss: 0.121042
+train epoch: 1 - step: 390 (total: 627) - loss: 0.115021
+train epoch: 1 - step: 400 (total: 627) - loss: 0.120991
+dev step: 400 - loss: 0.10419, precision: 0.61800, recall: 0.76904, f1: 0.68530 current best 0.64733
+==============================================save best model best performerence 0.685296
+train epoch: 1 - step: 410 (total: 627) - loss: 0.109068
+train epoch: 2 - step: 420 (total: 627) - loss: 0.118951
+train epoch: 2 - step: 430 (total: 627) - loss: 0.142012
+train epoch: 2 - step: 440 (total: 627) - loss: 0.111560
+train epoch: 2 - step: 450 (total: 627) - loss: 0.035291
+dev step: 450 - loss: 0.10359, precision: 0.63592, recall: 0.78248, f1: 0.70163 current best 0.68530
+==============================================save best model best performerence 0.701629
+train epoch: 2 - step: 460 (total: 627) - loss: 0.051805
+train epoch: 2 - step: 470 (total: 627) - loss: 0.058660
+train epoch: 2 - step: 480 (total: 627) - loss: 0.054267
+train epoch: 2 - step: 490 (total: 627) - loss: 0.066917
+train epoch: 2 - step: 500 (total: 627) - loss: 0.105575
+dev step: 500 - loss: 0.10384, precision: 0.64313, recall: 0.74365, f1: 0.68975 current best 0.70163
+train epoch: 2 - step: 510 (total: 627) - loss: 0.081557
+train epoch: 2 - step: 520 (total: 627) - loss: 0.077151
+train epoch: 2 - step: 530 (total: 627) - loss: 0.085639
+train epoch: 2 - step: 540 (total: 627) - loss: 0.066505
+train epoch: 2 - step: 550 (total: 627) - loss: 0.073092
+dev step: 550 - loss: 0.09682, precision: 0.67158, recall: 0.77053, f1: 0.71766 current best 0.70163
+==============================================save best model best performerence 0.717663
+train epoch: 2 - step: 560 (total: 627) - loss: 0.065453
+train epoch: 2 - step: 570 (total: 627) - loss: 0.084941
+train epoch: 2 - step: 580 (total: 627) - loss: 0.097093
+train epoch: 2 - step: 590 (total: 627) - loss: 0.088396
+train epoch: 2 - step: 600 (total: 627) - loss: 0.092727
+dev step: 600 - loss: 0.09770, precision: 0.67304, recall: 0.78895, f1: 0.72640 current best 0.71766
+==============================================save best model best performerence 0.726398
+train epoch: 2 - step: 610 (total: 627) - loss: 0.096689
+train epoch: 2 - step: 620 (total: 627) - loss: 0.081092
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/fluid/layers/utils.py:26: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  def convert_to_list(value, n, name, dtype=np.int):
+[2021-06-28 14:51:09,739] [    INFO] - Downloading vocab.txt from https://paddlenlp.bj.bcebos.com/models/transformers/ernie/vocab.txt
+  0%|          | 0/90 [00:00<?, ?it/s]100%|██████████| 90/90 [00:00<00:00, 3524.33it/s]
+[2021-06-28 14:51:09,845] [    INFO] - Downloading https://paddlenlp.bj.bcebos.com/models/transformers/ernie/ernie_v1_chn_base.pdparams and saved to /home/aistudio/.paddlenlp/models/ernie-1.0
+[2021-06-28 14:51:09,846] [    INFO] - Downloading ernie_v1_chn_base.pdparams from https://paddlenlp.bj.bcebos.com/models/transformers/ernie/ernie_v1_chn_base.pdparams
+  0%|          | 0/392507 [00:00<?, ?it/s]  0%|          | 310/392507 [00:00<02:06, 3099.88it/s]  0%|          | 659/392507 [00:00<02:03, 3176.71it/s]  0%|          | 1123/392507 [00:00<01:52, 3475.62it/s]  0%|          | 1699/392507 [00:00<01:39, 3927.18it/s]  1%|          | 2403/392507 [00:00<01:26, 4517.47it/s]  1%|          | 3203/392507 [00:00<01:15, 5190.07it/s]  1%|          | 4179/392507 [00:00<01:04, 6028.01it/s]  1%|▏         | 5171/392507 [00:00<00:56, 6811.95it/s]  2%|▏         | 6323/392507 [00:00<00:49, 7759.31it/s]  2%|▏         | 7603/392507 [00:01<00:43, 8759.76it/s]  2%|▏         | 8963/392507 [00:01<00:39, 9785.23it/s]  3%|▎         | 10403/392507 [00:01<00:35, 10766.29it/s]  3%|▎         | 11891/392507 [00:01<00:32, 11715.61it/s]  3%|▎         | 13523/392507 [00:01<00:29, 12750.04it/s]  4%|▍         | 15363/392507 [00:01<00:26, 14002.13it/s]  4%|▍         | 17267/392507 [00:01<00:24, 15186.16it/s]  5%|▍         | 19310/392507 [00:01<00:22, 16452.89it/s]  5%|▌         | 21219/392507 [00:01<00:21, 17110.92it/s]  6%|▌         | 23221/392507 [00:01<00:20, 17890.78it/s]  7%|▋         | 25555/392507 [00:02<00:19, 19167.36it/s]  7%|▋         | 28163/392507 [00:02<00:17, 20718.15it/s]  8%|▊         | 30845/392507 [00:02<00:16, 22235.19it/s]  9%|▊         | 33571/392507 [00:02<00:15, 23456.93it/s]  9%|▉         | 36371/392507 [00:02<00:14, 24625.89it/s] 10%|▉         | 39237/392507 [00:02<00:13, 25710.62it/s] 11%|█         | 42035/392507 [00:02<00:13, 26263.47it/s] 11%|█▏        | 44936/392507 [00:02<00:12, 27030.98it/s] 12%|█▏        | 47971/392507 [00:02<00:12, 27946.23it/s] 13%|█▎        | 51433/392507 [00:02<00:11, 29661.02it/s] 14%|█▍        | 55033/392507 [00:03<00:10, 31312.54it/s] 15%|█▍        | 58723/392507 [00:03<00:10, 32777.52it/s] 16%|█▌        | 62438/392507 [00:03<00:09, 33976.27it/s] 17%|█▋        | 66187/392507 [00:03<00:09, 34958.66it/s] 18%|█▊        | 69890/392507 [00:03<00:09, 35554.83it/s] 19%|█▉        | 73705/392507 [00:03<00:08, 36293.50it/s] 20%|█▉        | 77615/392507 [00:03<00:08, 37088.32it/s] 21%|██        | 81875/392507 [00:03<00:08, 38583.24it/s] 22%|██▏       | 86035/392507 [00:03<00:07, 39241.09it/s] 23%|██▎       | 90275/392507 [00:03<00:07, 40138.01it/s] 24%|██▍       | 94803/392507 [00:04<00:07, 41524.34it/s] 25%|██▌       | 99346/392507 [00:04<00:06, 42614.00it/s] 26%|██▋       | 103974/392507 [00:04<00:06, 43651.14it/s] 28%|██▊       | 108755/392507 [00:04<00:06, 44818.07it/s] 29%|██▉       | 113544/392507 [00:04<00:06, 45697.37it/s] 30%|███       | 118189/392507 [00:04<00:05, 45916.12it/s] 31%|███▏      | 123390/392507 [00:04<00:05, 47586.18it/s] 33%|███▎      | 128399/392507 [00:04<00:05, 48306.86it/s] 34%|███▍      | 133475/392507 [00:04<00:05, 49006.45it/s] 35%|███▌      | 138703/392507 [00:04<00:05, 49944.15it/s] 37%|███▋      | 143714/392507 [00:05<00:04, 49817.48it/s] 38%|███▊      | 148708/392507 [00:05<00:04, 49709.41it/s] 39%|███▉      | 153688/392507 [00:05<00:04, 48434.27it/s] 40%|████      | 158545/392507 [00:05<00:04, 47698.88it/s] 42%|████▏     | 163476/392507 [00:05<00:04, 48170.03it/s] 43%|████▎     | 168611/392507 [00:05<00:04, 49080.15it/s] 44%|████▍     | 173710/392507 [00:05<00:04, 49636.68it/s] 46%|████▌     | 178683/392507 [00:05<00:04, 49405.58it/s] 47%|████▋     | 183631/392507 [00:05<00:04, 49136.64it/s] 48%|████▊     | 188682/392507 [00:05<00:04, 49537.59it/s] 49%|████▉     | 193734/392507 [00:06<00:03, 49827.56it/s] 51%|█████     | 198721/392507 [00:06<00:03, 49574.76it/s] 52%|█████▏    | 203682/392507 [00:06<00:03, 49365.09it/s] 53%|█████▎    | 208627/392507 [00:06<00:03, 49389.63it/s] 54%|█████▍    | 213775/392507 [00:06<00:03, 49997.11it/s] 56%|█████▌    | 218778/392507 [00:06<00:03, 49790.24it/s] 57%|█████▋    | 223760/392507 [00:06<00:03, 49446.82it/s] 58%|█████▊    | 228707/392507 [00:06<00:03, 48912.71it/s] 60%|█████▉    | 234189/392507 [00:06<00:03, 50544.67it/s] 61%|██████    | 239260/392507 [00:06<00:03, 48494.51it/s] 62%|██████▏   | 244139/392507 [00:07<00:03, 47305.93it/s] 63%|██████▎   | 248897/392507 [00:07<00:03, 46636.48it/s] 65%|██████▍   | 254003/392507 [00:07<00:02, 47878.35it/s] 66%|██████▌   | 258814/392507 [00:07<00:02, 47294.99it/s] 67%|██████▋   | 263562/392507 [00:07<00:02, 47292.03it/s] 68%|██████▊   | 268323/392507 [00:07<00:02, 47383.92it/s] 70%|██████▉   | 273304/392507 [00:07<00:02, 48086.04it/s] 71%|███████   | 278434/392507 [00:07<00:02, 49005.98it/s] 72%|███████▏  | 283345/392507 [00:07<00:02, 48853.62it/s] 73%|███████▎  | 288401/392507 [00:08<00:02, 49351.37it/s] 75%|███████▍  | 293343/392507 [00:08<00:02, 49134.79it/s] 76%|███████▌  | 298997/392507 [00:08<00:01, 51144.23it/s] 78%|███████▊  | 305187/392507 [00:08<00:01, 53955.43it/s] 79%|███████▉  | 311095/392507 [00:08<00:01, 55395.12it/s] 81%|████████  | 317529/392507 [00:08<00:01, 57803.60it/s] 83%|████████▎ | 323939/392507 [00:08<00:01, 59556.41it/s] 84%|████████▍ | 330428/392507 [00:08<00:01, 61061.17it/s] 86%|████████▌ | 336584/392507 [00:08<00:00, 59834.86it/s] 87%|████████▋ | 342608/392507 [00:08<00:00, 53701.28it/s] 89%|████████▊ | 348125/392507 [00:09<00:00, 52749.11it/s] 90%|█████████ | 353507/392507 [00:09<00:00, 52104.07it/s] 91%|█████████▏| 358794/392507 [00:09<00:00, 51773.11it/s] 93%|█████████▎| 364026/392507 [00:09<00:00, 51775.56it/s] 94%|█████████▍| 369242/392507 [00:09<00:00, 51386.13it/s] 95%|█████████▌| 374408/392507 [00:09<00:00, 50681.94it/s] 97%|█████████▋| 379532/392507 [00:09<00:00, 50845.89it/s] 98%|█████████▊| 384714/392507 [00:09<00:00, 51133.33it/s] 99%|█████████▉| 389944/392507 [00:09<00:00, 51477.37it/s]100%|██████████| 392507/392507 [00:09<00:00, 39593.52it/s]
+W0628 14:51:19.833346   280 device_context.cc:362] Please NOTE: device: 0, GPU Compute Capability: 7.0, Driver API Version: 10.1, Runtime API Version: 10.1
+W0628 14:51:19.837911   280 device_context.cc:372] device: 0, cuDNN Version: 7.6.
+============start train==========
+train epoch: 0 - step: 10 (total: 585) - loss: 0.680793
+train epoch: 0 - step: 20 (total: 585) - loss: 0.534602
+train epoch: 0 - step: 30 (total: 585) - loss: 0.651857
+train epoch: 0 - step: 40 (total: 585) - loss: 0.589891
+train epoch: 0 - step: 50 (total: 585) - loss: 0.416186
+dev step: 50 - loss: 0.44295, precision: 0.00785, recall: 0.00105, f1: 0.00186 current best 0.00000
+==============================================save best model best performerence 0.001859
+train epoch: 0 - step: 60 (total: 585) - loss: 0.349267
+train epoch: 0 - step: 70 (total: 585) - loss: 0.242981
+train epoch: 0 - step: 80 (total: 585) - loss: 0.246332
+train epoch: 0 - step: 90 (total: 585) - loss: 0.209253
+train epoch: 0 - step: 100 (total: 585) - loss: 0.141596
+dev step: 100 - loss: 0.17349, precision: 0.41809, recall: 0.44835, f1: 0.43269 current best 0.00186
+==============================================save best model best performerence 0.432689
+train epoch: 0 - step: 110 (total: 585) - loss: 0.225026
+train epoch: 0 - step: 120 (total: 585) - loss: 0.132737
+train epoch: 0 - step: 130 (total: 585) - loss: 0.164786
+train epoch: 0 - step: 140 (total: 585) - loss: 0.153998
+train epoch: 0 - step: 150 (total: 585) - loss: 0.156649
+dev step: 150 - loss: 0.14231, precision: 0.47193, recall: 0.69712, f1: 0.56284 current best 0.43269
+==============================================save best model best performerence 0.562837
+train epoch: 0 - step: 160 (total: 585) - loss: 0.168130
+train epoch: 0 - step: 170 (total: 585) - loss: 0.114677
+train epoch: 0 - step: 180 (total: 585) - loss: 0.114148
+train epoch: 0 - step: 190 (total: 585) - loss: 0.169649
+train epoch: 1 - step: 200 (total: 585) - loss: 0.139479
+dev step: 200 - loss: 0.12551, precision: 0.50870, recall: 0.67779, f1: 0.58120 current best 0.56284
+==============================================save best model best performerence 0.581199
+train epoch: 1 - step: 210 (total: 585) - loss: 0.125420
+train epoch: 1 - step: 220 (total: 585) - loss: 0.125352
+train epoch: 1 - step: 230 (total: 585) - loss: 0.117672
+train epoch: 1 - step: 240 (total: 585) - loss: 0.107206
+train epoch: 1 - step: 250 (total: 585) - loss: 0.100269
+dev step: 250 - loss: 0.12679, precision: 0.53152, recall: 0.74069, f1: 0.61891 current best 0.58120
+==============================================save best model best performerence 0.618908
+train epoch: 1 - step: 260 (total: 585) - loss: 0.107419
+train epoch: 1 - step: 270 (total: 585) - loss: 0.070950
+train epoch: 1 - step: 280 (total: 585) - loss: 0.162103
+train epoch: 1 - step: 290 (total: 585) - loss: 0.096217
+train epoch: 1 - step: 300 (total: 585) - loss: 0.092611
+dev step: 300 - loss: 0.10959, precision: 0.57969, recall: 0.73612, f1: 0.64861 current best 0.61891
+==============================================save best model best performerence 0.648607
+train epoch: 1 - step: 310 (total: 585) - loss: 0.112851
+train epoch: 1 - step: 320 (total: 585) - loss: 0.097153
+train epoch: 1 - step: 330 (total: 585) - loss: 0.105872
+train epoch: 1 - step: 340 (total: 585) - loss: 0.110537
+train epoch: 1 - step: 350 (total: 585) - loss: 0.108947
+dev step: 350 - loss: 0.10621, precision: 0.59696, recall: 0.73226, f1: 0.65772 current best 0.64861
+==============================================save best model best performerence 0.657724
+train epoch: 1 - step: 360 (total: 585) - loss: 0.097638
+train epoch: 1 - step: 370 (total: 585) - loss: 0.147214
+train epoch: 1 - step: 380 (total: 585) - loss: 0.069022
+train epoch: 2 - step: 390 (total: 585) - loss: 0.116247
+train epoch: 2 - step: 400 (total: 585) - loss: 0.089022
+dev step: 400 - loss: 0.10813, precision: 0.60813, recall: 0.78848, f1: 0.68666 current best 0.65772
+==============================================save best model best performerence 0.686659
+train epoch: 2 - step: 410 (total: 585) - loss: 0.085732
+train epoch: 2 - step: 420 (total: 585) - loss: 0.059943
+train epoch: 2 - step: 430 (total: 585) - loss: 0.097954
+train epoch: 2 - step: 440 (total: 585) - loss: 0.095072
+train epoch: 2 - step: 450 (total: 585) - loss: 0.074882
+dev step: 450 - loss: 0.10085, precision: 0.65484, recall: 0.74596, f1: 0.69744 current best 0.68666
+==============================================save best model best performerence 0.697438
+train epoch: 2 - step: 460 (total: 585) - loss: 0.124316
+train epoch: 2 - step: 470 (total: 585) - loss: 0.059089
+train epoch: 2 - step: 480 (total: 585) - loss: 0.120959
+train epoch: 2 - step: 490 (total: 585) - loss: 0.088165
+train epoch: 2 - step: 500 (total: 585) - loss: 0.110694
+dev step: 500 - loss: 0.10362, precision: 0.63680, recall: 0.78672, f1: 0.70387 current best 0.69744
+==============================================save best model best performerence 0.703867
+train epoch: 2 - step: 510 (total: 585) - loss: 0.064731
+train epoch: 2 - step: 520 (total: 585) - loss: 0.055507
+train epoch: 2 - step: 530 (total: 585) - loss: 0.095719
+train epoch: 2 - step: 540 (total: 585) - loss: 0.105757
+train epoch: 2 - step: 550 (total: 585) - loss: 0.072078
+dev step: 550 - loss: 0.10075, precision: 0.64683, recall: 0.76388, f1: 0.70050 current best 0.70387
+train epoch: 2 - step: 560 (total: 585) - loss: 0.102973
+train epoch: 2 - step: 570 (total: 585) - loss: 0.102341
+train epoch: 2 - step: 580 (total: 585) - loss: 0.077687
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/fluid/layers/utils.py:26: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  def convert_to_list(value, n, name, dtype=np.int):
+[2021-06-28 17:07:35,347] [    INFO] - Downloading vocab.txt from https://paddlenlp.bj.bcebos.com/models/transformers/ernie/vocab.txt
+  0%|          | 0/90 [00:00<?, ?it/s]100%|██████████| 90/90 [00:00<00:00, 6340.70it/s]
+[2021-06-28 17:07:35,440] [    INFO] - Downloading https://paddlenlp.bj.bcebos.com/models/transformers/ernie/ernie_v1_chn_base.pdparams and saved to /home/aistudio/.paddlenlp/models/ernie-1.0
+[2021-06-28 17:07:35,440] [    INFO] - Downloading ernie_v1_chn_base.pdparams from https://paddlenlp.bj.bcebos.com/models/transformers/ernie/ernie_v1_chn_base.pdparams
+  0%|          | 0/392507 [00:00<?, ?it/s]  1%|          | 2534/392507 [00:00<00:15, 25339.06it/s]  2%|▏         | 6851/392507 [00:00<00:13, 28890.65it/s]  3%|▎         | 11507/392507 [00:00<00:11, 32583.84it/s]  4%|▍         | 16153/392507 [00:00<00:10, 35790.42it/s]  5%|▌         | 20434/392507 [00:00<00:09, 37641.40it/s]  6%|▋         | 24899/392507 [00:00<00:09, 39487.81it/s]  7%|▋         | 29117/392507 [00:00<00:09, 40257.23it/s]  9%|▊         | 33939/392507 [00:00<00:08, 42354.11it/s] 10%|█         | 39594/392507 [00:00<00:07, 45803.18it/s] 11%|█▏        | 45001/392507 [00:01<00:07, 48003.19it/s] 13%|█▎        | 49874/392507 [00:01<00:10, 31860.88it/s] 14%|█▎        | 53821/392507 [00:01<00:13, 24602.12it/s] 15%|█▍        | 57066/392507 [00:01<00:12, 26366.19it/s] 16%|█▌        | 62471/392507 [00:01<00:10, 31153.06it/s] 17%|█▋        | 67556/392507 [00:01<00:09, 35248.63it/s] 19%|█▊        | 72865/392507 [00:01<00:08, 39200.19it/s] 20%|█▉        | 78176/392507 [00:02<00:07, 42542.23it/s] 21%|██▏       | 84172/392507 [00:02<00:06, 46603.11it/s] 23%|██▎       | 90083/392507 [00:02<00:06, 49761.38it/s] 24%|██▍       | 95884/392507 [00:02<00:05, 51977.77it/s] 26%|██▌       | 101955/392507 [00:02<00:05, 54321.48it/s] 27%|██▋       | 107925/392507 [00:02<00:05, 55828.82it/s] 29%|██▉       | 114040/392507 [00:02<00:04, 57324.08it/s] 31%|███       | 121112/392507 [00:02<00:04, 60776.47it/s] 33%|███▎      | 128330/392507 [00:02<00:04, 63800.14it/s] 35%|███▍      | 135524/392507 [00:02<00:03, 66038.79it/s] 36%|███▋      | 142718/392507 [00:03<00:03, 67704.36it/s] 38%|███▊      | 149585/392507 [00:03<00:03, 66258.33it/s] 40%|███▉      | 156285/392507 [00:03<00:03, 59214.10it/s] 41%|████▏     | 162399/392507 [00:03<00:03, 57690.61it/s] 43%|████▎     | 168311/392507 [00:03<00:04, 55971.23it/s] 44%|████▍     | 174020/392507 [00:03<00:03, 54708.34it/s] 46%|████▌     | 179575/392507 [00:03<00:03, 54819.21it/s] 47%|████▋     | 185224/392507 [00:03<00:03, 55309.84it/s] 49%|████▊     | 190947/392507 [00:03<00:03, 55869.93it/s] 50%|█████     | 196565/392507 [00:04<00:03, 55659.99it/s] 52%|█████▏    | 202153/392507 [00:04<00:03, 54857.98it/s] 53%|█████▎    | 208805/392507 [00:04<00:03, 57901.86it/s] 55%|█████▍    | 215550/392507 [00:04<00:02, 60468.80it/s] 57%|█████▋    | 222388/392507 [00:04<00:02, 62641.70it/s] 58%|█████▊    | 229177/392507 [00:04<00:02, 64126.82it/s] 60%|██████    | 236071/392507 [00:04<00:02, 65497.11it/s] 62%|██████▏   | 242668/392507 [00:04<00:02, 64884.74it/s] 63%|██████▎   | 249191/392507 [00:04<00:02, 64518.95it/s] 65%|██████▌   | 255668/392507 [00:04<00:02, 61989.93it/s] 67%|██████▋   | 261906/392507 [00:05<00:02, 58888.84it/s] 68%|██████▊   | 267855/392507 [00:05<00:02, 56805.57it/s] 70%|██████▉   | 273593/392507 [00:05<00:02, 55638.65it/s] 71%|███████   | 279203/392507 [00:05<00:02, 53318.50it/s] 73%|███████▎  | 284588/392507 [00:05<00:02, 51049.76it/s] 74%|███████▍  | 289751/392507 [00:05<00:02, 50038.32it/s] 75%|███████▌  | 294800/392507 [00:05<00:01, 49046.30it/s] 76%|███████▋  | 299741/392507 [00:05<00:01, 48976.33it/s] 78%|███████▊  | 304664/392507 [00:05<00:01, 48648.19it/s] 79%|███████▉  | 309649/392507 [00:06<00:01, 48967.29it/s] 80%|████████  | 314559/392507 [00:06<00:01, 47078.66it/s] 81%|████████▏ | 319292/392507 [00:06<00:01, 46425.16it/s] 83%|████████▎ | 324019/392507 [00:06<00:01, 46675.31it/s] 84%|████████▍ | 328827/392507 [00:06<00:01, 47087.31it/s] 85%|████████▍ | 333547/392507 [00:06<00:01, 46799.66it/s] 86%|████████▌ | 338497/392507 [00:06<00:01, 47574.43it/s] 88%|████████▊ | 343505/392507 [00:06<00:01, 48216.37it/s] 89%|████████▉ | 348974/392507 [00:06<00:00, 49991.40it/s] 91%|█████████ | 355424/392507 [00:06<00:00, 53607.81it/s] 92%|█████████▏| 361407/392507 [00:07<00:00, 55331.98it/s] 94%|█████████▎| 367045/392507 [00:07<00:00, 55640.21it/s] 95%|█████████▌| 373598/392507 [00:07<00:00, 58278.63it/s] 97%|█████████▋| 379497/392507 [00:07<00:00, 57868.90it/s] 98%|█████████▊| 385334/392507 [00:07<00:00, 57227.89it/s]100%|█████████▉| 391094/392507 [00:07<00:00, 55456.16it/s]100%|██████████| 392507/392507 [00:07<00:00, 51701.48it/s]
+W0628 17:07:43.215703   304 device_context.cc:362] Please NOTE: device: 0, GPU Compute Capability: 7.0, Driver API Version: 10.1, Runtime API Version: 10.1
+W0628 17:07:43.220142   304 device_context.cc:372] device: 0, cuDNN Version: 7.6.
+============start train==========
+train epoch: 0 - step: 10 (total: 980) - loss: 0.606765
+train epoch: 0 - step: 20 (total: 980) - loss: 0.678294
+train epoch: 0 - step: 30 (total: 980) - loss: 0.446131
+train epoch: 0 - step: 40 (total: 980) - loss: 0.426265
+train epoch: 0 - step: 50 (total: 980) - loss: 0.332843
+dev step: 50 - loss: 0.35588, precision: 0.00286, recall: 0.00070, f1: 0.00112 current best 0.00000
+==============================================save best model best performerence 0.001122
+train epoch: 0 - step: 60 (total: 980) - loss: 0.278380
+train epoch: 0 - step: 70 (total: 980) - loss: 0.224094
+train epoch: 0 - step: 80 (total: 980) - loss: 0.213301
+train epoch: 0 - step: 90 (total: 980) - loss: 0.194659
+train epoch: 1 - step: 100 (total: 980) - loss: 0.188816
+dev step: 100 - loss: 0.16069, precision: 0.43880, recall: 0.63900, f1: 0.52031 current best 0.00112
+==============================================save best model best performerence 0.520307
+train epoch: 1 - step: 110 (total: 980) - loss: 0.153204
+train epoch: 1 - step: 120 (total: 980) - loss: 0.131609
+train epoch: 1 - step: 130 (total: 980) - loss: 0.127485
+train epoch: 1 - step: 140 (total: 980) - loss: 0.122082
+train epoch: 1 - step: 150 (total: 980) - loss: 0.122061
+dev step: 150 - loss: 0.12687, precision: 0.48343, recall: 0.64632, f1: 0.55313 current best 0.52031
+==============================================save best model best performerence 0.553134
+Traceback (most recent call last):
+  File "sequence_labeling.py", line 293, in <module>
+    do_train()
+  File "sequence_labeling.py", line 210, in do_train
+    loss_item = loss.numpy().item()
+KeyboardInterrupt
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/fluid/layers/utils.py:26: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  def convert_to_list(value, n, name, dtype=np.int):
+[2021-06-28 17:11:44,979] [    INFO] - Found /home/aistudio/.paddlenlp/models/ernie-1.0/vocab.txt
+[2021-06-28 17:11:44,992] [    INFO] - Already cached /home/aistudio/.paddlenlp/models/ernie-1.0/ernie_v1_chn_base.pdparams
+W0628 17:11:44.993443   516 device_context.cc:362] Please NOTE: device: 0, GPU Compute Capability: 7.0, Driver API Version: 10.1, Runtime API Version: 10.1
+W0628 17:11:44.997738   516 device_context.cc:372] device: 0, cuDNN Version: 7.6.
+============start train==========
+train epoch: 0 - step: 10 (total: 980) - loss: 0.606767
+train epoch: 0 - step: 20 (total: 980) - loss: 0.678302
+train epoch: 0 - step: 30 (total: 980) - loss: 0.446083
+train epoch: 0 - step: 40 (total: 980) - loss: 0.425867
+train epoch: 0 - step: 50 (total: 980) - loss: 0.332645
+dev step: 50 - loss: 0.35571, precision: 0.00285, recall: 0.00070, f1: 0.00112 current best 0.00000
+==============================================save best model best performerence 0.001121
+train epoch: 0 - step: 60 (total: 980) - loss: 0.278910
+train epoch: 0 - step: 70 (total: 980) - loss: 0.224100
+train epoch: 0 - step: 80 (total: 980) - loss: 0.213022
+train epoch: 0 - step: 90 (total: 980) - loss: 0.194727
+train epoch: 1 - step: 100 (total: 980) - loss: 0.189554
+dev step: 100 - loss: 0.16109, precision: 0.43696, recall: 0.63586, f1: 0.51797 current best 0.00112
+==============================================save best model best performerence 0.517971
+train epoch: 1 - step: 110 (total: 980) - loss: 0.153203
+train epoch: 1 - step: 120 (total: 980) - loss: 0.131498
+train epoch: 1 - step: 130 (total: 980) - loss: 0.127948
+train epoch: 1 - step: 140 (total: 980) - loss: 0.121271
+train epoch: 1 - step: 150 (total: 980) - loss: 0.122285
+dev step: 150 - loss: 0.12660, precision: 0.48234, recall: 0.64772, f1: 0.55293 current best 0.51797
+==============================================save best model best performerence 0.552925
+train epoch: 1 - step: 160 (total: 980) - loss: 0.114661
+train epoch: 1 - step: 170 (total: 980) - loss: 0.124772
+train epoch: 1 - step: 180 (total: 980) - loss: 0.089885
+train epoch: 1 - step: 190 (total: 980) - loss: 0.104141
+train epoch: 2 - step: 200 (total: 980) - loss: 0.104110
+dev step: 200 - loss: 0.12207, precision: 0.48329, recall: 0.71643, f1: 0.57721 current best 0.55293
+==============================================save best model best performerence 0.577209
+train epoch: 2 - step: 210 (total: 980) - loss: 0.097670
+train epoch: 2 - step: 220 (total: 980) - loss: 0.083028
+train epoch: 2 - step: 230 (total: 980) - loss: 0.116537
+train epoch: 2 - step: 240 (total: 980) - loss: 0.104902
+train epoch: 2 - step: 250 (total: 980) - loss: 0.076913
+dev step: 250 - loss: 0.10550, precision: 0.59935, recall: 0.70596, f1: 0.64830 current best 0.57721
+==============================================save best model best performerence 0.648302
+train epoch: 2 - step: 260 (total: 980) - loss: 0.110526
+train epoch: 2 - step: 270 (total: 980) - loss: 0.083158
+train epoch: 2 - step: 280 (total: 980) - loss: 0.077159
+train epoch: 2 - step: 290 (total: 980) - loss: 0.116299
+train epoch: 3 - step: 300 (total: 980) - loss: 0.074681
+dev step: 300 - loss: 0.11054, precision: 0.61404, recall: 0.77468, f1: 0.68507 current best 0.64830
+==============================================save best model best performerence 0.685071
+train epoch: 3 - step: 310 (total: 980) - loss: 0.073892
+train epoch: 3 - step: 320 (total: 980) - loss: 0.091613
+train epoch: 3 - step: 330 (total: 980) - loss: 0.076240
+train epoch: 3 - step: 340 (total: 980) - loss: 0.085282
+train epoch: 3 - step: 350 (total: 980) - loss: 0.087634
+dev step: 350 - loss: 0.10300, precision: 0.63931, recall: 0.80433, f1: 0.71239 current best 0.68507
+==============================================save best model best performerence 0.712388
+train epoch: 3 - step: 360 (total: 980) - loss: 0.058747
+train epoch: 3 - step: 370 (total: 980) - loss: 0.122197
+train epoch: 3 - step: 380 (total: 980) - loss: 0.075389
+train epoch: 3 - step: 390 (total: 980) - loss: 0.076576
+train epoch: 4 - step: 400 (total: 980) - loss: 0.089777
+dev step: 400 - loss: 0.12077, precision: 0.62402, recall: 0.77921, f1: 0.69304 current best 0.71239
+train epoch: 4 - step: 410 (total: 980) - loss: 0.084196
+train epoch: 4 - step: 420 (total: 980) - loss: 0.069518
+train epoch: 4 - step: 430 (total: 980) - loss: 0.058166
+train epoch: 4 - step: 440 (total: 980) - loss: 0.057281
+train epoch: 4 - step: 450 (total: 980) - loss: 0.061132
+dev step: 450 - loss: 0.10970, precision: 0.69868, recall: 0.75863, f1: 0.72742 current best 0.71239
+==============================================save best model best performerence 0.727425
+train epoch: 4 - step: 460 (total: 980) - loss: 0.053452
+train epoch: 4 - step: 470 (total: 980) - loss: 0.085018
+train epoch: 4 - step: 480 (total: 980) - loss: 0.058738
+train epoch: 5 - step: 490 (total: 980) - loss: 0.046779
+train epoch: 5 - step: 500 (total: 980) - loss: 0.052573
+dev step: 500 - loss: 0.10714, precision: 0.66933, recall: 0.78793, f1: 0.72381 current best 0.72742
+train epoch: 5 - step: 510 (total: 980) - loss: 0.039088
+train epoch: 5 - step: 520 (total: 980) - loss: 0.051646
+train epoch: 5 - step: 530 (total: 980) - loss: 0.038002
+train epoch: 5 - step: 540 (total: 980) - loss: 0.051828
+train epoch: 5 - step: 550 (total: 980) - loss: 0.049376
+dev step: 550 - loss: 0.11403, precision: 0.67100, recall: 0.80956, f1: 0.73380 current best 0.72742
+==============================================save best model best performerence 0.733797
+train epoch: 5 - step: 560 (total: 980) - loss: 0.052402
+train epoch: 5 - step: 570 (total: 980) - loss: 0.037455
+train epoch: 5 - step: 580 (total: 980) - loss: 0.077029
+train epoch: 6 - step: 590 (total: 980) - loss: 0.039981
+train epoch: 6 - step: 600 (total: 980) - loss: 0.042132
+dev step: 600 - loss: 0.12158, precision: 0.67457, recall: 0.81409, f1: 0.73779 current best 0.73380
+==============================================save best model best performerence 0.737790
+train epoch: 6 - step: 610 (total: 980) - loss: 0.040944
+train epoch: 6 - step: 620 (total: 980) - loss: 0.055585
+train epoch: 6 - step: 630 (total: 980) - loss: 0.060767
+train epoch: 6 - step: 640 (total: 980) - loss: 0.062463
+train epoch: 6 - step: 650 (total: 980) - loss: 0.036442
+dev step: 650 - loss: 0.13412, precision: 0.66610, recall: 0.82176, f1: 0.73579 current best 0.73779
+train epoch: 6 - step: 660 (total: 980) - loss: 0.067182
+train epoch: 6 - step: 670 (total: 980) - loss: 0.034973
+train epoch: 6 - step: 680 (total: 980) - loss: 0.045866
+train epoch: 7 - step: 690 (total: 980) - loss: 0.032834
+train epoch: 7 - step: 700 (total: 980) - loss: 0.032531
+dev step: 700 - loss: 0.13344, precision: 0.70154, recall: 0.79281, f1: 0.74439 current best 0.73779
+==============================================save best model best performerence 0.744392
+train epoch: 7 - step: 710 (total: 980) - loss: 0.034761
+train epoch: 7 - step: 720 (total: 980) - loss: 0.025256
+train epoch: 7 - step: 730 (total: 980) - loss: 0.022619
+train epoch: 7 - step: 740 (total: 980) - loss: 0.040854
+train epoch: 7 - step: 750 (total: 980) - loss: 0.028917
+dev step: 750 - loss: 0.13565, precision: 0.68950, recall: 0.79700, f1: 0.73936 current best 0.74439
+train epoch: 7 - step: 760 (total: 980) - loss: 0.035568
+train epoch: 7 - step: 770 (total: 980) - loss: 0.030468
+train epoch: 7 - step: 780 (total: 980) - loss: 0.029734
+train epoch: 8 - step: 790 (total: 980) - loss: 0.019671
+train epoch: 8 - step: 800 (total: 980) - loss: 0.045290
+dev step: 800 - loss: 0.14691, precision: 0.69611, recall: 0.80537, f1: 0.74677 current best 0.74439
+==============================================save best model best performerence 0.746766
+train epoch: 8 - step: 810 (total: 980) - loss: 0.027495
+train epoch: 8 - step: 820 (total: 980) - loss: 0.029826
+train epoch: 8 - step: 830 (total: 980) - loss: 0.023013
+train epoch: 8 - step: 840 (total: 980) - loss: 0.030383
+train epoch: 8 - step: 850 (total: 980) - loss: 0.025487
+dev step: 850 - loss: 0.14448, precision: 0.69720, recall: 0.80712, f1: 0.74814 current best 0.74677
+==============================================save best model best performerence 0.748141
+train epoch: 8 - step: 860 (total: 980) - loss: 0.037146
+train epoch: 8 - step: 870 (total: 980) - loss: 0.042024
+train epoch: 8 - step: 880 (total: 980) - loss: 0.038850
+train epoch: 9 - step: 890 (total: 980) - loss: 0.027396
+train epoch: 9 - step: 900 (total: 980) - loss: 0.035380
+dev step: 900 - loss: 0.14516, precision: 0.68703, recall: 0.80398, f1: 0.74092 current best 0.74814
+train epoch: 9 - step: 910 (total: 980) - loss: 0.023594
+train epoch: 9 - step: 920 (total: 980) - loss: 0.014255
+train epoch: 9 - step: 930 (total: 980) - loss: 0.025010
+train epoch: 9 - step: 940 (total: 980) - loss: 0.032078
+train epoch: 9 - step: 950 (total: 980) - loss: 0.035759
+dev step: 950 - loss: 0.14889, precision: 0.66771, recall: 0.82142, f1: 0.73663 current best 0.74814
+train epoch: 9 - step: 960 (total: 980) - loss: 0.017284
+train epoch: 9 - step: 970 (total: 980) - loss: 0.022624
+[2021-11-22 15:20:58,940] [    INFO] - Downloading https://paddlenlp.bj.bcebos.com/models/transformers/ernie/vocab.txt and saved to /home/aistudio/.paddlenlp/models/ernie-1.0
+[2021-11-22 15:20:58,940] [    INFO] - Downloading vocab.txt from https://paddlenlp.bj.bcebos.com/models/transformers/ernie/vocab.txt
+  0%|          | 0/90 [00:00<?, ?it/s]100%|██████████| 90/90 [00:00<00:00, 4217.17it/s]
+[2021-11-22 15:20:59,028] [    INFO] - Downloading https://paddlenlp.bj.bcebos.com/models/transformers/ernie/ernie_v1_chn_base.pdparams and saved to /home/aistudio/.paddlenlp/models/ernie-1.0
+[2021-11-22 15:20:59,028] [    INFO] - Downloading ernie_v1_chn_base.pdparams from https://paddlenlp.bj.bcebos.com/models/transformers/ernie/ernie_v1_chn_base.pdparams
+  0%|          | 0/392507 [00:00<?, ?it/s]  0%|          | 595/392507 [00:00<01:08, 5688.42it/s]  1%|          | 3107/392507 [00:00<00:52, 7404.90it/s]  2%|▏         | 6537/392507 [00:00<00:39, 9682.54it/s]  3%|▎         | 10149/392507 [00:00<00:30, 12406.53it/s]  4%|▎         | 13827/392507 [00:00<00:24, 15476.94it/s]  4%|▍         | 17518/392507 [00:00<00:20, 18741.87it/s]  5%|▌         | 21253/392507 [00:00<00:16, 22034.73it/s]  7%|▋         | 26255/392507 [00:00<00:13, 26478.93it/s]  8%|▊         | 31119/392507 [00:00<00:11, 30670.98it/s] 10%|▉         | 37666/392507 [00:01<00:09, 36489.08it/s] 11%|█▏        | 44748/392507 [00:01<00:08, 42698.14it/s] 13%|█▎        | 52007/392507 [00:01<00:06, 48716.41it/s] 15%|█▌        | 59305/392507 [00:01<00:06, 54112.53it/s] 17%|█▋        | 66633/392507 [00:01<00:05, 58718.21it/s] 19%|█▉        | 74024/392507 [00:01<00:05, 62575.86it/s] 21%|██        | 81481/392507 [00:01<00:04, 65747.08it/s] 23%|██▎       | 88796/392507 [00:01<00:04, 67804.78it/s] 25%|██▍       | 96226/392507 [00:01<00:04, 69627.92it/s] 26%|██▋       | 103452/392507 [00:01<00:04, 69001.41it/s] 28%|██▊       | 110538/392507 [00:02<00:04, 68792.36it/s] 30%|██▉       | 117618/392507 [00:02<00:03, 69381.35it/s] 32%|███▏      | 124649/392507 [00:02<00:03, 69273.41it/s] 34%|███▎      | 131641/392507 [00:02<00:03, 69437.92it/s] 35%|███▌      | 138636/392507 [00:02<00:03, 69590.58it/s] 37%|███▋      | 145627/392507 [00:02<00:03, 69455.70it/s] 39%|███▉      | 152595/392507 [00:02<00:03, 69350.83it/s] 41%|████      | 159589/392507 [00:02<00:03, 69525.62it/s] 42%|████▏     | 166628/392507 [00:02<00:03, 69781.82it/s] 44%|████▍     | 173669/392507 [00:02<00:03, 69968.02it/s] 46%|████▌     | 180686/392507 [00:03<00:03, 70027.86it/s] 48%|████▊     | 187693/392507 [00:03<00:02, 69673.10it/s] 50%|████▉     | 194664/392507 [00:03<00:02, 69071.80it/s] 51%|█████▏    | 201575/392507 [00:03<00:02, 68420.81it/s] 53%|█████▎    | 208421/392507 [00:03<00:02, 68070.92it/s] 55%|█████▍    | 215232/392507 [00:03<00:02, 68069.47it/s] 57%|█████▋    | 222042/392507 [00:03<00:02, 67543.29it/s] 58%|█████▊    | 228858/392507 [00:03<00:02, 67720.17it/s] 60%|██████    | 235632/392507 [00:03<00:02, 67490.56it/s] 62%|██████▏   | 242383/392507 [00:03<00:02, 67488.98it/s] 63%|██████▎   | 249133/392507 [00:04<00:02, 67476.38it/s] 65%|██████▌   | 255882/392507 [00:04<00:02, 66981.63it/s] 67%|██████▋   | 262582/392507 [00:04<00:01, 66694.65it/s] 69%|██████▊   | 269315/392507 [00:04<00:01, 66881.11it/s] 70%|███████   | 276531/392507 [00:04<00:01, 68380.91it/s] 72%|███████▏  | 283828/392507 [00:04<00:01, 69694.07it/s] 74%|███████▍  | 291681/392507 [00:04<00:01, 72126.28it/s] 76%|███████▋  | 299598/392507 [00:04<00:01, 74103.66it/s] 78%|███████▊  | 307535/392507 [00:04<00:01, 75608.20it/s] 80%|████████  | 315452/392507 [00:04<00:01, 76639.25it/s] 82%|████████▏ | 323397/392507 [00:05<00:00, 77458.37it/s] 84%|████████▍ | 331315/392507 [00:05<00:00, 77961.64it/s] 86%|████████▋ | 339251/392507 [00:05<00:00, 78368.94it/s] 88%|████████▊ | 347193/392507 [00:05<00:00, 78681.29it/s] 90%|█████████ | 355070/392507 [00:05<00:00, 78677.03it/s] 92%|█████████▏| 363056/392507 [00:05<00:00, 79026.46it/s] 95%|█████████▍| 370963/392507 [00:05<00:00, 78949.84it/s] 97%|█████████▋| 378878/392507 [00:05<00:00, 79007.89it/s] 99%|█████████▊| 386802/392507 [00:05<00:00, 79076.39it/s]100%|██████████| 392507/392507 [00:05<00:00, 66415.35it/s]
+W1122 15:21:05.015012   353 device_context.cc:362] Please NOTE: device: 0, GPU Compute Capability: 7.0, Driver API Version: 11.0, Runtime API Version: 10.1
+W1122 15:21:05.018855   353 device_context.cc:372] device: 0, cuDNN Version: 7.6.
+============start train==========
+train epoch: 0 - step: 10 (total: 980) - loss: 0.606771
+train epoch: 0 - step: 20 (total: 980) - loss: 0.678265
+train epoch: 0 - step: 30 (total: 980) - loss: 0.446104
+train epoch: 0 - step: 40 (total: 980) - loss: 0.426138
+train epoch: 0 - step: 50 (total: 980) - loss: 0.332645
+dev step: 50 - loss: 0.35563, precision: 0.00285, recall: 0.00070, f1: 0.00112 current best 0.00000
+==============================================save best model best performerence 0.001121
+train epoch: 0 - step: 60 (total: 980) - loss: 0.278413
+train epoch: 0 - step: 70 (total: 980) - loss: 0.223836
+train epoch: 0 - step: 80 (total: 980) - loss: 0.213309
+train epoch: 0 - step: 90 (total: 980) - loss: 0.194396
+train epoch: 1 - step: 100 (total: 980) - loss: 0.189311
+dev step: 100 - loss: 0.16093, precision: 0.43680, recall: 0.64004, f1: 0.51924 current best 0.00112
+==============================================save best model best performerence 0.519242
+train epoch: 1 - step: 110 (total: 980) - loss: 0.153336
+train epoch: 1 - step: 120 (total: 980) - loss: 0.131530
+train epoch: 1 - step: 130 (total: 980) - loss: 0.128182
+train epoch: 1 - step: 140 (total: 980) - loss: 0.122704
+train epoch: 1 - step: 150 (total: 980) - loss: 0.122871
+dev step: 150 - loss: 0.12663, precision: 0.48486, recall: 0.64806, f1: 0.55471 current best 0.51924
+==============================================save best model best performerence 0.554710
+train epoch: 1 - step: 160 (total: 980) - loss: 0.114103
+train epoch: 1 - step: 170 (total: 980) - loss: 0.124755
+train epoch: 1 - step: 180 (total: 980) - loss: 0.089041
+train epoch: 1 - step: 190 (total: 980) - loss: 0.104390
+train epoch: 2 - step: 200 (total: 980) - loss: 0.101963
+dev step: 200 - loss: 0.12028, precision: 0.48410, recall: 0.71678, f1: 0.57790 current best 0.55471
+==============================================save best model best performerence 0.577897
+train epoch: 2 - step: 210 (total: 980) - loss: 0.098666
+train epoch: 2 - step: 220 (total: 980) - loss: 0.084155
+train epoch: 2 - step: 230 (total: 980) - loss: 0.115090
+train epoch: 2 - step: 240 (total: 980) - loss: 0.103349
+train epoch: 2 - step: 250 (total: 980) - loss: 0.076289
+dev step: 250 - loss: 0.10548, precision: 0.60250, recall: 0.70631, f1: 0.65029 current best 0.57790
+==============================================save best model best performerence 0.650289
+train epoch: 2 - step: 260 (total: 980) - loss: 0.110184
+train epoch: 2 - step: 270 (total: 980) - loss: 0.083371
+train epoch: 2 - step: 280 (total: 980) - loss: 0.076585
+train epoch: 2 - step: 290 (total: 980) - loss: 0.115289
+train epoch: 3 - step: 300 (total: 980) - loss: 0.073970
+dev step: 300 - loss: 0.11144, precision: 0.61033, recall: 0.77084, f1: 0.68126 current best 0.65029
+==============================================save best model best performerence 0.681258
+train epoch: 3 - step: 310 (total: 980) - loss: 0.073549
+train epoch: 3 - step: 320 (total: 980) - loss: 0.092024
+train epoch: 3 - step: 330 (total: 980) - loss: 0.075644
+train epoch: 3 - step: 340 (total: 980) - loss: 0.086567
+train epoch: 3 - step: 350 (total: 980) - loss: 0.087399
+dev step: 350 - loss: 0.10248, precision: 0.63837, recall: 0.80537, f1: 0.71221 current best 0.68126
+==============================================save best model best performerence 0.712215
+train epoch: 3 - step: 360 (total: 980) - loss: 0.059925
+train epoch: 3 - step: 370 (total: 980) - loss: 0.124476
+train epoch: 3 - step: 380 (total: 980) - loss: 0.075145
+train epoch: 3 - step: 390 (total: 980) - loss: 0.078179
+train epoch: 4 - step: 400 (total: 980) - loss: 0.089243
+dev step: 400 - loss: 0.12003, precision: 0.63634, recall: 0.78061, f1: 0.70113 current best 0.71221
+train epoch: 4 - step: 410 (total: 980) - loss: 0.081596
+train epoch: 4 - step: 420 (total: 980) - loss: 0.067792
+train epoch: 4 - step: 430 (total: 980) - loss: 0.060171
+train epoch: 4 - step: 440 (total: 980) - loss: 0.054570
+train epoch: 4 - step: 450 (total: 980) - loss: 0.060492
+dev step: 450 - loss: 0.10991, precision: 0.69697, recall: 0.75410, f1: 0.72441 current best 0.71221
+==============================================save best model best performerence 0.724409
+train epoch: 4 - step: 460 (total: 980) - loss: 0.051762
+train epoch: 4 - step: 470 (total: 980) - loss: 0.080149
+train epoch: 4 - step: 480 (total: 980) - loss: 0.058240
+train epoch: 5 - step: 490 (total: 980) - loss: 0.047681
+train epoch: 5 - step: 500 (total: 980) - loss: 0.051306
+dev step: 500 - loss: 0.10919, precision: 0.66424, recall: 0.79421, f1: 0.72343 current best 0.72441
+train epoch: 5 - step: 510 (total: 980) - loss: 0.038450
+train epoch: 5 - step: 520 (total: 980) - loss: 0.054630
+train epoch: 5 - step: 530 (total: 980) - loss: 0.038671
+train epoch: 5 - step: 540 (total: 980) - loss: 0.054070
+train epoch: 5 - step: 550 (total: 980) - loss: 0.047505
+dev step: 550 - loss: 0.11617, precision: 0.66256, recall: 0.80677, f1: 0.72759 current best 0.72441
+==============================================save best model best performerence 0.727587
+train epoch: 5 - step: 560 (total: 980) - loss: 0.050462
+train epoch: 5 - step: 570 (total: 980) - loss: 0.037932
+train epoch: 5 - step: 580 (total: 980) - loss: 0.071718
+train epoch: 6 - step: 590 (total: 980) - loss: 0.038081
+train epoch: 6 - step: 600 (total: 980) - loss: 0.043722
+dev step: 600 - loss: 0.12639, precision: 0.67623, recall: 0.81374, f1: 0.73864 current best 0.72759
+==============================================save best model best performerence 0.738642
+train epoch: 6 - step: 610 (total: 980) - loss: 0.041566
+train epoch: 6 - step: 620 (total: 980) - loss: 0.057617
+train epoch: 6 - step: 630 (total: 980) - loss: 0.057223
+train epoch: 6 - step: 640 (total: 980) - loss: 0.055726
+train epoch: 6 - step: 650 (total: 980) - loss: 0.035441
+dev step: 650 - loss: 0.13102, precision: 0.67285, recall: 0.82211, f1: 0.74003 current best 0.73864
+==============================================save best model best performerence 0.740031
+train epoch: 6 - step: 660 (total: 980) - loss: 0.065310
+train epoch: 6 - step: 670 (total: 980) - loss: 0.034213
+train epoch: 6 - step: 680 (total: 980) - loss: 0.043008
+train epoch: 7 - step: 690 (total: 980) - loss: 0.033084
+train epoch: 7 - step: 700 (total: 980) - loss: 0.032342
+dev step: 700 - loss: 0.13253, precision: 0.67387, recall: 0.80433, f1: 0.73334 current best 0.74003
+train epoch: 7 - step: 710 (total: 980) - loss: 0.039039
+train epoch: 7 - step: 720 (total: 980) - loss: 0.028595
+train epoch: 7 - step: 730 (total: 980) - loss: 0.031316
+train epoch: 7 - step: 740 (total: 980) - loss: 0.039246
+train epoch: 7 - step: 750 (total: 980) - loss: 0.034522
+dev step: 750 - loss: 0.13141, precision: 0.68771, recall: 0.79421, f1: 0.73713 current best 0.74003
+train epoch: 7 - step: 760 (total: 980) - loss: 0.036113
+train epoch: 7 - step: 770 (total: 980) - loss: 0.042056
+train epoch: 7 - step: 780 (total: 980) - loss: 0.033881
+train epoch: 8 - step: 790 (total: 980) - loss: 0.029107
+train epoch: 8 - step: 800 (total: 980) - loss: 0.056594
+dev step: 800 - loss: 0.14563, precision: 0.70196, recall: 0.79770, f1: 0.74678 current best 0.74003
+==============================================save best model best performerence 0.746776
+train epoch: 8 - step: 810 (total: 980) - loss: 0.033746
+train epoch: 8 - step: 820 (total: 980) - loss: 0.038380
+train epoch: 8 - step: 830 (total: 980) - loss: 0.021979
+train epoch: 8 - step: 840 (total: 980) - loss: 0.027499
+train epoch: 8 - step: 850 (total: 980) - loss: 0.024735
+dev step: 850 - loss: 0.14850, precision: 0.69134, recall: 0.80781, f1: 0.74505 current best 0.74678
+train epoch: 8 - step: 860 (total: 980) - loss: 0.032616
+train epoch: 8 - step: 870 (total: 980) - loss: 0.049735
+train epoch: 8 - step: 880 (total: 980) - loss: 0.037608
+train epoch: 9 - step: 890 (total: 980) - loss: 0.035785
+train epoch: 9 - step: 900 (total: 980) - loss: 0.036422
+dev step: 900 - loss: 0.15314, precision: 0.68115, recall: 0.80398, f1: 0.73748 current best 0.74678
+train epoch: 9 - step: 910 (total: 980) - loss: 0.024335
+train epoch: 9 - step: 920 (total: 980) - loss: 0.017852
+train epoch: 9 - step: 930 (total: 980) - loss: 0.025118
+train epoch: 9 - step: 940 (total: 980) - loss: 0.027349
+train epoch: 9 - step: 950 (total: 980) - loss: 0.038845
+dev step: 950 - loss: 0.15991, precision: 0.67871, recall: 0.81270, f1: 0.73968 current best 0.74678
+train epoch: 9 - step: 960 (total: 980) - loss: 0.016058
+train epoch: 9 - step: 970 (total: 980) - loss: 0.020812
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/fluid/layers/utils.py:26: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  def convert_to_list(value, n, name, dtype=np.int):
+[2021-11-23 14:12:07,735] [    INFO] - Downloading vocab.txt from https://paddlenlp.bj.bcebos.com/models/transformers/ernie/vocab.txt
+  0%|          | 0/90 [00:00<?, ?it/s]100%|██████████| 90/90 [00:00<00:00, 2117.48it/s]
+[2021-11-23 14:12:07,850] [    INFO] - Downloading https://paddlenlp.bj.bcebos.com/models/transformers/ernie/ernie_v1_chn_base.pdparams and saved to /home/aistudio/.paddlenlp/models/ernie-1.0
+[2021-11-23 14:12:07,850] [    INFO] - Downloading ernie_v1_chn_base.pdparams from https://paddlenlp.bj.bcebos.com/models/transformers/ernie/ernie_v1_chn_base.pdparams
+  0%|          | 0/392507 [00:00<?, ?it/s]  0%|          | 978/392507 [00:00<00:40, 9779.96it/s]  1%|          | 4238/392507 [00:00<00:31, 12379.60it/s]  2%|▏         | 8163/392507 [00:00<00:24, 15567.13it/s]  3%|▎         | 12798/392507 [00:00<00:19, 19440.32it/s]  4%|▍         | 17185/392507 [00:00<00:16, 23339.18it/s]  5%|▌         | 21475/392507 [00:00<00:13, 27019.44it/s]  7%|▋         | 26051/392507 [00:00<00:11, 30709.45it/s]  8%|▊         | 30877/392507 [00:00<00:10, 34469.40it/s]  9%|▉         | 35587/392507 [00:00<00:09, 37483.79it/s] 10%|█         | 40367/392507 [00:01<00:08, 40078.35it/s] 12%|█▏        | 46996/392507 [00:01<00:07, 45471.50it/s] 14%|█▎        | 53942/392507 [00:01<00:06, 50726.60it/s] 16%|█▌        | 60965/392507 [00:01<00:05, 55336.60it/s] 17%|█▋        | 68070/392507 [00:01<00:05, 59268.21it/s] 19%|█▉        | 75217/392507 [00:01<00:05, 62466.86it/s] 21%|██        | 82289/392507 [00:01<00:04, 64731.36it/s] 23%|██▎       | 89340/392507 [00:01<00:04, 66362.87it/s] 25%|██▍       | 96462/392507 [00:01<00:04, 67747.35it/s] 26%|██▋       | 103597/392507 [00:01<00:04, 68789.33it/s] 28%|██▊       | 110700/392507 [00:02<00:04, 69446.23it/s] 30%|███       | 117852/392507 [00:02<00:03, 70055.15it/s] 32%|███▏      | 125125/392507 [00:02<00:03, 70834.61it/s] 34%|███▎      | 132250/392507 [00:02<00:03, 70927.06it/s] 36%|███▌      | 139372/392507 [00:02<00:03, 70763.83it/s] 37%|███▋      | 146471/392507 [00:02<00:03, 70830.09it/s] 39%|███▉      | 153569/392507 [00:02<00:03, 70829.69it/s] 41%|████      | 160675/392507 [00:02<00:03, 70891.06it/s] 43%|████▎     | 167856/392507 [00:02<00:03, 71164.23it/s] 45%|████▍     | 174978/392507 [00:02<00:03, 71088.18it/s] 46%|████▋     | 182091/392507 [00:03<00:02, 71070.40it/s] 48%|████▊     | 189201/392507 [00:03<00:02, 70778.48it/s] 50%|█████     | 196281/392507 [00:03<00:02, 70350.24it/s] 52%|█████▏    | 203319/392507 [00:03<00:02, 70030.65it/s] 54%|█████▎    | 210324/392507 [00:03<00:02, 69656.95it/s] 55%|█████▌    | 217292/392507 [00:03<00:02, 69317.30it/s] 57%|█████▋    | 224226/392507 [00:03<00:02, 67492.49it/s] 59%|█████▉    | 230987/392507 [00:03<00:02, 66725.75it/s] 61%|██████    | 237670/392507 [00:03<00:02, 63067.02it/s] 62%|██████▏   | 244430/392507 [00:03<00:02, 64360.87it/s] 64%|██████▍   | 251195/392507 [00:04<00:02, 65309.98it/s] 66%|██████▌   | 257911/392507 [00:04<00:02, 65852.60it/s] 67%|██████▋   | 264531/392507 [00:04<00:01, 65955.61it/s] 69%|██████▉   | 271273/392507 [00:04<00:01, 66387.89it/s] 71%|███████   | 278064/392507 [00:04<00:01, 66835.50it/s] 73%|███████▎  | 284835/392507 [00:04<00:01, 67086.88it/s] 74%|███████▍  | 291627/392507 [00:04<00:01, 67332.15it/s] 76%|███████▌  | 298366/392507 [00:04<00:01, 67298.91it/s] 78%|███████▊  | 305100/392507 [00:04<00:01, 67085.63it/s] 79%|███████▉  | 311906/392507 [00:04<00:01, 67373.83it/s] 81%|████████  | 318646/392507 [00:05<00:01, 67248.54it/s] 83%|████████▎ | 325373/392507 [00:05<00:01, 66878.71it/s] 85%|████████▍ | 332063/392507 [00:05<00:00, 66798.75it/s] 86%|████████▋ | 338744/392507 [00:05<00:00, 66447.30it/s] 88%|████████▊ | 345390/392507 [00:05<00:00, 65437.07it/s] 90%|████████▉ | 351938/392507 [00:05<00:00, 65220.60it/s] 91%|█████████▏| 358504/392507 [00:05<00:00, 65350.65it/s] 93%|█████████▎| 365042/392507 [00:05<00:00, 64611.28it/s] 95%|█████████▍| 371507/392507 [00:05<00:00, 64611.73it/s] 96%|█████████▋| 377971/392507 [00:05<00:00, 64463.83it/s] 98%|█████████▊| 384420/392507 [00:06<00:00, 64234.65it/s]100%|█████████▉| 391280/392507 [00:06<00:00, 65483.37it/s]100%|██████████| 392507/392507 [00:06<00:00, 63472.63it/s]
+W1123 14:12:14.115178   388 device_context.cc:362] Please NOTE: device: 0, GPU Compute Capability: 7.0, Driver API Version: 10.1, Runtime API Version: 10.1
+W1123 14:12:14.119462   388 device_context.cc:372] device: 0, cuDNN Version: 7.6.
+============start train==========
+train epoch: 0 - step: 10 (total: 980) - loss: 0.606767
+train epoch: 0 - step: 20 (total: 980) - loss: 0.678307
+train epoch: 0 - step: 30 (total: 980) - loss: 0.446110
+train epoch: 0 - step: 40 (total: 980) - loss: 0.426117
+train epoch: 0 - step: 50 (total: 980) - loss: 0.332661
+dev step: 50 - loss: 0.35568, precision: 0.00287, recall: 0.00070, f1: 0.00112 current best 0.00000
+==============================================save best model best performerence 0.001122
+train epoch: 0 - step: 60 (total: 980) - loss: 0.278280
+train epoch: 0 - step: 70 (total: 980) - loss: 0.223941
+train epoch: 0 - step: 80 (total: 980) - loss: 0.213560
+train epoch: 0 - step: 90 (total: 980) - loss: 0.194521
+train epoch: 1 - step: 100 (total: 980) - loss: 0.188504
+dev step: 100 - loss: 0.16063, precision: 0.43814, recall: 0.63865, f1: 0.51973 current best 0.00112
+==============================================save best model best performerence 0.519728
+train epoch: 1 - step: 110 (total: 980) - loss: 0.152800
+train epoch: 1 - step: 120 (total: 980) - loss: 0.131550
+train epoch: 1 - step: 130 (total: 980) - loss: 0.128189
+train epoch: 1 - step: 140 (total: 980) - loss: 0.122040
+train epoch: 1 - step: 150 (total: 980) - loss: 0.122378
+dev step: 150 - loss: 0.12681, precision: 0.48076, recall: 0.64493, f1: 0.55087 current best 0.51973
+==============================================save best model best performerence 0.550871
+train epoch: 1 - step: 160 (total: 980) - loss: 0.114838
+train epoch: 1 - step: 170 (total: 980) - loss: 0.124156
+train epoch: 1 - step: 180 (total: 980) - loss: 0.089954
+train epoch: 1 - step: 190 (total: 980) - loss: 0.104304
+train epoch: 2 - step: 200 (total: 980) - loss: 0.102329
+dev step: 200 - loss: 0.12063, precision: 0.49300, recall: 0.72480, f1: 0.58684 current best 0.55087
+==============================================save best model best performerence 0.586840
+train epoch: 2 - step: 210 (total: 980) - loss: 0.097667
+train epoch: 2 - step: 220 (total: 980) - loss: 0.083345
+train epoch: 2 - step: 230 (total: 980) - loss: 0.114823
+train epoch: 2 - step: 240 (total: 980) - loss: 0.104531
+train epoch: 2 - step: 250 (total: 980) - loss: 0.077050
+dev step: 250 - loss: 0.10542, precision: 0.60130, recall: 0.70806, f1: 0.65033 current best 0.58684
+==============================================save best model best performerence 0.650328
+train epoch: 2 - step: 260 (total: 980) - loss: 0.109834
+train epoch: 2 - step: 270 (total: 980) - loss: 0.081350
+train epoch: 2 - step: 280 (total: 980) - loss: 0.076428
+train epoch: 2 - step: 290 (total: 980) - loss: 0.116669
+train epoch: 3 - step: 300 (total: 980) - loss: 0.073336
+dev step: 300 - loss: 0.10939, precision: 0.61063, recall: 0.76910, f1: 0.68077 current best 0.65033
+==============================================save best model best performerence 0.680766
+train epoch: 3 - step: 310 (total: 980) - loss: 0.074560
+train epoch: 3 - step: 320 (total: 980) - loss: 0.091193
+train epoch: 3 - step: 330 (total: 980) - loss: 0.073568
+train epoch: 3 - step: 340 (total: 980) - loss: 0.087426
+train epoch: 3 - step: 350 (total: 980) - loss: 0.087536
+dev step: 350 - loss: 0.10261, precision: 0.63768, recall: 0.80049, f1: 0.70987 current best 0.68077
+==============================================save best model best performerence 0.709867
+train epoch: 3 - step: 360 (total: 980) - loss: 0.059990
+train epoch: 3 - step: 370 (total: 980) - loss: 0.125588
+train epoch: 3 - step: 380 (total: 980) - loss: 0.074428
+train epoch: 3 - step: 390 (total: 980) - loss: 0.077650
+train epoch: 4 - step: 400 (total: 980) - loss: 0.089794
+dev step: 400 - loss: 0.11935, precision: 0.63013, recall: 0.78200, f1: 0.69790 current best 0.70987
+train epoch: 4 - step: 410 (total: 980) - loss: 0.085544
+train epoch: 4 - step: 420 (total: 980) - loss: 0.068303
+train epoch: 4 - step: 430 (total: 980) - loss: 0.060621
+train epoch: 4 - step: 440 (total: 980) - loss: 0.058059
+train epoch: 4 - step: 450 (total: 980) - loss: 0.059059
+dev step: 450 - loss: 0.10648, precision: 0.68711, recall: 0.76979, f1: 0.72611 current best 0.70987
+==============================================save best model best performerence 0.726106
+train epoch: 4 - step: 460 (total: 980) - loss: 0.049771
+train epoch: 4 - step: 470 (total: 980) - loss: 0.076521
+train epoch: 4 - step: 480 (total: 980) - loss: 0.058786
+train epoch: 5 - step: 490 (total: 980) - loss: 0.048078
+train epoch: 5 - step: 500 (total: 980) - loss: 0.050933
+dev step: 500 - loss: 0.10816, precision: 0.68163, recall: 0.78409, f1: 0.72928 current best 0.72611
+==============================================save best model best performerence 0.729278
+train epoch: 5 - step: 510 (total: 980) - loss: 0.041561
+train epoch: 5 - step: 520 (total: 980) - loss: 0.053590
+train epoch: 5 - step: 530 (total: 980) - loss: 0.039042
+train epoch: 5 - step: 540 (total: 980) - loss: 0.051772
+train epoch: 5 - step: 550 (total: 980) - loss: 0.048121
+dev step: 550 - loss: 0.11044, precision: 0.67144, recall: 0.80119, f1: 0.73060 current best 0.72928
+==============================================save best model best performerence 0.730598
+train epoch: 5 - step: 560 (total: 980) - loss: 0.052617
+train epoch: 5 - step: 570 (total: 980) - loss: 0.040239
+train epoch: 5 - step: 580 (total: 980) - loss: 0.068618
+train epoch: 6 - step: 590 (total: 980) - loss: 0.038604
+train epoch: 6 - step: 600 (total: 980) - loss: 0.045402
+dev step: 600 - loss: 0.12316, precision: 0.67462, recall: 0.82804, f1: 0.74350 current best 0.73060
+==============================================save best model best performerence 0.743501
+train epoch: 6 - step: 610 (total: 980) - loss: 0.044918
+train epoch: 6 - step: 620 (total: 980) - loss: 0.058665
+train epoch: 6 - step: 630 (total: 980) - loss: 0.063628
+train epoch: 6 - step: 640 (total: 980) - loss: 0.065850
+train epoch: 6 - step: 650 (total: 980) - loss: 0.036518
+dev step: 650 - loss: 0.13053, precision: 0.67011, recall: 0.81409, f1: 0.73512 current best 0.74350
+train epoch: 6 - step: 660 (total: 980) - loss: 0.069082
+train epoch: 6 - step: 670 (total: 980) - loss: 0.037561
+train epoch: 6 - step: 680 (total: 980) - loss: 0.052998
+train epoch: 7 - step: 690 (total: 980) - loss: 0.039692
+train epoch: 7 - step: 700 (total: 980) - loss: 0.035129
+dev step: 700 - loss: 0.13933, precision: 0.67899, recall: 0.80049, f1: 0.73475 current best 0.74350
+train epoch: 7 - step: 710 (total: 980) - loss: 0.035564
+train epoch: 7 - step: 720 (total: 980) - loss: 0.027101
+train epoch: 7 - step: 730 (total: 980) - loss: 0.029594
+train epoch: 7 - step: 740 (total: 980) - loss: 0.044552
+train epoch: 7 - step: 750 (total: 980) - loss: 0.028522
+dev step: 750 - loss: 0.12799, precision: 0.68571, recall: 0.79526, f1: 0.73643 current best 0.74350
+train epoch: 7 - step: 760 (total: 980) - loss: 0.039187
+train epoch: 7 - step: 770 (total: 980) - loss: 0.038328
+train epoch: 7 - step: 780 (total: 980) - loss: 0.033073
+train epoch: 8 - step: 790 (total: 980) - loss: 0.022541
+train epoch: 8 - step: 800 (total: 980) - loss: 0.044418
+dev step: 800 - loss: 0.14641, precision: 0.69288, recall: 0.80816, f1: 0.74610 current best 0.74350
+==============================================save best model best performerence 0.746096
+train epoch: 8 - step: 810 (total: 980) - loss: 0.024228
+train epoch: 8 - step: 820 (total: 980) - loss: 0.037793
+train epoch: 8 - step: 830 (total: 980) - loss: 0.021668
+train epoch: 8 - step: 840 (total: 980) - loss: 0.030261
+train epoch: 8 - step: 850 (total: 980) - loss: 0.025210
+dev step: 850 - loss: 0.15697, precision: 0.69964, recall: 0.80677, f1: 0.74939 current best 0.74610
+==============================================save best model best performerence 0.749393
+train epoch: 8 - step: 860 (total: 980) - loss: 0.030427
+train epoch: 8 - step: 870 (total: 980) - loss: 0.039212
+train epoch: 8 - step: 880 (total: 980) - loss: 0.027188
+train epoch: 9 - step: 890 (total: 980) - loss: 0.032342
+train epoch: 9 - step: 900 (total: 980) - loss: 0.024256
+dev step: 900 - loss: 0.15603, precision: 0.68193, recall: 0.80014, f1: 0.73632 current best 0.74939
+train epoch: 9 - step: 910 (total: 980) - loss: 0.021226
+train epoch: 9 - step: 920 (total: 980) - loss: 0.016057
+train epoch: 9 - step: 930 (total: 980) - loss: 0.024551
+train epoch: 9 - step: 940 (total: 980) - loss: 0.027224
+train epoch: 9 - step: 950 (total: 980) - loss: 0.037404
+dev step: 950 - loss: 0.16200, precision: 0.68571, recall: 0.82037, f1: 0.74702 current best 0.74939
+train epoch: 9 - step: 960 (total: 980) - loss: 0.016550
+train epoch: 9 - step: 970 (total: 980) - loss: 0.022462
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/fluid/layers/utils.py:26: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  def convert_to_list(value, n, name, dtype=np.int):
+[2021-11-30 10:00:01,707] [    INFO] - Downloading vocab.txt from https://paddlenlp.bj.bcebos.com/models/transformers/ernie/vocab.txt
+  0%|          | 0/90 [00:00<?, ?it/s]100%|██████████| 90/90 [00:00<00:00, 3151.48it/s]
+[2021-11-30 10:00:01,823] [    INFO] - Downloading https://paddlenlp.bj.bcebos.com/models/transformers/ernie/ernie_v1_chn_base.pdparams and saved to /home/aistudio/.paddlenlp/models/ernie-1.0
+[2021-11-30 10:00:01,823] [    INFO] - Downloading ernie_v1_chn_base.pdparams from https://paddlenlp.bj.bcebos.com/models/transformers/ernie/ernie_v1_chn_base.pdparams
+  0%|          | 0/392507 [00:00<?, ?it/s]  0%|          | 179/392507 [00:00<03:50, 1704.60it/s]  0%|          | 483/392507 [00:00<03:19, 1961.93it/s]  0%|          | 880/392507 [00:00<02:49, 2312.87it/s]  0%|          | 1411/392507 [00:00<02:21, 2768.14it/s]  1%|          | 2200/392507 [00:00<01:53, 3437.58it/s]  1%|          | 3251/392507 [00:00<01:30, 4302.96it/s]  1%|          | 4867/392507 [00:00<01:10, 5503.23it/s]  2%|▏         | 6883/392507 [00:00<00:54, 7033.39it/s]  2%|▏         | 9699/392507 [00:00<00:42, 9074.58it/s]  3%|▎         | 13459/392507 [00:01<00:32, 11743.76it/s]  5%|▍         | 17709/392507 [00:01<00:24, 15000.12it/s]  5%|▌         | 21251/392507 [00:01<00:20, 18100.22it/s]  6%|▋         | 24915/392507 [00:01<00:17, 21320.06it/s]  7%|▋         | 28742/392507 [00:01<00:14, 24586.53it/s]  8%|▊         | 32513/392507 [00:01<00:13, 27451.83it/s]  9%|▉         | 36243/392507 [00:01<00:11, 29721.44it/s] 10%|█         | 39817/392507 [00:01<00:11, 31140.81it/s] 11%|█▏        | 44181/392507 [00:01<00:10, 34067.75it/s] 12%|█▏        | 48787/392507 [00:01<00:09, 36912.51it/s] 14%|█▎        | 53505/392507 [00:02<00:08, 39488.32it/s] 15%|█▍        | 58147/392507 [00:02<00:08, 41337.06it/s] 16%|█▌        | 62696/392507 [00:02<00:07, 42500.70it/s] 17%|█▋        | 67112/392507 [00:02<00:07, 42937.19it/s] 18%|█▊        | 71715/392507 [00:02<00:07, 43742.94it/s] 20%|█▉        | 76668/392507 [00:02<00:06, 45331.80it/s] 21%|██        | 81276/392507 [00:02<00:07, 43377.32it/s] 22%|██▏       | 85684/392507 [00:02<00:07, 41290.76it/s] 23%|██▎       | 89884/392507 [00:02<00:07, 38981.19it/s] 24%|██▍       | 93858/392507 [00:02<00:07, 38595.91it/s] 25%|██▍       | 97909/392507 [00:03<00:07, 39147.42it/s] 26%|██▌       | 102579/392507 [00:03<00:07, 41124.03it/s] 27%|██▋       | 107066/392507 [00:03<00:06, 42179.59it/s] 28%|██▊       | 111603/392507 [00:03<00:06, 43086.75it/s] 30%|██▉       | 116249/392507 [00:03<00:06, 44044.37it/s] 31%|███       | 120929/392507 [00:03<00:06, 44835.59it/s] 32%|███▏      | 125635/392507 [00:03<00:05, 45374.45it/s] 33%|███▎      | 130689/392507 [00:03<00:05, 46809.31it/s] 35%|███▍      | 135979/392507 [00:03<00:05, 48483.24it/s] 36%|███▌      | 141484/392507 [00:03<00:04, 50281.92it/s] 37%|███▋      | 147027/392507 [00:04<00:04, 51719.90it/s] 39%|███▉      | 152627/392507 [00:04<00:04, 52863.26it/s] 40%|████      | 158099/392507 [00:04<00:04, 53400.70it/s] 42%|████▏     | 163642/392507 [00:04<00:04, 53992.45it/s] 43%|████▎     | 169669/392507 [00:04<00:03, 55733.00it/s] 45%|████▍     | 176023/392507 [00:04<00:03, 57864.42it/s] 46%|████▋     | 182482/392507 [00:04<00:03, 59730.26it/s] 48%|████▊     | 188947/392507 [00:04<00:03, 61121.20it/s] 50%|████▉     | 195098/392507 [00:04<00:03, 60908.06it/s] 51%|█████▏    | 201639/392507 [00:04<00:03, 62186.00it/s] 53%|█████▎    | 208147/392507 [00:05<00:02, 63026.17it/s] 55%|█████▍    | 214931/392507 [00:05<00:02, 64396.26it/s] 56%|█████▋    | 221755/392507 [00:05<00:02, 65500.05it/s] 58%|█████▊    | 228621/392507 [00:05<00:02, 66414.88it/s] 60%|██████    | 235584/392507 [00:05<00:02, 67346.00it/s] 62%|██████▏   | 242334/392507 [00:05<00:02, 66863.39it/s] 63%|██████▎   | 249189/392507 [00:05<00:02, 67358.76it/s] 65%|██████▌   | 256019/392507 [00:05<00:02, 67637.27it/s] 67%|██████▋   | 262953/392507 [00:05<00:01, 68139.07it/s] 69%|██████▉   | 270505/392507 [00:05<00:01, 70194.88it/s] 71%|███████   | 277999/392507 [00:06<00:01, 71554.07it/s] 73%|███████▎  | 285492/392507 [00:06<00:01, 72532.98it/s] 75%|███████▍  | 293033/392507 [00:06<00:01, 73372.02it/s] 77%|███████▋  | 300577/392507 [00:06<00:01, 73979.45it/s] 78%|███████▊  | 308101/392507 [00:06<00:01, 74353.13it/s] 80%|████████  | 315594/392507 [00:06<00:01, 74522.94it/s] 82%|████████▏ | 323053/392507 [00:06<00:00, 74436.33it/s] 84%|████████▍ | 330573/392507 [00:06<00:00, 74663.24it/s] 86%|████████▌ | 338043/392507 [00:06<00:00, 73420.77it/s] 88%|████████▊ | 345392/392507 [00:06<00:00, 72709.06it/s] 90%|████████▉ | 352670/392507 [00:07<00:00, 72149.31it/s] 92%|█████████▏| 359891/392507 [00:07<00:00, 71501.90it/s] 94%|█████████▎| 367047/392507 [00:07<00:00, 71015.94it/s] 95%|█████████▌| 374307/392507 [00:07<00:00, 71481.31it/s] 97%|█████████▋| 381913/392507 [00:07<00:00, 72793.20it/s] 99%|█████████▉| 389526/392507 [00:07<00:00, 73761.04it/s]100%|██████████| 392507/392507 [00:07<00:00, 51329.99it/s]
+W1130 10:00:09.538985  2114 device_context.cc:362] Please NOTE: device: 0, GPU Compute Capability: 7.0, Driver API Version: 11.0, Runtime API Version: 10.1
+W1130 10:00:09.543628  2114 device_context.cc:372] device: 0, cuDNN Version: 7.6.
+============start train==========
+train epoch: 0 - step: 10 (total: 270) - loss: 0.809843
+train epoch: 0 - step: 20 (total: 270) - loss: 0.566210
+train epoch: 1 - step: 30 (total: 270) - loss: 0.363866
+train epoch: 1 - step: 40 (total: 270) - loss: 0.262104
+train epoch: 1 - step: 50 (total: 270) - loss: 0.276576
+dev step: 50 - loss: 0.26264, precision: 0.39946, recall: 0.44357, f1: 0.42036 current best 0.00000
+==============================================save best model best performerence 0.420360
+train epoch: 2 - step: 60 (total: 270) - loss: 0.216038
+train epoch: 2 - step: 70 (total: 270) - loss: 0.177142
+train epoch: 2 - step: 80 (total: 270) - loss: 0.134337
+train epoch: 3 - step: 90 (total: 270) - loss: 0.121194
+train epoch: 3 - step: 100 (total: 270) - loss: 0.159600
+dev step: 100 - loss: 0.19272, precision: 0.54527, recall: 0.63609, f1: 0.58719 current best 0.42036
+==============================================save best model best performerence 0.587187
+train epoch: 4 - step: 110 (total: 270) - loss: 0.134417
+train epoch: 4 - step: 120 (total: 270) - loss: 0.107667
+train epoch: 4 - step: 130 (total: 270) - loss: 0.087553
+train epoch: 5 - step: 140 (total: 270) - loss: 0.092296
+train epoch: 5 - step: 150 (total: 270) - loss: 0.099751
+dev step: 150 - loss: 0.17022, precision: 0.62651, recall: 0.65902, f1: 0.64235 current best 0.58719
+==============================================save best model best performerence 0.642353
+train epoch: 5 - step: 160 (total: 270) - loss: 0.080777
+train epoch: 6 - step: 170 (total: 270) - loss: 0.079129
+train epoch: 6 - step: 180 (total: 270) - loss: 0.084796
+train epoch: 7 - step: 190 (total: 270) - loss: 0.054974
+train epoch: 7 - step: 200 (total: 270) - loss: 0.078636
+dev step: 200 - loss: 0.17585, precision: 0.64425, recall: 0.65902, f1: 0.65155 current best 0.64235
+==============================================save best model best performerence 0.651551
+train epoch: 7 - step: 210 (total: 270) - loss: 0.070728
+train epoch: 8 - step: 220 (total: 270) - loss: 0.064080
+train epoch: 8 - step: 230 (total: 270) - loss: 0.059209
+train epoch: 8 - step: 240 (total: 270) - loss: 0.068380
+train epoch: 9 - step: 250 (total: 270) - loss: 0.080399
+dev step: 250 - loss: 0.18808, precision: 0.63186, recall: 0.65359, f1: 0.64254 current best 0.65155
+train epoch: 9 - step: 260 (total: 270) - loss: 0.055738
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/fluid/layers/utils.py:26: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  def convert_to_list(value, n, name, dtype=np.int):
+[2021-11-30 10:33:44,804] [    INFO] - Downloading vocab.txt from https://paddlenlp.bj.bcebos.com/models/transformers/ernie/vocab.txt
+  0%|          | 0/90 [00:00<?, ?it/s]100%|██████████| 90/90 [00:00<00:00, 2368.43it/s]
+[2021-11-30 10:33:44,928] [    INFO] - Downloading https://paddlenlp.bj.bcebos.com/models/transformers/ernie/ernie_v1_chn_base.pdparams and saved to /home/aistudio/.paddlenlp/models/ernie-1.0
+[2021-11-30 10:33:44,929] [    INFO] - Downloading ernie_v1_chn_base.pdparams from https://paddlenlp.bj.bcebos.com/models/transformers/ernie/ernie_v1_chn_base.pdparams
+  0%|          | 0/392507 [00:00<?, ?it/s]  0%|          | 499/392507 [00:00<01:21, 4795.69it/s]  1%|          | 2707/392507 [00:00<01:02, 6262.46it/s]  2%|▏         | 6515/392507 [00:00<00:46, 8352.68it/s]  3%|▎         | 10429/392507 [00:00<00:34, 10932.27it/s]  4%|▎         | 13932/392507 [00:00<00:27, 13774.98it/s]  5%|▌         | 19891/392507 [00:00<00:20, 17902.96it/s]  7%|▋         | 26368/392507 [00:00<00:16, 22866.72it/s]  8%|▊         | 32722/392507 [00:00<00:12, 28301.49it/s] 10%|▉         | 38875/392507 [00:00<00:10, 33771.35it/s] 12%|█▏        | 45218/392507 [00:01<00:08, 39280.62it/s] 13%|█▎        | 52219/392507 [00:01<00:07, 45237.24it/s] 15%|█▌        | 59252/392507 [00:01<00:06, 50659.07it/s] 17%|█▋        | 66318/392507 [00:01<00:05, 55359.67it/s] 19%|█▊        | 73277/392507 [00:01<00:05, 58976.93it/s] 20%|██        | 80272/392507 [00:01<00:05, 61888.12it/s] 22%|██▏       | 87311/392507 [00:01<00:04, 64214.70it/s] 24%|██▍       | 94446/392507 [00:01<00:04, 66196.74it/s] 26%|██▌       | 101958/392507 [00:01<00:04, 68641.03it/s] 28%|██▊       | 109501/392507 [00:01<00:04, 70545.63it/s] 30%|██▉       | 117049/392507 [00:02<00:03, 71955.88it/s] 32%|███▏      | 124625/392507 [00:02<00:03, 73054.19it/s] 34%|███▎      | 132172/392507 [00:02<00:03, 73760.91it/s] 36%|███▌      | 139721/392507 [00:02<00:03, 74269.35it/s] 38%|███▊      | 147295/392507 [00:02<00:03, 74702.69it/s] 39%|███▉      | 154851/392507 [00:02<00:03, 74950.99it/s] 41%|████▏     | 162429/392507 [00:02<00:03, 75197.49it/s] 43%|████▎     | 170071/392507 [00:02<00:02, 75559.60it/s] 45%|████▌     | 177641/392507 [00:02<00:02, 75569.84it/s] 47%|████▋     | 185219/392507 [00:02<00:02, 75628.74it/s] 49%|████▉     | 192827/392507 [00:03<00:02, 75760.07it/s] 51%|█████     | 200414/392507 [00:03<00:02, 75790.81it/s] 53%|█████▎    | 207997/392507 [00:03<00:02, 75697.97it/s] 55%|█████▍    | 215570/392507 [00:03<00:02, 75580.22it/s] 57%|█████▋    | 223130/392507 [00:03<00:02, 75427.75it/s] 59%|█████▉    | 230674/392507 [00:03<00:02, 74345.71it/s] 61%|██████    | 238192/392507 [00:03<00:02, 74593.06it/s] 63%|██████▎   | 245751/392507 [00:03<00:01, 74888.86it/s] 65%|██████▍   | 253339/392507 [00:03<00:01, 75182.59it/s] 66%|██████▋   | 260925/392507 [00:03<00:01, 75382.52it/s] 68%|██████▊   | 268541/392507 [00:04<00:01, 75610.79it/s] 70%|███████   | 276109/392507 [00:04<00:01, 75631.34it/s] 72%|███████▏  | 283674/392507 [00:04<00:01, 75562.39it/s] 74%|███████▍  | 291233/392507 [00:04<00:01, 75567.88it/s] 76%|███████▌  | 298791/392507 [00:04<00:01, 75523.20it/s] 78%|███████▊  | 306344/392507 [00:04<00:01, 75483.91it/s] 80%|███████▉  | 313899/392507 [00:04<00:01, 75500.13it/s] 82%|████████▏ | 321450/392507 [00:04<00:00, 75324.26it/s] 84%|████████▍ | 328983/392507 [00:04<00:00, 68591.67it/s] 86%|████████▌ | 336419/392507 [00:04<00:00, 70222.75it/s] 88%|████████▊ | 343535/392507 [00:05<00:00, 70500.89it/s] 89%|████████▉ | 350650/392507 [00:05<00:00, 69145.36it/s] 91%|█████████ | 357616/392507 [00:05<00:00, 68164.55it/s] 93%|█████████▎| 364472/392507 [00:05<00:00, 68227.46it/s] 95%|█████████▍| 371322/392507 [00:05<00:00, 67485.29it/s] 96%|█████████▋| 378092/392507 [00:05<00:00, 67256.35it/s] 98%|█████████▊| 385057/392507 [00:05<00:00, 67954.40it/s]100%|█████████▉| 391997/392507 [00:05<00:00, 68378.75it/s]100%|██████████| 392507/392507 [00:05<00:00, 67972.26it/s]
+W1130 10:33:50.789674   711 device_context.cc:362] Please NOTE: device: 0, GPU Compute Capability: 7.0, Driver API Version: 10.1, Runtime API Version: 10.1
+W1130 10:33:50.793956   711 device_context.cc:372] device: 0, cuDNN Version: 7.6.
+============start train==========
+train epoch: 0 - step: 10 (total: 1060) - loss: 0.743865
+train epoch: 0 - step: 20 (total: 1060) - loss: 0.673744
+train epoch: 0 - step: 30 (total: 1060) - loss: 0.444745
+train epoch: 0 - step: 40 (total: 1060) - loss: 0.328241
+train epoch: 0 - step: 50 (total: 1060) - loss: 0.242405
+dev step: 50 - loss: 0.29703, precision: 0.41983, recall: 0.43452, f1: 0.42705 current best 0.00000
+==============================================save best model best performerence 0.427046
+train epoch: 1 - step: 60 (total: 1060) - loss: 0.217218
+train epoch: 1 - step: 70 (total: 1060) - loss: 0.192445
+train epoch: 1 - step: 80 (total: 1060) - loss: 0.154412
+train epoch: 1 - step: 90 (total: 1060) - loss: 0.241621
+train epoch: 1 - step: 100 (total: 1060) - loss: 0.242361
+dev step: 100 - loss: 0.19360, precision: 0.53182, recall: 0.59505, f1: 0.56166 current best 0.42705
+==============================================save best model best performerence 0.561663
+train epoch: 2 - step: 110 (total: 1060) - loss: 0.110689
+train epoch: 2 - step: 120 (total: 1060) - loss: 0.107879
+train epoch: 2 - step: 130 (total: 1060) - loss: 0.106818
+train epoch: 2 - step: 140 (total: 1060) - loss: 0.112465
+train epoch: 2 - step: 150 (total: 1060) - loss: 0.243330
+dev step: 150 - loss: 0.16457, precision: 0.61026, recall: 0.62462, f1: 0.61736 current best 0.56166
+==============================================save best model best performerence 0.617358
+train epoch: 3 - step: 160 (total: 1060) - loss: 0.122757
+train epoch: 3 - step: 170 (total: 1060) - loss: 0.094043
+train epoch: 3 - step: 180 (total: 1060) - loss: 0.088491
+train epoch: 3 - step: 190 (total: 1060) - loss: 0.104618
+train epoch: 3 - step: 200 (total: 1060) - loss: 0.120342
+dev step: 200 - loss: 0.15869, precision: 0.62621, recall: 0.62583, f1: 0.62602 current best 0.61736
+==============================================save best model best performerence 0.626019
+train epoch: 3 - step: 210 (total: 1060) - loss: 0.142950
+train epoch: 4 - step: 220 (total: 1060) - loss: 0.077200
+train epoch: 4 - step: 230 (total: 1060) - loss: 0.082407
+train epoch: 4 - step: 240 (total: 1060) - loss: 0.083027
+train epoch: 4 - step: 250 (total: 1060) - loss: 0.095602
+dev step: 250 - loss: 0.16219, precision: 0.66235, recall: 0.64876, f1: 0.65549 current best 0.62602
+==============================================save best model best performerence 0.655488
+train epoch: 4 - step: 260 (total: 1060) - loss: 0.062064
+train epoch: 5 - step: 270 (total: 1060) - loss: 0.082903
+train epoch: 5 - step: 280 (total: 1060) - loss: 0.066113
+train epoch: 5 - step: 290 (total: 1060) - loss: 0.070302
+train epoch: 5 - step: 300 (total: 1060) - loss: 0.130497
+dev step: 300 - loss: 0.16860, precision: 0.65505, recall: 0.66928, f1: 0.66209 current best 0.65549
+==============================================save best model best performerence 0.662090
+train epoch: 5 - step: 310 (total: 1060) - loss: 0.049229
+train epoch: 6 - step: 320 (total: 1060) - loss: 0.068157
+train epoch: 6 - step: 330 (total: 1060) - loss: 0.081106
+train epoch: 6 - step: 340 (total: 1060) - loss: 0.055878
+train epoch: 6 - step: 350 (total: 1060) - loss: 0.030936
+dev step: 350 - loss: 0.19083, precision: 0.62796, recall: 0.67230, f1: 0.64937 current best 0.66209
+train epoch: 6 - step: 360 (total: 1060) - loss: 0.053298
+train epoch: 6 - step: 370 (total: 1060) - loss: 0.056009
+train epoch: 7 - step: 380 (total: 1060) - loss: 0.038647
+train epoch: 7 - step: 390 (total: 1060) - loss: 0.048191
+train epoch: 7 - step: 400 (total: 1060) - loss: 0.051486
+dev step: 400 - loss: 0.18355, precision: 0.65788, recall: 0.67773, f1: 0.66766 current best 0.66209
+==============================================save best model best performerence 0.667658
+train epoch: 7 - step: 410 (total: 1060) - loss: 0.028206
+train epoch: 7 - step: 420 (total: 1060) - loss: 0.063090
+train epoch: 8 - step: 430 (total: 1060) - loss: 0.043408
+train epoch: 8 - step: 440 (total: 1060) - loss: 0.032101
+train epoch: 8 - step: 450 (total: 1060) - loss: 0.043073
+dev step: 450 - loss: 0.18151, precision: 0.64372, recall: 0.67713, f1: 0.66000 current best 0.66766
+train epoch: 8 - step: 460 (total: 1060) - loss: 0.041110
+train epoch: 8 - step: 470 (total: 1060) - loss: 0.025587
+train epoch: 9 - step: 480 (total: 1060) - loss: 0.039849
+train epoch: 9 - step: 490 (total: 1060) - loss: 0.033619
+train epoch: 9 - step: 500 (total: 1060) - loss: 0.034904
+dev step: 500 - loss: 0.18812, precision: 0.65431, recall: 0.68196, f1: 0.66785 current best 0.66766
+==============================================save best model best performerence 0.667849
+train epoch: 9 - step: 510 (total: 1060) - loss: 0.034154
+train epoch: 9 - step: 520 (total: 1060) - loss: 0.025901
+train epoch: 10 - step: 530 (total: 1060) - loss: 0.041407
+train epoch: 10 - step: 540 (total: 1060) - loss: 0.017849
+train epoch: 10 - step: 550 (total: 1060) - loss: 0.033811
+dev step: 550 - loss: 0.20502, precision: 0.67158, recall: 0.66023, f1: 0.66586 current best 0.66785
+train epoch: 10 - step: 560 (total: 1060) - loss: 0.023800
+train epoch: 10 - step: 570 (total: 1060) - loss: 0.037329
+train epoch: 10 - step: 580 (total: 1060) - loss: 0.026102
+train epoch: 11 - step: 590 (total: 1060) - loss: 0.013944
+train epoch: 11 - step: 600 (total: 1060) - loss: 0.015058
+dev step: 600 - loss: 0.21496, precision: 0.62354, recall: 0.67773, f1: 0.64951 current best 0.66785
+train epoch: 11 - step: 610 (total: 1060) - loss: 0.021636
+train epoch: 11 - step: 620 (total: 1060) - loss: 0.021911
+train epoch: 11 - step: 630 (total: 1060) - loss: 0.023951
+train epoch: 12 - step: 640 (total: 1060) - loss: 0.026928
+train epoch: 12 - step: 650 (total: 1060) - loss: 0.033799
+dev step: 650 - loss: 0.22378, precision: 0.67015, recall: 0.65842, f1: 0.66423 current best 0.66785
+train epoch: 12 - step: 660 (total: 1060) - loss: 0.027474
+train epoch: 12 - step: 670 (total: 1060) - loss: 0.010094
+train epoch: 12 - step: 680 (total: 1060) - loss: 0.022693
+train epoch: 13 - step: 690 (total: 1060) - loss: 0.013522
+train epoch: 13 - step: 700 (total: 1060) - loss: 0.017202
+dev step: 700 - loss: 0.21285, precision: 0.63682, recall: 0.69523, f1: 0.66474 current best 0.66785
+train epoch: 13 - step: 710 (total: 1060) - loss: 0.019221
+train epoch: 13 - step: 720 (total: 1060) - loss: 0.017459
+train epoch: 13 - step: 730 (total: 1060) - loss: 0.032102
+train epoch: 13 - step: 740 (total: 1060) - loss: 0.026158
+train epoch: 14 - step: 750 (total: 1060) - loss: 0.027335
+dev step: 750 - loss: 0.22187, precision: 0.65217, recall: 0.70610, f1: 0.67806 current best 0.66785
+==============================================save best model best performerence 0.678064
+train epoch: 14 - step: 760 (total: 1060) - loss: 0.054031
+train epoch: 14 - step: 770 (total: 1060) - loss: 0.018353
+train epoch: 14 - step: 780 (total: 1060) - loss: 0.018227
+train epoch: 14 - step: 790 (total: 1060) - loss: 0.034100
+train epoch: 15 - step: 800 (total: 1060) - loss: 0.027575
+dev step: 800 - loss: 0.23419, precision: 0.65964, recall: 0.67954, f1: 0.66944 current best 0.67806
+train epoch: 15 - step: 810 (total: 1060) - loss: 0.015596
+train epoch: 15 - step: 820 (total: 1060) - loss: 0.011049
+train epoch: 15 - step: 830 (total: 1060) - loss: 0.018239
+train epoch: 15 - step: 840 (total: 1060) - loss: 0.018140
+train epoch: 16 - step: 850 (total: 1060) - loss: 0.009098
+dev step: 850 - loss: 0.23158, precision: 0.66431, recall: 0.68075, f1: 0.67243 current best 0.67806
+train epoch: 16 - step: 860 (total: 1060) - loss: 0.023154
+train epoch: 16 - step: 870 (total: 1060) - loss: 0.011354
+train epoch: 16 - step: 880 (total: 1060) - loss: 0.009304
+train epoch: 16 - step: 890 (total: 1060) - loss: 0.021910
+train epoch: 16 - step: 900 (total: 1060) - loss: 0.015668
+dev step: 900 - loss: 0.22639, precision: 0.65461, recall: 0.69885, f1: 0.67601 current best 0.67806
+train epoch: 17 - step: 910 (total: 1060) - loss: 0.016878
+train epoch: 17 - step: 920 (total: 1060) - loss: 0.014529
+train epoch: 17 - step: 930 (total: 1060) - loss: 0.008118
+train epoch: 17 - step: 940 (total: 1060) - loss: 0.013710
+train epoch: 17 - step: 950 (total: 1060) - loss: 0.018850
+dev step: 950 - loss: 0.23728, precision: 0.65389, recall: 0.67954, f1: 0.66647 current best 0.67806
+train epoch: 18 - step: 960 (total: 1060) - loss: 0.013253
+train epoch: 18 - step: 970 (total: 1060) - loss: 0.016193
+train epoch: 18 - step: 980 (total: 1060) - loss: 0.025643
+train epoch: 18 - step: 990 (total: 1060) - loss: 0.026883
+train epoch: 18 - step: 1000 (total: 1060) - loss: 0.014408
+dev step: 1000 - loss: 0.23283, precision: 0.66016, recall: 0.69403, f1: 0.67667 current best 0.67806
+train epoch: 19 - step: 1010 (total: 1060) - loss: 0.018067
+train epoch: 19 - step: 1020 (total: 1060) - loss: 0.023894
+train epoch: 19 - step: 1030 (total: 1060) - loss: 0.011036
+train epoch: 19 - step: 1040 (total: 1060) - loss: 0.013457
+train epoch: 19 - step: 1050 (total: 1060) - loss: 0.024009
+dev step: 1050 - loss: 0.25276, precision: 0.64161, recall: 0.71092, f1: 0.67449 current best 0.67806
+/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/paddle/fluid/layers/utils.py:26: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  def convert_to_list(value, n, name, dtype=np.int):
+[2021-12-16 16:50:52,035] [    INFO] - Downloading vocab.txt from https://paddlenlp.bj.bcebos.com/models/transformers/ernie/vocab.txt
+  0%|          | 0/90 [00:00<?, ?it/s]100%|██████████| 90/90 [00:00<00:00, 5402.63it/s]
+[2021-12-16 16:50:52,141] [    INFO] - Downloading https://paddlenlp.bj.bcebos.com/models/transformers/ernie/ernie_v1_chn_base.pdparams and saved to /home/aistudio/.paddlenlp/models/ernie-1.0
+[2021-12-16 16:50:52,141] [    INFO] - Downloading ernie_v1_chn_base.pdparams from https://paddlenlp.bj.bcebos.com/models/transformers/ernie/ernie_v1_chn_base.pdparams
+  0%|          | 0/392507 [00:00<?, ?it/s]  0%|          | 1091/392507 [00:00<00:36, 10761.25it/s]  1%|          | 4213/392507 [00:00<00:28, 13394.49it/s]  2%|▏         | 6387/392507 [00:00<00:25, 15110.27it/s]  2%|▏         | 8547/392507 [00:00<00:23, 16507.28it/s]  3%|▎         | 10707/392507 [00:00<00:21, 17648.90it/s]  3%|▎         | 13281/392507 [00:00<00:19, 19486.27it/s]  4%|▍         | 15491/392507 [00:00<00:18, 20140.38it/s]  4%|▍         | 17651/392507 [00:00<00:18, 20429.46it/s]  5%|▌         | 20583/392507 [00:00<00:16, 22473.41it/s]  6%|▌         | 23636/392507 [00:01<00:15, 24404.47it/s]  7%|▋         | 27232/392507 [00:01<00:13, 27007.74it/s]  9%|▊         | 33544/392507 [00:01<00:11, 32603.34it/s] 10%|█         | 40387/392507 [00:01<00:09, 38678.11it/s] 12%|█▏        | 47369/392507 [00:01<00:07, 44652.65it/s] 14%|█▍        | 54335/392507 [00:01<00:06, 50041.37it/s] 15%|█▌        | 60235/392507 [00:02<00:24, 13679.84it/s] 16%|█▋        | 64517/392507 [00:02<00:21, 15438.36it/s] 17%|█▋        | 68176/392507 [00:03<00:19, 16824.84it/s] 18%|█▊        | 71376/392507 [00:03<00:18, 17143.96it/s] 19%|█▉        | 74154/392507 [00:03<00:17, 18168.64it/s] 20%|█▉        | 76732/392507 [00:03<00:16, 18901.28it/s] 20%|██        | 79163/392507 [00:03<00:16, 19480.67it/s] 21%|██        | 81494/392507 [00:03<00:15, 19920.24it/s] 21%|██▏       | 83757/392507 [00:03<00:15, 19414.73it/s] 22%|██▏       | 85891/392507 [00:03<00:15, 19636.73it/s] 22%|██▏       | 88035/392507 [00:04<00:15, 20144.80it/s] 23%|██▎       | 90148/392507 [00:04<00:14, 20327.02it/s] 24%|██▎       | 92259/392507 [00:04<00:14, 20482.91it/s] 24%|██▍       | 94883/392507 [00:04<00:13, 21873.77it/s] 25%|██▌       | 98303/392507 [00:04<00:11, 24525.30it/s] 26%|██▌       | 102339/392507 [00:04<00:10, 27796.18it/s] 27%|██▋       | 106748/392507 [00:04<00:09, 31261.82it/s] 28%|██▊       | 111779/392507 [00:04<00:07, 35267.49it/s] 30%|██▉       | 116774/392507 [00:04<00:07, 38677.78it/s] 31%|███       | 121491/392507 [00:04<00:06, 40858.02it/s] 33%|███▎      | 127710/392507 [00:05<00:05, 45544.26it/s] 34%|███▍      | 134554/392507 [00:05<00:05, 50624.71it/s] 36%|███▌      | 141480/392507 [00:05<00:04, 55068.87it/s] 38%|███▊      | 148609/392507 [00:05<00:04, 59102.33it/s] 40%|███▉      | 155694/392507 [00:05<00:03, 62193.84it/s] 41%|████▏     | 162833/392507 [00:05<00:03, 64692.09it/s] 43%|████▎     | 170159/392507 [00:05<00:03, 67044.14it/s] 45%|████▌     | 177176/392507 [00:05<00:03, 67952.14it/s] 47%|████▋     | 184285/392507 [00:05<00:03, 68859.70it/s] 49%|████▊     | 191308/392507 [00:05<00:02, 69264.47it/s] 51%|█████     | 198305/392507 [00:06<00:02, 69254.56it/s] 52%|█████▏    | 205413/392507 [00:06<00:02, 69790.33it/s] 54%|█████▍    | 212428/392507 [00:06<00:02, 69600.74it/s] 56%|█████▌    | 219413/392507 [00:06<00:02, 69424.07it/s] 58%|█████▊    | 226373/392507 [00:06<00:02, 69397.80it/s] 59%|█████▉    | 233325/392507 [00:06<00:02, 69370.16it/s] 61%|██████    | 240274/392507 [00:06<00:02, 69403.41it/s] 63%|██████▎   | 247689/392507 [00:06<00:02, 70760.13it/s] 65%|██████▌   | 255260/392507 [00:06<00:01, 72174.12it/s] 67%|██████▋   | 262870/392507 [00:06<00:01, 73307.79it/s] 69%|██████▉   | 270446/392507 [00:07<00:01, 74025.71it/s] 71%|███████   | 278053/392507 [00:07<00:01, 74625.77it/s] 73%|███████▎  | 285715/392507 [00:07<00:01, 75207.16it/s] 75%|███████▍  | 293299/392507 [00:07<00:01, 75392.60it/s] 77%|███████▋  | 300902/392507 [00:07<00:01, 75581.64it/s] 79%|███████▊  | 308483/392507 [00:07<00:01, 75644.46it/s] 81%|████████  | 316174/392507 [00:07<00:01, 76018.03it/s] 83%|████████▎ | 323867/392507 [00:07<00:00, 76287.69it/s] 84%|████████▍ | 331540/392507 [00:07<00:00, 76419.43it/s] 86%|████████▋ | 339210/392507 [00:07<00:00, 76502.43it/s] 88%|████████▊ | 346878/392507 [00:08<00:00, 76554.87it/s] 90%|█████████ | 354535/392507 [00:08<00:00, 76360.87it/s] 92%|█████████▏| 362172/392507 [00:08<00:00, 76305.56it/s] 94%|█████████▍| 369803/392507 [00:08<00:00, 76288.69it/s] 96%|█████████▌| 377433/392507 [00:08<00:00, 76174.38it/s] 98%|█████████▊| 385116/392507 [00:08<00:00, 76368.33it/s]100%|██████████| 392507/392507 [00:08<00:00, 45447.65it/s]
+W1216 16:51:00.854318  9337 device_context.cc:362] Please NOTE: device: 0, GPU Compute Capability: 7.0, Driver API Version: 11.0, Runtime API Version: 10.1
+W1216 16:51:00.858080  9337 device_context.cc:372] device: 0, cuDNN Version: 7.6.
+============start train==========
+train epoch: 0 - step: 10 (total: 1060) - loss: 0.743847
+train epoch: 0 - step: 20 (total: 1060) - loss: 0.673689
+train epoch: 0 - step: 30 (total: 1060) - loss: 0.444712
+train epoch: 0 - step: 40 (total: 1060) - loss: 0.328167
+train epoch: 0 - step: 50 (total: 1060) - loss: 0.242764
+dev step: 50 - loss: 0.29669, precision: 0.42188, recall: 0.43512, f1: 0.42840 current best 0.00000
+==============================================save best model best performerence 0.428402
+train epoch: 1 - step: 60 (total: 1060) - loss: 0.217711
+train epoch: 1 - step: 70 (total: 1060) - loss: 0.193700
+train epoch: 1 - step: 80 (total: 1060) - loss: 0.154187
+train epoch: 1 - step: 90 (total: 1060) - loss: 0.241579
+train epoch: 1 - step: 100 (total: 1060) - loss: 0.241552
+dev step: 100 - loss: 0.19422, precision: 0.52818, recall: 0.59384, f1: 0.55909 current best 0.42840
+==============================================save best model best performerence 0.559091
+train epoch: 2 - step: 110 (total: 1060) - loss: 0.111353
+train epoch: 2 - step: 120 (total: 1060) - loss: 0.107012
+train epoch: 2 - step: 130 (total: 1060) - loss: 0.107939
+train epoch: 2 - step: 140 (total: 1060) - loss: 0.112423
+train epoch: 2 - step: 150 (total: 1060) - loss: 0.243256
+dev step: 150 - loss: 0.16394, precision: 0.60656, recall: 0.62523, f1: 0.61575 current best 0.55909
+==============================================save best model best performerence 0.615750
+train epoch: 3 - step: 160 (total: 1060) - loss: 0.122250
+train epoch: 3 - step: 170 (total: 1060) - loss: 0.096192
+train epoch: 3 - step: 180 (total: 1060) - loss: 0.088472
+train epoch: 3 - step: 190 (total: 1060) - loss: 0.104305
+train epoch: 3 - step: 200 (total: 1060) - loss: 0.120081
+dev step: 200 - loss: 0.15805, precision: 0.63426, recall: 0.63005, f1: 0.63215 current best 0.61575
+==============================================save best model best performerence 0.632153
+train epoch: 3 - step: 210 (total: 1060) - loss: 0.143955
+train epoch: 4 - step: 220 (total: 1060) - loss: 0.078803
+train epoch: 4 - step: 230 (total: 1060) - loss: 0.080757
+train epoch: 4 - step: 240 (total: 1060) - loss: 0.075141
+train epoch: 4 - step: 250 (total: 1060) - loss: 0.091104
+dev step: 250 - loss: 0.16151, precision: 0.66100, recall: 0.65661, f1: 0.65880 current best 0.63215
+==============================================save best model best performerence 0.658795
+train epoch: 4 - step: 260 (total: 1060) - loss: 0.062254
+train epoch: 5 - step: 270 (total: 1060) - loss: 0.084162
+train epoch: 5 - step: 280 (total: 1060) - loss: 0.060598
+train epoch: 5 - step: 290 (total: 1060) - loss: 0.060279
+train epoch: 5 - step: 300 (total: 1060) - loss: 0.122465
+dev step: 300 - loss: 0.17464, precision: 0.65709, recall: 0.66264, f1: 0.65986 current best 0.65880
+==============================================save best model best performerence 0.659856
+train epoch: 5 - step: 310 (total: 1060) - loss: 0.048349
+train epoch: 6 - step: 320 (total: 1060) - loss: 0.067401
+train epoch: 6 - step: 330 (total: 1060) - loss: 0.087062
+train epoch: 6 - step: 340 (total: 1060) - loss: 0.057738
+train epoch: 6 - step: 350 (total: 1060) - loss: 0.031293
+dev step: 350 - loss: 0.18741, precision: 0.62933, recall: 0.66807, f1: 0.64813 current best 0.65986
+train epoch: 6 - step: 360 (total: 1060) - loss: 0.048991
+train epoch: 6 - step: 370 (total: 1060) - loss: 0.044445
+train epoch: 7 - step: 380 (total: 1060) - loss: 0.042765
+train epoch: 7 - step: 390 (total: 1060) - loss: 0.050170
+train epoch: 7 - step: 400 (total: 1060) - loss: 0.051243
+dev step: 400 - loss: 0.18395, precision: 0.65322, recall: 0.67411, f1: 0.66350 current best 0.65986
+==============================================save best model best performerence 0.663499
+train epoch: 7 - step: 410 (total: 1060) - loss: 0.030312
+train epoch: 7 - step: 420 (total: 1060) - loss: 0.056399
+train epoch: 8 - step: 430 (total: 1060) - loss: 0.046690
+train epoch: 8 - step: 440 (total: 1060) - loss: 0.035195
+train epoch: 8 - step: 450 (total: 1060) - loss: 0.045707
+dev step: 450 - loss: 0.18848, precision: 0.64294, recall: 0.67049, f1: 0.65643 current best 0.66350
+train epoch: 8 - step: 460 (total: 1060) - loss: 0.048348
+train epoch: 8 - step: 470 (total: 1060) - loss: 0.025144
+train epoch: 9 - step: 480 (total: 1060) - loss: 0.037203
+train epoch: 9 - step: 490 (total: 1060) - loss: 0.035107
+train epoch: 9 - step: 500 (total: 1060) - loss: 0.032249
+dev step: 500 - loss: 0.19523, precision: 0.64566, recall: 0.67411, f1: 0.65958 current best 0.66350
+train epoch: 9 - step: 510 (total: 1060) - loss: 0.034788
+train epoch: 9 - step: 520 (total: 1060) - loss: 0.027295
+train epoch: 10 - step: 530 (total: 1060) - loss: 0.035118
+train epoch: 10 - step: 540 (total: 1060) - loss: 0.016008
+train epoch: 10 - step: 550 (total: 1060) - loss: 0.034913
+dev step: 550 - loss: 0.20203, precision: 0.67300, recall: 0.68437, f1: 0.67864 current best 0.66350
+==============================================save best model best performerence 0.678636
+train epoch: 10 - step: 560 (total: 1060) - loss: 0.026005
+train epoch: 10 - step: 570 (total: 1060) - loss: 0.043133
+train epoch: 10 - step: 580 (total: 1060) - loss: 0.028593
+train epoch: 11 - step: 590 (total: 1060) - loss: 0.014850
+train epoch: 11 - step: 600 (total: 1060) - loss: 0.017660
+dev step: 600 - loss: 0.21011, precision: 0.63389, recall: 0.68859, f1: 0.66011 current best 0.67864
+train epoch: 11 - step: 610 (total: 1060) - loss: 0.022772
+train epoch: 11 - step: 620 (total: 1060) - loss: 0.023356
+train epoch: 11 - step: 630 (total: 1060) - loss: 0.020376
+train epoch: 12 - step: 640 (total: 1060) - loss: 0.037128
+train epoch: 12 - step: 650 (total: 1060) - loss: 0.052849
+dev step: 650 - loss: 0.22568, precision: 0.66311, recall: 0.67592, f1: 0.66946 current best 0.67864
+train epoch: 12 - step: 660 (total: 1060) - loss: 0.025284
+train epoch: 12 - step: 670 (total: 1060) - loss: 0.010880
+train epoch: 12 - step: 680 (total: 1060) - loss: 0.022749
+train epoch: 13 - step: 690 (total: 1060) - loss: 0.010961
+train epoch: 13 - step: 700 (total: 1060) - loss: 0.016210
+dev step: 700 - loss: 0.21068, precision: 0.64111, recall: 0.69644, f1: 0.66763 current best 0.67864
+train epoch: 13 - step: 710 (total: 1060) - loss: 0.022214
+train epoch: 13 - step: 720 (total: 1060) - loss: 0.018187
+train epoch: 13 - step: 730 (total: 1060) - loss: 0.037592
+train epoch: 13 - step: 740 (total: 1060) - loss: 0.029346
+train epoch: 14 - step: 750 (total: 1060) - loss: 0.027076
+dev step: 750 - loss: 0.21911, precision: 0.64424, recall: 0.68196, f1: 0.66256 current best 0.67864
+train epoch: 14 - step: 760 (total: 1060) - loss: 0.048327
+train epoch: 14 - step: 770 (total: 1060) - loss: 0.034252
+train epoch: 14 - step: 780 (total: 1060) - loss: 0.024344
+train epoch: 14 - step: 790 (total: 1060) - loss: 0.031189
+train epoch: 15 - step: 800 (total: 1060) - loss: 0.023644
+dev step: 800 - loss: 0.22641, precision: 0.63938, recall: 0.67411, f1: 0.65629 current best 0.67864
+train epoch: 15 - step: 810 (total: 1060) - loss: 0.012744
+train epoch: 15 - step: 820 (total: 1060) - loss: 0.015271
+train epoch: 15 - step: 830 (total: 1060) - loss: 0.033353
+train epoch: 15 - step: 840 (total: 1060) - loss: 0.019248
+train epoch: 16 - step: 850 (total: 1060) - loss: 0.015156
+dev step: 850 - loss: 0.24374, precision: 0.65696, recall: 0.68075, f1: 0.66864 current best 0.67864
+train epoch: 16 - step: 860 (total: 1060) - loss: 0.024168
+train epoch: 16 - step: 870 (total: 1060) - loss: 0.022453
+train epoch: 16 - step: 880 (total: 1060) - loss: 0.021122
+train epoch: 16 - step: 890 (total: 1060) - loss: 0.047096
+train epoch: 16 - step: 900 (total: 1060) - loss: 0.017619
+dev step: 900 - loss: 0.21508, precision: 0.64491, recall: 0.70368, f1: 0.67302 current best 0.67864
+train epoch: 17 - step: 910 (total: 1060) - loss: 0.017374
+train epoch: 17 - step: 920 (total: 1060) - loss: 0.010727
+train epoch: 17 - step: 930 (total: 1060) - loss: 0.006718
+train epoch: 17 - step: 940 (total: 1060) - loss: 0.011023
+train epoch: 17 - step: 950 (total: 1060) - loss: 0.013715
+dev step: 950 - loss: 0.23987, precision: 0.65521, recall: 0.69040, f1: 0.67235 current best 0.67864
+train epoch: 18 - step: 960 (total: 1060) - loss: 0.011759
+train epoch: 18 - step: 970 (total: 1060) - loss: 0.026257
+train epoch: 18 - step: 980 (total: 1060) - loss: 0.024970
+train epoch: 18 - step: 990 (total: 1060) - loss: 0.016747
+train epoch: 18 - step: 1000 (total: 1060) - loss: 0.007926
+dev step: 1000 - loss: 0.23333, precision: 0.65833, recall: 0.69885, f1: 0.67799 current best 0.67864
+train epoch: 19 - step: 1010 (total: 1060) - loss: 0.013421
+train epoch: 19 - step: 1020 (total: 1060) - loss: 0.011973
+train epoch: 19 - step: 1030 (total: 1060) - loss: 0.018817
+train epoch: 19 - step: 1040 (total: 1060) - loss: 0.016451
+train epoch: 19 - step: 1050 (total: 1060) - loss: 0.017909
+dev step: 1050 - loss: 0.24761, precision: 0.63991, recall: 0.69282, f1: 0.66531 current best 0.67864
