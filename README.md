@@ -9,6 +9,7 @@ Event & Entity Extraction Based on Paddlepaddle. 金融/医疗等领域实体抽
 
 整个项目的运行方式是基于脚本文件`run_event_element_extraction.sh`来实现。
 
+```
 # 定义任务
 if [ ${process_name} == ccks2lic_data_prepare ]; then
     echo -e "\nstart ${dataset_name} ccks2lic data prepare"
@@ -299,9 +300,6 @@ fi
 ## 评估阶段
 模型的训练结果采用精确率（Precision, P）、召回率（Recall, R）、F1值（F1-measure, F1）来评估篇章事件要素的识别效果。采用微平均计算F值即所有样本一起计算P和R。
 
-<<<<<<< HEAD
 医疗数据集：precision: 0.67928, recall: 0.70428, f1: 0.69156
 
 金融数据集：precision: 0.68166, recall: 0.81932, f1: 0.74418
-=======
->>>>>>> 8ada55ddcd81c0229bc2b81acab38a73eacbdf57
