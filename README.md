@@ -4,13 +4,11 @@ Event & Entity Extraction Based on Paddlepaddle. 金融/医疗等领域实体抽
 基于ccks2021金融事件元素抽取解决方案，出处可查看博客 [CCKS 2021篇章级事件元素抽取](https://blog.csdn.net/m0_63642362/article/details/121188673)。
 
 ## 项目说明
-<<<<<<< HEAD
+
 整个项目的运行方式是基于脚本文件`run_event_element_extraction.sh`来实现。运行环境在百度Paddle：[如何使用PaddleHub提供的ERNIE进行序列标注](https://aistudio.baidu.com/aistudio/projectdetail/147009)，基于Paddle的Ernie预训练模型进行Fine-Tune。
 
-=======
 整个项目的运行方式是基于脚本文件`run_event_element_extraction.sh`来实现。
->>>>>>> 8ada55ddcd81c0229bc2b81acab38a73eacbdf57
-```
+
 # 定义任务
 if [ ${process_name} == ccks2lic_data_prepare ]; then
     echo -e "\nstart ${dataset_name} ccks2lic data prepare"
