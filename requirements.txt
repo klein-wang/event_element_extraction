@@ -1,0 +1,5 @@
+numpy==1.20.3
+paddlepaddle_gpu==2.0.2.post101
+paddlenlp==2.0.5
+pandas==1.1.5
+paddle==1.0.2
