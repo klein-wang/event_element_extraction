@@ -1,5 +1,6 @@
 import json
 
+<<<<<<< HEAD
 submit_path = './submit/result.txt' # 预测的数据集
 # 读取经过基于ERNIE预训练模型序列标注任务得到的预测结果txt文件
 with open(submit_path,encoding='utf-8') as f:
@@ -15,6 +16,15 @@ with open(dev_data_path,encoding='utf-8') as f:
 
 # 构建三元组 - 预测集
 def med_relation_extract(text=output,relation='药物',type1="疾病和诊断",type2="药物"):
+=======
+submit_path = './submit/result.txt'
+# 读取经过基于ERNIE预训练模型序列标注任务得到的预测结果txt文件
+with open(submit_path,encoding='utf-8') as f:
+    c = f.readlines()
+
+# 构建三元组
+def med_relation_extract(text=c,relation='药物',type1="疾病和诊断",type2="药物"):
+>>>>>>> 8ada55ddcd81c0229bc2b81acab38a73eacbdf57
     total = []
     for m in range(len(text)):
         a = eval(text[m])['attributes'] # return a list of dicts inside text's attributes
@@ -43,6 +53,7 @@ def med_relation_extract(text=output,relation='药物',type1="疾病和诊断",t
     return(total)
 
 
+<<<<<<< HEAD
 # 构建三元组 - 训练集、验证集
 def med_relation_extract_json(text=train_data,relation='药物',type1="疾病和诊断",type2="药物"):
     total = []
@@ -74,6 +85,8 @@ def med_relation_extract_json(text=train_data,relation='药物',type1="疾病和
     return(total)
 
 
+=======
+>>>>>>> 8ada55ddcd81c0229bc2b81acab38a73eacbdf57
 # 合并三元组
 def expand_list_dict(list1,list2):
     for term in list2:
@@ -87,6 +100,7 @@ def remove_list_dict_duplicate(list_dict_data):
     run_function = lambda x, y: x if y in x else x + [y]
     return reduce(run_function, [[], ] + list_dict_data)
 
+<<<<<<< HEAD
 ##### PipeLine #####
 def triple_from_output(output):
     # 定义4种实体3元组，共3种实体类型
@@ -144,5 +158,29 @@ if __name__ == "__main__":
         for each in res:
             json.dump(each,file_obj,ensure_ascii=False)
             file_obj.write('\n')
+=======
+
+
+
+
+if __name__ == "__main__":
+
+    # 定义4种实体3元组，共3种实体类型
+    res = med_relation_extract(c,'治疗药物',type1="疾病和诊断",type2="药物")
+    res2 = med_relation_extract(c,'检验方式',type1="疾病和诊断",type2="实验室检验")
+    res3 = med_relation_extract(c,'检验方式',type1="疾病和诊断",type2="影像检查")
+    res4 = med_relation_extract(c,'解剖部位',type1="手术",type2="解剖部位")
+    # 合并三元组
+    res = expand_list_dict(res,res2)
+    res = expand_list_dict(res,res3)
+    res = expand_list_dict(res,res4)
+    # 去重
+    res = remove_list_dict_duplicate(res)
+    print('一共生成%s个三元组'%(len(res)))
+    # 导出Json文件
+    file_path='submit/医疗三元组.json'
+    with open(file_path,'w') as file_obj:
+        json.dump(res,file_obj,ensure_ascii=False)
+>>>>>>> 8ada55ddcd81c0229bc2b81acab38a73eacbdf57
     print("------Task Completed------")
 
